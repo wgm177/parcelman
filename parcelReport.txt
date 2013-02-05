@@ -1,0 +1,9 @@
+Collected Parcels: 
+ParcelID: XC001, DD: 2, Weight(kg): 3, Width(m): 25, Height(m): 69, Length(m): 0, Cost(AED): 19.0
+ParcelID: AA21, DD: 2, Weight(kg): 3, Width(m): 25, Height(m): 64, Length(m): 0, Cost(AED): 18.0
+ParcelID: DC2311, DD: 2, Weight(kg): 3, Width(m): 25, Height(m): 65, Length(m): 0, Cost(AED): 19.0
+
+Parcels left in warehouse: 
+ParcelID: XC005, DD: 2, Weight(kg): 3, Width(m): 25, Height(m): 58, Length(m): 0, Cost(AED): 30.6
+ParcelID: XC004, DD: 2, Weight(kg): 3, Width(m): 25, Height(m): 61, Length(m): 0, Cost(AED): 30.6
+
