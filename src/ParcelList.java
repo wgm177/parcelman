@@ -38,18 +38,33 @@ public Parcel findByID(String id)
 public String parcelReport()
 {
 	Parcel p = null;
-	String collected = "Collected Parcels: \n";
+	String 	s = "" + String.format("%1$-" + 15 + "s","Parcel ID");
+	s = s + "|" + String.format("%1$-" + 15 + "s", "Days on rack");
+	s = s + "|" + String.format("%1$-" + 15 + "s", "Weight");
+	s = s + "|" + String.format("%1$-" + 15 + "s","Width");
+	s = s + "|" + String.format("%1$-" + 15 + "s","Height");
+    s = s + "|" + String.format("%1$-" + 15 + "s", "Length");
+	s = s + "|" + String.format("%1$-" + 15 + "s", "Cost\n");
+	
+	
+	String collected = "\nCollected Parcels: \n";
+	collected = collected + s;
 	String unCollected = "\nParcels left in warehouse: \n";
+	unCollected = unCollected + s;
+	
 	
 	for(String id: parcelList.keySet())
 	{
 		p = this.findByID(id);
+		
 		if(p.isReceived())
 		{
+			
 			collected = collected + p.printParcel() + "\n";
 		}
 		else
 		{
+			
 			unCollected = unCollected + p.printParcel() + "\n";
 		}
 	}

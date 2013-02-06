@@ -69,7 +69,7 @@ public class DepotMan {
 	public  void writeParcelReport()
 	{
 		BufferedWriter writer;
-
+		
 		try {
 			writer = new BufferedWriter(new FileWriter(this.parcelRepFile));
 			writer.write(this.parcelList.parcelReport());

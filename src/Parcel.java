@@ -41,13 +41,13 @@ public class Parcel {
 	
 	public String printParcel()
 	{
-		String 	s = "ParcelID: " + this.parcelID;
-				s = s + ", DD: " + this.depotDays;
-				s = s + ", Weight(kg): " + this.weight;
-				s = s + ", Width(m): " + this.width;
-				s = s + ", Height(m): " + this.height;
-                                s = s + ", Length(m): " + this.length;
-				s = s + ", Cost(AED): " + this.cost;
+		String 	s = "" + String.format("%1$-" + 15 + "s",this.parcelID);
+				s = s + "|" + String.format("%1$-" + 15 + "s", this.depotDays);
+				s = s + "|" + String.format("%1$-" + 15 + "s",this.weight);
+				s = s + "|" + String.format("%1$-" + 15 + "s",this.width);
+				s = s + "|" + String.format("%1$-" + 15 + "s",this.height);
+                s = s + "|" + String.format("%1$-" + 15 + "s",this.length);
+				s = s + "|" + String.format("%1$-" + 15 + "s",this.cost);
 				//s = s + ", Received: " + this.received;
 		
 		return s;
@@ -61,7 +61,7 @@ public class Parcel {
 			return false;					
 	}
 	//calculate the original fee
-        public int originalFee()
+    public int originalFee()
         {
             if(this.weight >0)
             return this.weight*10;
@@ -69,7 +69,7 @@ public class Parcel {
             return 0;
         }
         //the following method return extra fee will be added based on dimensions
-        public double extraFeeDimensions()
+    public double extraFeeDimensions()
         {
             int dimension=this.height*this.width*this.length;
             double dimensionFee=0;
@@ -105,7 +105,7 @@ public class Parcel {
             return dimensionFee;
         }
           //the following method return extra fee will be added based on number of days
-        public double extraFeeDay()
+   public double extraFeeDay()
         {
             return this.depotDays*originalFee()*0.01;
         }
