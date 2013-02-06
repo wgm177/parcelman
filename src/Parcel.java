@@ -7,8 +7,7 @@ public class Parcel {
     private int length;
 	private double cost;
 	private boolean received;
-	private int something;
-	private int some;
+	
 	
 	
 	public Parcel() 
@@ -44,13 +43,13 @@ public class Parcel {
 	
 	public String printParcel()
 	{
-		String 	s = "" + String.format("%1$-" + 15 + "s",this.parcelID);
-				s = s + "|" + String.format("%1$-" + 15 + "s", this.depotDays);
-				s = s + "|" + String.format("%1$-" + 15 + "s",this.weight);
-				s = s + "|" + String.format("%1$-" + 15 + "s",this.width);
-				s = s + "|" + String.format("%1$-" + 15 + "s",this.height);
-                s = s + "|" + String.format("%1$-" + 15 + "s",this.length);
-				s = s + "|" + String.format("%1$-" + 15 + "s",this.cost);
+		String 	s = "" + String.format("%1$-" + 10 + "s",this.parcelID);
+				s = s + "|" + String.format("%1$-" + 10 + "s", this.depotDays);
+				s = s + "|" + String.format("%1$-" + 10 + "s",this.weight);
+				s = s + "|" + String.format("%1$-" + 10 + "s",this.width);
+				s = s + "|" + String.format("%1$-" + 10 + "s",this.height);
+                s = s + "|" + String.format("%1$-" + 10 + "s",this.length);
+				s = s + "|" + String.format("%1$-" + 10 + "s",this.cost);
 				//s = s + ", Received: " + this.received;
 		
 		return s;

@@ -38,13 +38,13 @@ public Parcel findByID(String id)
 public String parcelReport()
 {
 	Parcel p = null;
-	String 	s = "" + String.format("%1$-" + 15 + "s","Parcel ID");
-	s = s + "|" + String.format("%1$-" + 15 + "s", "Days on rack");
-	s = s + "|" + String.format("%1$-" + 15 + "s", "Weight");
-	s = s + "|" + String.format("%1$-" + 15 + "s","Width");
-	s = s + "|" + String.format("%1$-" + 15 + "s","Height");
-    s = s + "|" + String.format("%1$-" + 15 + "s", "Length");
-	s = s + "|" + String.format("%1$-" + 15 + "s", "Cost\n");
+	String 	s = "" + String.format("%1$-" + 10 + "s","Parcel ID");
+	s = s + "|" + String.format("%1$-" + 10 + "s", "Days on rack");
+	s = s + "|" + String.format("%1$-" + 10 + "s", "Weight");
+	s = s + "|" + String.format("%1$-" + 10 + "s","Width");
+	s = s + "|" + String.format("%1$-" + 10 + "s","Height");
+    s = s + "|" + String.format("%1$-" + 10 + "s", "Length");
+	s = s + "|" + String.format("%1$-" + 10 + "s", "Cost\n");
 	
 	
 	String collected = "\nCollected Parcels: \n";
