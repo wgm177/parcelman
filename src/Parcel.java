@@ -8,6 +8,7 @@ public class Parcel {
 	private double cost;
 	private boolean received;
 	private int something;
+	private int some;
 	
 	
 	public Parcel() 
