@@ -4,9 +4,11 @@ public class Parcel {
 	private String parcelID;
 	private int depotDays;
 	private int weight, width, height;
-        private int length;
+    private int length;
 	private double cost;
 	private boolean received;
+	private int something;
+	
 	
 	public Parcel() 
 	{
