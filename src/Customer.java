@@ -18,9 +18,16 @@ public class Customer {
 		{
 			if(sr.length == 3)
 			{
-				this.seqNo = Integer.parseInt(sr[0].trim());
-				this.name = sr[1].trim();
-				this.parcelID = sr[2].trim();
+				try
+				{
+					this.seqNo = Integer.parseInt(sr[0].trim());
+					this.name = sr[1].trim();
+					this.parcelID = sr[2].trim();
+				}
+				catch(NumberFormatException e)
+				{
+					System.out.println("Error in input file." + e.getMessage());
+				}
 			}
 			else
 			{
