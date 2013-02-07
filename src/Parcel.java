@@ -51,15 +51,15 @@ public class Parcel {
 	
 	public String printParcel()
 	{
-		String 	s = "" + String.format("%1$-" + 10 + "s",this.parcelID);
-				s = s + "|" + String.format("%1$-" + 10 + "s", this.depotDays);
-				s = s + "|" + String.format("%1$-" + 10 + "s",this.weight);
-				s = s + "|" + String.format("%1$-" + 10 + "s",this.width);
-				s = s + "|" + String.format("%1$-" + 10 + "s",this.height);
-                s = s + "|" + String.format("%1$-" + 10 + "s",this.length);
-				s = s + "|" + String.format("%1$-" + 10 + "s",this.cost);
-				//s = s + ", Received: " + this.received;
-		
+		String 	s = "" + String.format("%1$-" + 7 + "s",this.parcelID);
+				s = s + "|" + String.format("%1$-" + 5 + "s", this.depotDays);
+				s = s + "|" + String.format("%1$-" + 5 + "s",this.weight);
+				s = s + "|" + String.format("%1$-" + 5 + "s",this.width);
+				s = s + "|" + String.format("%1$-" + 5 + "s",this.height);
+                s = s + "|" + String.format("%1$-" + 5 + "s",this.length);
+				s = s + "|" + String.format("%1$-" + 5 + "s",this.cost);
+				s = s + "|" + String.format("%1$-" + 5 + "s",this.received);
+				
 		return s;
 	}
 	
@@ -70,6 +70,7 @@ public class Parcel {
 		else 
 			return false;					
 	}
+	
 	//calculate the original fee
     public int originalFee()
         {
@@ -78,6 +79,7 @@ public class Parcel {
             else
             return 0;
         }
+    
         //the following method return extra fee will be added based on dimensions
     public double extraFeeDimensions()
         {

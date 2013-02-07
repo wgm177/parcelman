@@ -38,18 +38,19 @@ public Parcel findByID(String id)
 public String parcelReport()
 {
 	Parcel p = null;
-	String 	s = "" + String.format("%1$-" + 10 + "s","Parcel ID");
-	s = s + "|" + String.format("%1$-" + 10 + "s", "Days on rack");
-	s = s + "|" + String.format("%1$-" + 10 + "s", "Weight");
-	s = s + "|" + String.format("%1$-" + 10 + "s","Width");
-	s = s + "|" + String.format("%1$-" + 10 + "s","Height");
-    s = s + "|" + String.format("%1$-" + 10 + "s", "Length");
-	s = s + "|" + String.format("%1$-" + 10 + "s", "Cost\n");
+	String 	s =	  String.format("%1$-" + 7 + "s","ID");
+	s = s + "|" + String.format("%1$-" + 5 + "s", "DIW");
+	s = s + "|" + String.format("%1$-" + 5 + "s", "W(kg)");
+	s = s + "|" + String.format("%1$-" + 5 + "s","W(m)");
+	s = s + "|" + String.format("%1$-" + 5 + "s","H(m)");
+    s = s + "|" + String.format("%1$-" + 5 + "s", "L(m)");
+	s = s + "|" + String.format("%1$-" + 5 + "s", "AED");
+	s = s + "|" + String.format("%1$-" + 9 + "s", "Collected\n");
 	
 	
-	String collected = "\nCollected Parcels: \n";
+	String collected = "\n Parcels Collected: \n";
 	collected = collected + s;
-	String unCollected = "\nParcels left in warehouse: \n";
+	String unCollected = "\n Parcels in warehouse: \n";
 	unCollected = unCollected + s;
 	
 	
@@ -64,7 +65,6 @@ public String parcelReport()
 		}
 		else
 		{
-			
 			unCollected = unCollected + p.printParcel() + "\n";
 		}
 	}
@@ -74,11 +74,11 @@ public static void main(String[] args)
 {
 	ParcelList pl = new ParcelList();
 	
-	System.out.println(pl.addParcel(new Parcel("XC001, 2, 3, 25, 69")));
-	System.out.println(pl.addParcel(new Parcel("XC002, 2, 3, 25, 65")));
-	System.out.println(pl.addParcel(new Parcel("XC003, 2, 3, 25, 64")));
-	System.out.println(pl.addParcel(new Parcel("XC004, 2, 3, 25, 61")));
-	System.out.println(pl.addParcel(new Parcel("XC005, 2, 3, 25, 58")));
+	System.out.println(pl.addParcel(new Parcel("XC001, 2, 3, 25, 69, 9")));
+	System.out.println(pl.addParcel(new Parcel("XC002, 2, 3, 25, 65, 9")));
+	System.out.println(pl.addParcel(new Parcel("XC003, 2, 3, 25, 64, 9")));
+	System.out.println(pl.addParcel(new Parcel("XC004, 2, 3, 25, 61, 8")));
+	System.out.println(pl.addParcel(new Parcel("XC005, 2, 3, 25, 58, 7")));
 	System.out.println(pl.findByID("XC002").isReceived());
 	
 	
