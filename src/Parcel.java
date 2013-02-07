@@ -29,12 +29,20 @@ public class Parcel {
 		{
 			if(sr.length == 6)
 			{
-				this.parcelID = sr[0];
-				this.depotDays = Integer.parseInt(sr[1].trim());
-				this.weight = Integer.parseInt(sr[2].trim());
-				this.width = Integer.parseInt(sr[3].trim());
-				this.height = Integer.parseInt(sr[4].trim());
-				this.length = Integer.parseInt(sr[5].trim());
+				try
+				{
+					this.parcelID = sr[0];
+					this.depotDays = Integer.parseInt(sr[1].trim());
+					this.weight = Integer.parseInt(sr[2].trim());
+					this.width = Integer.parseInt(sr[3].trim());
+					this.height = Integer.parseInt(sr[4].trim());
+					this.length = Integer.parseInt(sr[5].trim());
+				}
+				catch(NumberFormatException e)
+				{
+					System.out.println("Error in input file." + e.getMessage());
+				}
+				
 			}
 			else
 			{
