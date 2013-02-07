@@ -17,7 +17,7 @@ public class Parcel {
 		this.weight = 0;
 		this.width = 0;
 		this.height = 0;
-                this.length=0;
+        this.length=0;
 		this.cost = calFee();
 		//this.received = null;		
 	}
