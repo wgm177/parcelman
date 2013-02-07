@@ -27,15 +27,23 @@ public class Parcel {
 		String [] sr = s.split(",");
 		try
 		{
-			this.parcelID = sr[0];
-			this.depotDays = Integer.parseInt(sr[1].trim());
-			this.weight = Integer.parseInt(sr[2].trim());
-			this.width = Integer.parseInt(sr[3].trim());
-			this.height = Integer.parseInt(sr[4].trim());
-                        this.length = Integer.parseInt(sr[5].trim());
-		}catch(Exception e)
+			if(sr.length == 6)
+			{
+				this.parcelID = sr[0];
+				this.depotDays = Integer.parseInt(sr[1].trim());
+				this.weight = Integer.parseInt(sr[2].trim());
+				this.width = Integer.parseInt(sr[3].trim());
+				this.height = Integer.parseInt(sr[4].trim());
+				this.length = Integer.parseInt(sr[5].trim());
+			}
+			else
+			{
+				throw new ParcelStringFormatException();
+			}
+			
+		}catch(ParcelStringFormatException e)
 		{
-			System.out.println("Cannot convert string to int");
+			System.out.println("String format error: Cannot convert string to parcel.");
 		}
 		this.received = false;
 		this.cost = calFee();

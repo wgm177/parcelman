@@ -16,13 +16,20 @@ public class Customer {
 		String [] sr = s.split(",");
 		try
 		{
-			this.seqNo = Integer.parseInt(sr[0].trim());
-			this.name = sr[1].trim();
-			this.parcelID = sr[2].trim();
+			if(sr.length == 3)
+			{
+				this.seqNo = Integer.parseInt(sr[0].trim());
+				this.name = sr[1].trim();
+				this.parcelID = sr[2].trim();
+			}
+			else
+			{
+				throw new CustomerStringFormatException();
+			}
 			
-		}catch(Exception e)
+		}catch(CustomerStringFormatException cfse)
 		{
-			System.out.println("String format error. Cannot convert string to Customer");
+			System.out.println("String format error: Cannot convert string to Customer.");
 		}
 	}
 	
