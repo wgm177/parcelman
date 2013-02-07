@@ -1,12 +1,8 @@
 
 Collected Parcels: 
 Parcel ID |Days on rack|Weight    |Width     |Height    |Length    |Cost
-XC001     |2         |3         |25        |69        |0         |19.0      
-AA21      |2         |3         |25        |64        |0         |18.0      
-DC2311    |2         |3         |25        |65        |0         |19.0      
-
+     
 Parcels left in warehouse: 
 Parcel ID |Days on rack|Weight    |Width     |Height    |Length    |Cost
-XC005     |2         |3         |25        |58        |0         |30.6      
-XC004     |2         |3         |25        |61        |0         |30.6      
+     null      |0         |0         |0         |0         |0         |0.0       
 
