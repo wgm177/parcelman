@@ -1,8 +1,8 @@
-1, Wayne Muller, XC001
-2, Piet Pompies, DC2311
-3, Bennie Boekwurm, AA21
-4, ED777
+1, Wayne Muller, X004
+2, Piet Pompies, D2311
+3, Bennie Boekwurm, D421
+4, Sarel Seemonster, X4004
 5, Wayne Muller, X21
-6, Piet Pompies, DC2311
-7, Bennie Boekwurm, AA21
+6, Piet Pompies, X4001
+7, Bennie Boekwurm, D421
 8, Farmer Brown, X21

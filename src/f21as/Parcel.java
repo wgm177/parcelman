@@ -55,7 +55,7 @@ public class Parcel {
 			System.out.println("String format error: Cannot convert string to parcel.");
 		}
 		this.received = false;
-		this.cost = calFee();
+		//this.cost = calFee();
 	}
 	
 	public String printParcel()
@@ -66,7 +66,7 @@ public class Parcel {
 				s = s + "|" + String.format("%1$-" + 5 + "s",this.width);
 				s = s + "|" + String.format("%1$-" + 5 + "s",this.height);
                 s = s + "|" + String.format("%1$-" + 5 + "s",this.length);
-				s = s + "|" + String.format("%1$-" + 5 + "s",this.cost);
+				s = s + "|" + String.format("%1$" + 5 + "s",this.cost);
 				s = s + "|" + String.format("%1$-" + 5 + "s",this.received);
 				
 		return s;
@@ -94,31 +94,24 @@ public class Parcel {
         {
             int dimension=this.height*this.width*this.length;
             double dimensionFee=0;
-            if(dimension>9 & dimension<20)
+            if(dimension>9 && dimension<20)
             {
                dimensionFee=originalFee()*0.05;
             }
-             if(dimension>19 & dimension<30)
+             if(dimension>=20 && dimension<30)
             {
                dimensionFee=originalFee()*0.1;
             }
-              if(dimension>29 & dimension<40)
+              if(dimension>=30 && dimension<40)
             {
                dimensionFee=originalFee()*0.15;
             }
-             if(dimension>19 & dimension<30)
-            {
-               dimensionFee=originalFee()*0.1;
-            }
-             if(dimension>29 & dimension<40)
-            {
-               dimensionFee=originalFee()*0.15;
-            }
-             if(dimension>39 & dimension<50)
+            
+             if(dimension>=40 && dimension<50)
             {
                dimensionFee=originalFee()*0.20;
             }
-             if(dimension>49)
+             if(dimension>=50)
             {
                dimensionFee=originalFee()*0.25;
             }
@@ -131,11 +124,36 @@ public class Parcel {
             return this.depotDays*originalFee()*0.01;
         }
         //the following method return amount of discount based on customer's id
-        
-	public double calFee()
+   
+   private double discount()
+   {
+	   double discount = 0.0;
+	  try
+	  {
+	   if (this.parcelID.length() > 1 && this.parcelID != null)
+	   {
+		   if (parcelID.charAt(0) == 'd' || parcelID.charAt(0) == 'D')
+		   {
+			   discount = 0.1;
+		   }
+	   }
+	  }
+	  catch(NullPointerException e)
+	  {
+		  System.out.println("Error in parcelID: " + e.getMessage());
+	  }
+	   return discount;
+	   
+   }
+	
+   public double calFee()
 	{
 		//return ((this.height/5 * this.width/5 * this.weight) ^ this.depotDays)/10;
-            return originalFee()+extraFeeDay()+extraFeeDimensions();
+      double fee = 0.0;
+            fee = originalFee()+extraFeeDay()+extraFeeDimensions();
+            fee = fee - (fee * discount());
+            this.setCost(fee);
+	   return fee;
 	}
 	
 	public String getParcelID() 

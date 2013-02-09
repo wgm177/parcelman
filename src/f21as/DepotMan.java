@@ -97,8 +97,8 @@ public class DepotMan {
 				p = parcelList.findByID(c.getParcelID());
 				if((p.getParcelID() != "") && (p.isReceived() != true))
 				{
+					p.calFee();
 					p.setReceived(true);
-					this.calculateFee(p);
 					System.out.println("Parcel with ID: " + p.getParcelID() + " collected.");
 					System.out.println("Charged customer: " + c.getName() + " AED " + p.getCost());
 					System.out.println("Next customer please!");
@@ -114,11 +114,7 @@ public class DepotMan {
 		return false;
 	}
 	
-	public void calculateFee(Parcel p)
-	{
-		p.setCost(((p.getHeight()/5 * p.getWidth()/5 * p.getWeight()) ^ p.getDepotDays())/10);
-	}
-	
+		
 	public static void main(String [] args)
 	{
 		DepotMan dm = new DepotMan();
