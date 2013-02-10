@@ -66,7 +66,7 @@ public class Parcel {
 				s = s + "|" + String.format("%1$-" + 5 + "s",this.width);
 				s = s + "|" + String.format("%1$-" + 5 + "s",this.height);
                 s = s + "|" + String.format("%1$-" + 5 + "s",this.length);
-				s = s + "|" + String.format("%1$" + 5 + "s",this.cost);
+				s = s + "|" + String.format("%1$" + 8 + "s", String.format("%,5.2f",this.cost));
 				s = s + "|" + String.format("%1$-" + 5 + "s",this.received);
 				
 		return s;
@@ -152,7 +152,7 @@ public class Parcel {
       double fee = 0.0;
             fee = originalFee()+extraFeeDay()+extraFeeDimensions();
             fee = fee - (fee * discount());
-            this.setCost(fee);
+            
 	   return fee;
 	}
 	
@@ -200,9 +200,9 @@ public class Parcel {
 	{
 		return cost;
 	}
-	public void setCost(double cost) 
+	public void setCost() 
 	{
-		this.cost = cost;
+		this.cost = calFee();
 	}
 	public boolean isReceived() 
 	{

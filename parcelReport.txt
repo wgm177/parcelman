@@ -1,17 +1,17 @@
 
  Parcels Collected: 
-ID     |DIW  |W(kg)|W(m) |H(m) |L(m) |AED  |Collected
-X4004  |5    |3    |25   |69   |5    |     39.005s|true 
-D421   |4    |3    |25   |64   |6    |     34.835s|true 
-X4001  |2    |3    |25   |69   |4    |     38.105s|true 
-X21    |9    |3    |25   |64   |6    |     40.205s|true 
+ID     |DIW  |W(kg)|W(m) |H(m) |L(m) |AED     |Collected
+X4004  |5    |3    |25   |69   |5    |   39.00|true 
+D421   |4    |3    |25   |64   |6    |   34.83|true 
+X4001  |2    |3    |25   |69   |4    |   38.10|true 
+X21    |9    |3    |25   |64   |6    |   40.20|true 
 
  Parcels in warehouse: 
-ID     |DIW  |W(kg)|W(m) |H(m) |L(m) |AED  |Collected
-X004   |10   |3    |6    |7    |5    |      0.005s|false
-D42311 |3    |3    |25   |65   |6    |      0.005s|false
-D2311  |8    |3    |25   |65   |6    |      0.005s|false
-X4005  |6    |3    |25   |58   |6    |      0.005s|false
-D005   |3    |3    |25   |58   |6    |      0.005s|false
-D001   |7    |3    |25   |69   |6    |      0.005s|false
+ID     |DIW  |W(kg)|W(m) |H(m) |L(m) |AED     |Collected
+X004   |10   |3    |6    |7    |5    |    0.00|false
+D42311 |3    |3    |25   |65   |6    |    0.00|false
+D2311  |8    |3    |25   |65   |6    |    0.00|false
+X4005  |6    |3    |25   |58   |6    |    0.00|false
+D005   |3    |3    |25   |58   |6    |    0.00|false
+D001   |7    |3    |25   |69   |6    |    0.00|false
 

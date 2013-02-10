@@ -97,7 +97,7 @@ public class DepotMan {
 				p = parcelList.findByID(c.getParcelID());
 				if((p.getParcelID() != "") && (p.isReceived() != true))
 				{
-					p.calFee();
+					p.setCost();
 					p.setReceived(true);
 					System.out.println("Parcel with ID: " + p.getParcelID() + " collected.");
 					System.out.println("Charged customer: " + c.getName() + " AED " + p.getCost());

@@ -45,7 +45,7 @@ public String parcelReport()
 	s = s + "|" + String.format("%1$-" + 5 + "s","W(m)");
 	s = s + "|" + String.format("%1$-" + 5 + "s","H(m)");
     s = s + "|" + String.format("%1$-" + 5 + "s", "L(m)");
-	s = s + "|" + String.format("%1$-" + 5 + "s", "AED");
+	s = s + "|" + String.format("%1$-" + 8 + "s", "AED");
 	s = s + "|" + String.format("%1$-" + 9 + "s", "Collected\n");
 	
 	
