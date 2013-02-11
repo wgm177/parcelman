@@ -82,7 +82,7 @@ public class Parcel {
 	}
 	
 	//calculate the original fee
-    public int originalFee()
+    private int originalFee()
         {
             if(this.weight >0)
             return this.weight*10;
@@ -91,7 +91,7 @@ public class Parcel {
         }
     
         //the following method return extra fee will be added based on dimensions
-    public double extraFeeDimensions()
+    private double extraFeeDimensions()
         {
             int dimension=this.height*this.width*this.length;
             double dimensionFee=0;
@@ -120,7 +120,7 @@ public class Parcel {
             return dimensionFee;
         }
           //the following method return extra fee will be added based on number of days
-   public double extraFeeDay()
+   private double extraFeeDay()
         {
             return this.depotDays*originalFee()*0.01;
         }
