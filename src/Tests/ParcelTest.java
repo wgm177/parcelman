@@ -45,7 +45,7 @@ public class ParcelTest {
 		Parcel tp28= new Parcel("P014,4000,8,1,1,49");
 		Parcel tp29= new Parcel("P015,80000,16,1,1,55");
 		Parcel tp30= new Parcel("P016,100000,16,1,1,55");
-		Parcel tp31= new Parcel("P017,10000000,32,1,1,4000");
+		Parcel tp31= new Parcel("P017,1000,32,1,1,4000");
 		Parcel tp32= new Parcel("P018,1,32,1,1,80000");
 		Parcel tp33= new Parcel("P019,1,64,1,1,1000000");
 		Parcel tp34= new Parcel("P020,10000,10000,1,1,10000");
@@ -67,8 +67,8 @@ public class ParcelTest {
 		//System.out.println(tp.calFee(),0.1);
 		assertEquals(0,tp1.calFee(),0.1);
 		assertEquals(0,tp2.calFee(),0.1);
-		assertEquals(18.09,tp3.calFee(),0.1);
-		assertEquals(40.4,tp4.calFee(),0.1);
+		assertEquals(9.09,tp3.calFee(),0.1);
+		assertEquals(20.4,tp4.calFee(),0.1);
 		assertEquals(41.04,tp5.calFee(),0.1);
 		assertEquals(45.6,tp6.calFee(),0.1);
 		assertEquals(88.56,tp7.calFee(),0.1);
@@ -81,8 +81,8 @@ public class ParcelTest {
 		assertEquals(1209.6,tp14.calFee(),0.1);
 		assertEquals(2914.56,tp15.calFee(),0.1);
 		assertEquals(3238.4,tp16.calFee(),0.1);
-		assertEquals(4608,tp17.calFee(),0.1);
-		assertEquals(5120,tp18.calFee(),0.1);
+		assertEquals(2304,tp17.calFee(),0.1);
+		assertEquals(2560,tp18.calFee(),0.1);
 		assertEquals(4884.48,tp19.calFee(),0.1);
 		assertEquals(5478.4,tp20.calFee(),0.1);
 		assertEquals(9.81,tp21.calFee(),0.1);
@@ -95,7 +95,7 @@ public class ParcelTest {
 		assertEquals(3296,tp28.calFee(),0.1);
 		assertEquals(128200,tp29.calFee(),0.1);
 		assertEquals(160200,tp30.calFee(),0.1);
-		assertEquals(32000400,tp31.calFee(),0.1);
+		assertEquals(3600,tp31.calFee(),0.1);
 		assertEquals(403.2,tp32.calFee(),0.1);
 		assertEquals(806.4,tp33.calFee(),0.1);
 		assertEquals(10125000,tp34.calFee(),0.1);
@@ -103,14 +103,15 @@ public class ParcelTest {
 		assertEquals(0,tp36.calFee(),0.1);
 		assertEquals(0,tp37.calFee(),0.1);
 		assertEquals(0,tp38.calFee(),0.1);
-		assertEquals(20,tp39.calFee(),0.1);
+		assertEquals(10,tp39.calFee(),0.1);
 		assertEquals(0,tp40.calFee(),0.1);
-		assertEquals(-19.8,tp41.calFee(),0.1);
-		assertEquals(-39.4,tp42.calFee(),0.1);
-		assertEquals(58.8,tp43.calFee(),0.1);
-		assertEquals(97.5,tp44.calFee(),0.1);
-		assertEquals(194,tp45.calFee(),0.1);
-		assertEquals(1158,tp46.calFee(),0.1);
+		assertEquals(-9.8,tp41.calFee(),0.1);
+		assertEquals(-19.4,tp42.calFee(),0.1);
+		assertEquals(28.8,tp43.calFee(),0.1);
+		assertEquals(47.5,tp44.calFee(),0.1);
+		assertEquals(94,tp45.calFee(),0.1);
+		assertEquals(558,tp46.calFee(),0.1);
+
 
 	}
 
