@@ -2,9 +2,11 @@ package f21as;
 
 
 import java.util.HashMap;
+import java.util.Map;
+import java.util.Set;
 
 public class ParcelList {
-	HashMap<String, Parcel> parcelList = new HashMap<String, Parcel>();
+	Map<String, Parcel> parcelList = new HashMap<String, Parcel>();
 	
 public boolean addParcel(Parcel p)
 {
@@ -71,6 +73,12 @@ public String parcelReport()
 	}
 	return collected + unCollected;
 }
+
+public Set<String> getKeySet()
+{
+	return this.parcelList.keySet();
+}
+
 public static void main(String[] args)
 {
 	ParcelList pl = new ParcelList();
