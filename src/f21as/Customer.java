@@ -27,7 +27,11 @@ public class Customer {
 				}
 				catch(NumberFormatException e)
 				{
-					System.out.println("Error in input file." + e.getMessage());
+					System.out.println("Error in input file. Cannot convert to int" + e.getMessage());
+				}
+				catch(ArrayIndexOutOfBoundsException e)
+				{
+					System.out.println("Error in input file. To few parts" + e.getMessage());
 				}
 			}
 			else

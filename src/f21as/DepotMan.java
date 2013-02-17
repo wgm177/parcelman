@@ -28,9 +28,9 @@ public class DepotMan {
 				customerList.addCustomer(c);
 			}
 		}
-		catch(IOException e)
+		catch(Exception e)
 			{
-				System.out.println("IO exception");
+				System.out.println("Cannot read from customer input file");
 				return false;
 			}
 			finally
@@ -54,9 +54,9 @@ public class DepotMan {
 				parcelList.addParcel(p);
 			}
 		}
-		catch(IOException e)
+		catch(Exception e)
 			{
-				System.out.println("IO exception");
+				System.out.println("Cannot read from parcel input file.");
 				return false;
 			}
 			finally
@@ -78,7 +78,7 @@ public class DepotMan {
 			writer.close();
 			
 		}
-		catch (IOException e)
+		catch (Exception e)
 		{
 			System.out.println("Error opening"	+ " the file " + this.parcelRepFile.getName());
 			System.exit(0);
@@ -114,6 +114,8 @@ public class DepotMan {
 		return false;
 	}
 	
+	
+//	
 		
 	public static void main(String [] args)
 	{

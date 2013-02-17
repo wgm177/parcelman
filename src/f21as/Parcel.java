@@ -33,18 +33,28 @@ public class Parcel {
 			{
 				try
 				{
-					this.parcelID = sr[0];
-					this.depotDays = Integer.parseInt(sr[1].trim());
-					this.weight = Integer.parseInt(sr[2].trim());
-					this.width = Integer.parseInt(sr[3].trim());
-					this.height = Integer.parseInt(sr[4].trim());
-					this.length = Integer.parseInt(sr[5].trim());
+					setParcelID(sr[0]);
+					//this.parcelID = sr[0];
+					//this.depotDays = Integer.parseInt(sr[1].trim());
+					setDepotDays(Integer.parseInt(sr[1].trim()));
+					//this.weight = Integer.parseInt(sr[2].trim());
+					setWeight(Integer.parseInt(sr[2].trim()));
+					//this.width = Integer.parseInt(sr[3].trim());
+					setWidth(Integer.parseInt(sr[3].trim()));
+					//this.height = Integer.parseInt(sr[4].trim());
+					setHeight(Integer.parseInt(sr[4].trim()));
+					//this.length = Integer.parseInt(sr[5].trim());
+					setLength(Integer.parseInt(sr[5].trim()));
+					this.received = false;
 				}
 				catch(NumberFormatException e)
 				{
-					System.out.println("Error in input file." + e.getMessage());
+					System.out.println("Error in input file. Cannot convert to int" + e.getMessage());
 				}
-				
+				catch(ArrayIndexOutOfBoundsException e)
+				{
+					System.out.println("Error in input file. To few parts" + e.getMessage());
+				}
 			}
 			else
 			{
@@ -55,8 +65,6 @@ public class Parcel {
 		{
 			System.out.println("String format error: Cannot convert string to parcel.");
 		}
-		this.received = false;
-		//this.cost = calFee();
 	}
 	
 	public String printParcel()
@@ -120,7 +128,8 @@ public class Parcel {
             return dimensionFee;
         }
           //the following method return extra fee will be added based on number of days
-   private double extraFeeDay()
+  
+    private double extraFeeDay()
         {
             return this.depotDays*originalFee()*0.01;
         }
@@ -163,7 +172,14 @@ public class Parcel {
 	}
 	public void setParcelID(String parcelID) 
 	{
-		this.parcelID = parcelID;
+		if ((parcelID.length() > 1) && (parcelID.length() < 5) && (validParcelStart(parcelID)))
+			{
+				this.parcelID = parcelID;
+			}
+		else
+		{
+			this.parcelID = "xxxxx";
+		}
 	}
 	public int getDepotDays() 
 	{
@@ -171,7 +187,15 @@ public class Parcel {
 	}
 	public void setDepotDays(int depotDays) 
 	{
-		this.depotDays = depotDays;
+		
+		if (depotDays >= 0)
+		{
+			this.depotDays = depotDays;
+		}
+		else
+		{
+			this.depotDays = 0;
+		}
 	}
 	public int getWeight() 
 	{
@@ -179,7 +203,14 @@ public class Parcel {
 	}
 	public void setWeight(int weight) 
 	{
-		this.weight = weight;
+		if (weight >=0)
+		{
+			this.weight = weight;
+		}
+		else 
+		{
+			this.weight = 0;
+		}
 	}
 	public int getWidth() 
 	{
@@ -187,7 +218,14 @@ public class Parcel {
 	}
 	public void setWidth(int width) 
 	{
-		this.width = width;
+		if (width >=0 )
+		{
+			this.width = width;
+		}
+		else
+		{
+			this.width = 0;
+		}
 	}
 	public int getHeight() 
 	{
@@ -195,7 +233,29 @@ public class Parcel {
 	}
 	public void setHeight(int height) 
 	{
-		this.height = height;
+		if (height >= 0 )
+		{
+			this.height = height;
+		}
+		else
+		{
+			this.height = 0;
+		}
+	}
+	private void setLength(int length) 
+	{
+		if (length >= 0 )
+		{
+			this.length = length;
+		}
+		else
+		{
+			this.length = 0;
+		}
+	}
+	private int getLength()
+	{
+		return this.length;
 	}
 	public double getCost() 
 	{
@@ -212,6 +272,11 @@ public class Parcel {
 	public void setReceived(boolean received) 
 	{
 		this.received = received;
+	}
+	
+	private boolean validParcelStart(String parcelID)
+	{
+		return ((parcelID.startsWith("p")) || (parcelID.startsWith("P")) || (parcelID.startsWith("d")) || (parcelID.startsWith("D")));
 	}
 	
 	/*public static void main(String[] args)
