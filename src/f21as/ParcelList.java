@@ -6,7 +6,10 @@ import java.util.Map;
 import java.util.Set;
 
 public class ParcelList {
-	Map<String, Parcel> parcelList = new HashMap<String, Parcel>();
+	private Map<String, Parcel> parcelList = new HashMap<String, Parcel>();
+	private int totalCollected = 0;
+	private int totalWarehouse = 0;
+	private double totalFee = 0.0;
 	
 public boolean addParcel(Parcel p)
 {
@@ -41,6 +44,7 @@ public Parcel findByID(String id)
 public String parcelReport()
 {
 	Parcel p = null;
+	String stats = "";
 	String 	s =	  String.format("%1$-" + 7 + "s","ID");
 	s = s + "|" + String.format("%1$-" + 5 + "s", "DIW");
 	s = s + "|" + String.format("%1$-" + 5 + "s", "W(kg)");
@@ -63,15 +67,26 @@ public String parcelReport()
 		
 		if(p.isReceived())
 		{
-			
+			totalCollected ++;
+			totalFee = totalFee + p.getCost();
 			collected = collected + p.printParcel() + "\n";
 		}
 		else
-		{
+		{	
+			totalWarehouse ++;
 			unCollected = unCollected + p.printParcel() + "\n";
 		}
 	}
-	return collected + unCollected;
+	stats = "\n";
+	stats = stats + "Summary:" + "\n";
+	stats = stats + "Total parcels collected: ";
+	stats = stats + totalCollected + "\n";
+	stats = stats + "Total parcels in warehouse: ";
+	stats = stats + totalWarehouse + "\n";
+	stats = stats + "Total fee collected: ";
+	stats = stats + String.format("%f.2", totalCollected);
+	
+	return collected + unCollected + stats;
 }
 
 public Set<String> getKeySet()
