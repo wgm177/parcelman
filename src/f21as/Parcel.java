@@ -73,7 +73,7 @@ public class Parcel {
 				s = s + "|" + String.format("%1$-" + 5 + "s",this.height);
                 s = s + "|" + String.format("%1$-" + 5 + "s",this.length);
 				s = s + "|" + String.format("%1$" + 8 + "s", String.format("%.2f",this.cost));
-				//s = s + "|" + String.format("%1$-" + 5 + "s",this.received);
+				s = s + "|" + String.format("%1$-" + 15 + "s",this.collectedBy);
 				
 		return s;
 	}
@@ -274,6 +274,20 @@ public class Parcel {
 	private boolean validParcelStart(String parcelID)
 	{
 		return ((parcelID.startsWith("p")) || (parcelID.startsWith("P")) || (parcelID.startsWith("d")) || (parcelID.startsWith("D")));
+	}
+
+	/**
+	 * @return the collectedBy
+	 */
+	public String getCollectedBy() {
+		return collectedBy;
+	}
+
+	/**
+	 * @param collectedBy the collectedBy to set
+	 */
+	public void setCollectedBy(String collectedBy) {
+		this.collectedBy = collectedBy;
 	}
 	
 	/*public static void main(String[] args)
