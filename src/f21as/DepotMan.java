@@ -90,10 +90,10 @@ public class DepotMan {
 		Customer c = null;
 		Parcel p = null;
 		
-		for (String n: customerList.getKeySet())
+		for (Integer n: customerList.getKeySet())
 		{
 			{
-				c = customerList.findByName(n);
+				c = customerList.findBySeqNum(n);
 				p = parcelList.findByID(c.getParcelID());
 				if((p.getParcelID() != "") && (p.isReceived() != true))
 				{

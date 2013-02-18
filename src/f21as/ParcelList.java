@@ -6,7 +6,7 @@ import java.util.Map;
 import java.util.Set;
 
 public class ParcelList {
-	Map<String, Parcel> parcelList = new HashMap<String, Parcel>();
+	private Map<String, Parcel> parcelList = new HashMap<String, Parcel>();
 	private int totalCollected = 0;
 	private int totalWarehouse = 0;
 	private double totalFee = 0.0;

@@ -9,6 +9,7 @@ public class Parcel {
     private int length;
 	private double cost;
 	private boolean received;
+	private String collectedBy;
 	
 	
 	
@@ -21,6 +22,7 @@ public class Parcel {
 		this.height = 0;
         this.length=0;
 		this.cost = calculateFee();
+		this.collectedBy = "";
 		//this.received = null;		
 	}
 	
@@ -40,6 +42,7 @@ public class Parcel {
 					setHeight(Integer.parseInt(sr[4].trim()));
 					setLength(Integer.parseInt(sr[5].trim()));
 					this.received = false;
+					this.collectedBy = "";
 				}
 				catch(NumberFormatException e)
 				{

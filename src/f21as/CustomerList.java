@@ -6,13 +6,13 @@ import java.util.Map;
 import java.util.Set;
 
 public class CustomerList {
-	Map<String, Customer> customerList = new HashMap<String, Customer>();
+	private Map<Integer, Customer> customerList = new HashMap<Integer, Customer>();
 	
 public boolean addCustomer(Customer c)
 {
 	if(c != null)
 	{
-		customerList.put(c.getName(), c);
+		customerList.put(c.getSeqNo(), c);
 		return true;
 	}
 		
@@ -34,7 +34,20 @@ public Customer findByName(String name)
 	return c;
 }
 
-public Set<String> getKeySet()
+public Customer findBySeqNum(Integer n)
+{
+	Customer c = new Customer();
+	if(!customerList.isEmpty())
+		{
+		if(customerList.containsKey(n))
+			{
+			c = customerList.get(n);
+			}
+		
+		}
+	return c;
+}
+public Set<Integer> getKeySet()
 {
 	return this.customerList.keySet();
 }
@@ -46,7 +59,7 @@ public static void main(String[] args)
 	System.out.println(cl.addCustomer(new Customer("1, Wayne Muller, XC001")));
 	System.out.println(cl.addCustomer(new Customer("2, Piet Pompies, XC003")));
 	System.out.println(cl.addCustomer(new Customer("3, Sarel Seemonster, XC004")));
-	System.out.println(cl.findByName("Wayne Mulle").getParcelID());
+	System.out.println(cl.findByName("Wayne Muller").getParcelID());
 	
 	
 }
