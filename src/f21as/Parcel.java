@@ -63,14 +63,14 @@ public class Parcel {
 	
 	public String printParcel()
 	{
-		String 	s = "" + String.format("%1$-" + 7 + "s",this.parcelID);
+				String 	s =   String.format("%1$-" + 7 + "s",this.parcelID);
 				s = s + "|" + String.format("%1$-" + 5 + "s", this.depotDays);
 				s = s + "|" + String.format("%1$-" + 5 + "s",this.weight);
 				s = s + "|" + String.format("%1$-" + 5 + "s",this.width);
 				s = s + "|" + String.format("%1$-" + 5 + "s",this.height);
                 s = s + "|" + String.format("%1$-" + 5 + "s",this.length);
-				s = s + "|" + String.format("%1$" + 8 + "s", String.format("%,5.2f",this.cost));
-				s = s + "|" + String.format("%1$-" + 5 + "s",this.received);
+				s = s + "|" + String.format("%1$" + 8 + "s", String.format("%.2f",this.cost));
+				//s = s + "|" + String.format("%1$-" + 5 + "s",this.received);
 				
 		return s;
 	}

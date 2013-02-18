@@ -6,7 +6,7 @@ import java.util.Map;
 import java.util.Set;
 
 public class ParcelList {
-	private Map<String, Parcel> parcelList = new HashMap<String, Parcel>();
+	Map<String, Parcel> parcelList = new HashMap<String, Parcel>();
 	private int totalCollected = 0;
 	private int totalWarehouse = 0;
 	private double totalFee = 0.0;
@@ -45,14 +45,16 @@ public String parcelReport()
 {
 	Parcel p = null;
 	String stats = "";
+	
 	String 	s =	  String.format("%1$-" + 7 + "s","ID");
 	s = s + "|" + String.format("%1$-" + 5 + "s", "DIW");
 	s = s + "|" + String.format("%1$-" + 5 + "s", "W(kg)");
 	s = s + "|" + String.format("%1$-" + 5 + "s","W(m)");
 	s = s + "|" + String.format("%1$-" + 5 + "s","H(m)");
     s = s + "|" + String.format("%1$-" + 5 + "s", "L(m)");
-	s = s + "|" + String.format("%1$-" + 8 + "s", "AED");
-	s = s + "|" + String.format("%1$-" + 9 + "s", "Collected\n");
+	s = s + "|" + String.format("%1$" + 8 + "s", "AED");
+	s = s + "\n";
+	//s = s + "|" + String.format("%1$-" + 9 + "s", "Collected\n");
 	
 	
 	String collected = "\n Parcels Collected: \n";
@@ -84,7 +86,8 @@ public String parcelReport()
 	stats = stats + "Total parcels in warehouse: ";
 	stats = stats + totalWarehouse + "\n";
 	stats = stats + "Total fee collected: ";
-	stats = stats + String.format("%f.2", totalCollected);
+	stats = stats + String.format("%.2f", totalFee);
+	//stats = stats +  totalFee;
 	
 	return collected + unCollected + stats;
 }
