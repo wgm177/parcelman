@@ -20,7 +20,7 @@ public class Parcel {
 		this.width = 0;
 		this.height = 0;
         this.length=0;
-		this.cost = calFee();
+		this.cost = calculateFee();
 		//this.received = null;		
 	}
 	
@@ -34,16 +34,10 @@ public class Parcel {
 				try
 				{
 					setParcelID(sr[0]);
-					//this.parcelID = sr[0];
-					//this.depotDays = Integer.parseInt(sr[1].trim());
 					setDepotDays(Integer.parseInt(sr[1].trim()));
-					//this.weight = Integer.parseInt(sr[2].trim());
 					setWeight(Integer.parseInt(sr[2].trim()));
-					//this.width = Integer.parseInt(sr[3].trim());
 					setWidth(Integer.parseInt(sr[3].trim()));
-					//this.height = Integer.parseInt(sr[4].trim());
 					setHeight(Integer.parseInt(sr[4].trim()));
-					//this.length = Integer.parseInt(sr[5].trim());
 					setLength(Integer.parseInt(sr[5].trim()));
 					this.received = false;
 				}
@@ -156,7 +150,7 @@ public class Parcel {
 	   
    }
 	
-   public double calFee()
+   public double calculateFee()
 	{
 		//return ((this.height/5 * this.width/5 * this.weight) ^ this.depotDays)/10;
       double fee = 0.0;
@@ -172,7 +166,7 @@ public class Parcel {
 	}
 	public void setParcelID(String parcelID) 
 	{
-		if ((parcelID.length() > 1) && (parcelID.length() < 5) && (validParcelStart(parcelID)))
+		if ((parcelID.length() > 1) && (parcelID.length() < 7) && (validParcelStart(parcelID)))
 			{
 				this.parcelID = parcelID;
 			}
@@ -263,7 +257,7 @@ public class Parcel {
 	}
 	public void setCost() 
 	{
-		this.cost = calFee();
+		this.cost = calculateFee();
 	}
 	public boolean isReceived() 
 	{
