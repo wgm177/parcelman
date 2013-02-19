@@ -5,7 +5,8 @@ package f21as;
 * @author Amjad Bari
 * @author Wayne Muller
 * @author Sanaa Diab
-* @version 39
+* @version 59
+* @since February, 2013
 */
 
 public class Parcel {
@@ -84,6 +85,9 @@ public class Parcel {
 	}
 	
 	
+	/** printParcel()
+	 * @return			string s with the parcel's information after collection
+	 */
 	public String printParcel()
 	{
 				String 	s =   String.format("%1$-" + 7 + "s",this.parcelID);
@@ -98,6 +102,10 @@ public class Parcel {
 		return s;
 	}
 	
+	
+	/** printParcel()
+	 * @return			string s with the parcel's detailed cost information
+	 */
 	public String printParcelCost()
 	{
 				String 	s =   String.format("%1$-" + 7 + "s",this.originalFee());
@@ -110,6 +118,10 @@ public class Parcel {
 		return s;
 	}
 	
+	/** equals(Parcel p) checks if the current parcel is the same as the given parcel
+	 * @param p			object of type Parcel
+	 * @return			true if its the same parcel and false if not
+	 */
 	public boolean equals(Parcel p)
 	{
 		if(this.parcelID == p.getParcelID())
@@ -118,7 +130,9 @@ public class Parcel {
 			return false;					
 	}
 	
-	//calculate the original fee
+	/** originalFee() 	calculates the original fee based on the weight 
+	 * @return			fees if the weight is greater than 0 otherwise returns 0
+	 */
     private int originalFee()
         {
             if(this.weight > 0)
@@ -129,7 +143,11 @@ public class Parcel {
             	return 0;
         }
     
-    //the following method return extra fee will be added based on dimensions
+    /**extraFeeDimensions()	calculates the extra fee that will be added based on dimensions 
+	 * @return			a double value which stores the fees on the parcel based on dimensions.
+	 */
+   
+    // sanaa: why wasn't a case used here instead of these ifs 
     private double extraFeeDimensions()
         {
             int dimension=this.height*this.width*this.length;
@@ -158,15 +176,22 @@ public class Parcel {
             
             return dimensionFee;
         }
-          //the following method return extra fee will be added based on number of days
+          
+    /**extraFeeDay()	calculates the extra fee that will be added based on days stored in depot 
+  	 * @return			a double value which stores the fees on the parcel
+  	 */
   
     private double extraFeeDay()
         {
             return this.depotDays*originalFee()*0.01;
         }
-        //the following method return amount of discount based on customer's id
-   
-   private double discount()
+        
+    /**extraFeeDay()	checks if a discount applies on a parcel 
+  	 * @return			discount, a double value which stores the discount value
+  	 * @throws NullPointerException
+  	 */
+    
+    private double discount()
    {
 	   double discount = 0.0;
 	  try
