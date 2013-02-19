@@ -1,18 +1,29 @@
 package f21as;
 
-// sanaa's test comment 2s
+/** Parcel Class handles the parcel, its fee calculation,  
+*
+* @author Amjad Bari
+* @author Wayne Muller
+* @author Sanaa Diab
+* @version 39
+*/
 
 public class Parcel {
+	/** parcelID stores the ID of each parcel as it is read */
 	private String parcelID;
+	/** depotDays stores the number of days a parcel has been stored in depot */
 	private int depotDays;
-	private int weight, width, height;
-    private int length;
+	/** weight, width, height and length store the dimensions and weight of the parcel */
+	private int weight, width, height, length;
+	/** cost saves the parcel fees */
 	private double cost;
+	/** received stores how much was received from customer */
 	private boolean received;
+	/** collectedBy stores the name of the customer who collected the parcel */
 	private String collectedBy;
 	
 	
-	
+	/** Parcel() sets the default variables for this class. */
 	public Parcel() 
 	{
 		this.parcelID = "";
@@ -26,6 +37,14 @@ public class Parcel {
 		//this.received = null;		
 	}
 	
+	/** Parcel(String s) receives a string containing one line read from the parcel.txt file 
+	 * and sets the variables according to the provided data
+	 * 
+	 * @param s			Description of a
+	 * @throws ParcelStringFormatException  which indicates an error in the string format
+	 * @throws NumberFormatException  
+	 * @throws ArrayIndexOutOfBoundsException  
+	 */
 	public Parcel(String s)
 	{
 		String [] sr = s.split(",");
@@ -63,6 +82,7 @@ public class Parcel {
 			System.out.println("String format error: Cannot convert string to parcel.");
 		}
 	}
+	
 	
 	public String printParcel()
 	{
@@ -109,7 +129,7 @@ public class Parcel {
             	return 0;
         }
     
-        //the following method return extra fee will be added based on dimensions
+    //the following method return extra fee will be added based on dimensions
     private double extraFeeDimensions()
         {
             int dimension=this.height*this.width*this.length;
