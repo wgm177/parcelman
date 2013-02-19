@@ -1,57 +1,57 @@
 
  Parcels Collected: 
 ID     |DIW  |W(kg)|W(m) |H(m) |L(m) |     AED|Collected By   
-P013   |43   |0    |70   |15   |75   |    0.00|Adam Massey Hardy
-P003   |48   |44   |73   |40   |133  |  761.20|Aaron Frazier Li
-P014   |20   |3    |63   |120  |94   |   43.50|Adam O'Brien Rodgers
-P002   |17   |46   |22   |42   |71   |  653.20|Aaron Douglas King
-P011   |58   |1    |106  |135  |53   |   18.30|Adam Keith O'Connor
-P012   |47   |10   |74   |7    |66   |  172.00|Adam Martin Mathews
-P017   |29   |11   |3    |74   |125  |  169.40|Adam Simon Atkinson
-P007   |56   |25   |114  |34   |130  |  452.50|Aaron Sherrill Kirkland
-P018   |16   |9    |146  |78   |5    |  126.90|Alan Barr O'Neal
-P006   |5    |18   |106  |61   |70   |  234.00|Aaron Quinn Pugh
-P015   |4    |0    |96   |101  |98   |    0.00|Adam Pope Bynum
-P016   |54   |16   |137  |84   |1    |  286.40|Adam Price Link
-P019   |13   |25   |88   |73   |87   |  345.00|Alan Barton Levin
-P009   |2    |35   |17   |68   |144  |  444.50|Adam Campbell Brown
-P008   |3    |44   |108  |114  |1    |  563.20|Adam  Werner   
-D010   |29   |36   |27   |42   |12   |  498.96|Adam Ellington Carroll
-D011   |10   |29   |11   |20   |147  |  352.35|Adam Hodge Mayo
-D012   |19   |16   |61   |26   |128  |  207.36|Adam Kennedy Lu
-D013   |19   |25   |101  |22   |8    |  324.00|Adam Massey Camp
-D014   |49   |29   |109  |47   |47   |  454.14|Adam Morton McKenzie
-P021   |37   |3    |82   |38   |127  |   48.60|Alan Case Erickson
-P020   |38   |30   |36   |48   |106  |  489.00|Alan Boyle Reilly
-P010   |3    |11   |49   |42   |15   |  140.80|Adam Floyd Woodard
-P022   |36   |50   |4    |51   |90   |  805.00|Alan Elmore Meadows
-P023   |0    |18   |85   |58   |94   |  225.00|Alan Flowers Sutton
-P024   |7    |7    |119  |1    |5    |   92.40|Alan Francis West
-D008   |19   |7    |92   |119  |124  |   90.72|Adam  Butler   
-P025   |44   |41   |127  |71   |125  |  692.90|Alan Galloway Boyle
-D009   |46   |29   |94   |23   |110  |  446.31|Adam Ayers Washington
-P026   |57   |22   |102  |22   |113  |  400.40|Alan Goodman Howell
-D006   |12   |13   |106  |136  |141  |  160.29|Aaron Porter Simmons
-P027   |38   |20   |70   |72   |36   |  326.00|Alan Hart Brandt
-D007   |5    |44   |83   |75   |4    |  514.80|Aaron Roy Lawrence
-P028   |16   |14   |30   |12   |124  |  197.40|Alan Ivey Webb 
-P029   |22   |30   |70   |138  |68   |  441.00|Alan Kahn Beatty
-D002   |8    |15   |67   |142  |23   |  179.55|Aaron Coleman Woods
-D001   |53   |3    |48   |106  |100  |   48.06|Aaron Benson McLean
-P030   |23   |30   |54   |39   |50   |  444.00|Alan Larson Pollard
-P032   |52   |14   |115  |105  |36   |  247.80|Alan Lyons Humphrey
-P031   |45   |20   |31   |7    |83   |  340.00|Alan Lu Shah   
+P013   |47   |137  |17   |163  |47   | 2356.40|Adam Massey Hardy
+P003   |21   |47   |158  |200  |13   |  686.20|Aaron Frazier Li
+P014   |29   |0    |133  |162  |3    |    0.00|Adam O'Brien Rodgers
+P002   |0    |85   |107  |35   |195  | 1062.50|Aaron Douglas King
+P011   |3    |129  |55   |172  |30   | 1651.20|Adam Keith O'Connor
+P012   |36   |158  |59   |27   |187  | 2543.80|Adam Martin Mathews
+P017   |39   |184  |167  |100  |186  | 3017.60|Adam Simon Atkinson
+P007   |38   |81   |52   |4    |84   | 1320.30|Aaron Sherrill Kirkland
+P018   |56   |69   |151  |22   |124  | 1248.90|Alan Barr O'Neal
+P006   |56   |200  |79   |78   |166  | 3620.00|Aaron Quinn Pugh
+P015   |35   |28   |196  |155  |200  |  448.00|Adam Pope Bynum
+P016   |45   |53   |5    |47   |158  |  901.00|Adam Price Link
+P019   |18   |70   |64   |68   |177  | 1001.00|Alan Barton Levin
+P009   |27   |105  |126  |32   |192  | 1596.00|Adam Campbell Brown
+P008   |54   |9    |194  |57   |3    |  161.10|Adam  Werner   
+D010   |60   |106  |111  |43   |81   | 1764.90|Adam Ellington Carroll
+D011   |37   |79   |114  |138  |46   | 1151.82|Adam Hodge Mayo
+D012   |56   |170  |107  |181  |129  | 2769.30|Adam Kennedy Lu
+D013   |53   |19   |121  |157  |105  |  304.38|Adam Massey Camp
+D014   |37   |108  |9    |162  |181  | 1574.64|Adam Morton McKenzie
+P021   |53   |117  |185  |31   |27   | 2082.60|Alan Case Erickson
+P020   |34   |172  |145  |103  |75   | 2734.80|Alan Boyle Reilly
+P010   |8    |147  |167  |1    |0    | 1587.60|Adam Floyd Woodard
+P022   |35   |175  |69   |177  |160  | 2800.00|Alan Elmore Meadows
+P023   |4    |126  |138  |46   |93   | 1625.40|Alan Flowers Sutton
+P024   |46   |49   |119  |161  |87   |  837.90|Alan Francis West
+D008   |8    |15   |125  |49   |113  |  179.55|Adam  Butler   
+P025   |47   |160  |35   |129  |162  | 2752.00|Alan Galloway Boyle
+D009   |36   |24   |130  |167  |141  |  347.76|Adam Ayers Washington
+P026   |0    |198  |78   |66   |83   | 2475.00|Alan Goodman Howell
+D006   |49   |155  |42   |59   |50   | 2427.30|Aaron Porter Simmons
+P027   |28   |13   |88   |122  |160  |  198.90|Alan Hart Brandt
+D007   |1    |21   |28   |87   |161  |  238.14|Aaron Roy Lawrence
+P028   |31   |192  |30   |167  |19   | 2995.20|Alan Ivey Webb 
+P029   |59   |145  |107  |184  |28   | 2668.00|Alan Kahn Beatty
+D002   |6    |80   |12   |153  |147  |  943.20|Aaron Coleman Woods
+D001   |3    |40   |45   |16   |159  |  460.80|Aaron Benson McLean
+P030   |21   |100  |92   |190  |54   | 1460.00|Alan Larson Pollard
+P032   |48   |63   |44   |42   |47   | 1089.90|Alan Lyons Humphrey
+P031   |24   |79   |58   |167  |162  | 1177.10|Alan Lu Shah   
 
  Parcels in warehouse: 
 ID     |DIW  |W(kg)|W(m) |H(m) |L(m) |     AED|Collected By   
-P001   |44   |17   |2    |111  |58   |    0.00|               
-P005   |10   |4    |129  |111  |63   |    0.00|               
-P004   |25   |45   |120  |28   |96   |    0.00|               
-D004   |11   |20   |11   |117  |140  |    0.00|               
-D005   |47   |30   |128  |64   |112  |    0.00|               
-D003   |60   |28   |59   |110  |21   |    0.00|               
+P001   |11   |30   |73   |106  |64   |    0.00|               
+P005   |20   |4    |44   |120  |55   |    0.00|               
+P004   |33   |192  |183  |91   |68   |    0.00|               
+D004   |21   |56   |123  |33   |177  |    0.00|               
+D005   |49   |31   |15   |46   |103  |    0.00|               
+D003   |29   |154  |94   |46   |182  |    0.00|               
 
 Summary:
 Total parcels collected: 40
 Total parcels in warehouse: 6
-Total fee collected: 12436.94
+Total fee collected: 60260.19
