@@ -1,11 +1,19 @@
 package f21as;
 
-
-
 import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileWriter;
 import java.util.Scanner;
+
+/** DepotMan class runs the parcel man program. It reads the lists and initiates the parcel 
+ * collection simulation then writes the output report.  
+*
+* @author Amjad Bari
+* @author Wayne Muller
+* @author Sanaa Diab
+* @version 48
+* @since February, 2013
+*/
 
 public class DepotMan {
 	private ParcelList parcelList = new ParcelList();
@@ -14,7 +22,10 @@ public class DepotMan {
 	private static final File parcelFile = new File("parcels.txt");
 	private File parcelRepFile = new File("parcelReport.txt");
 
-	
+	/**  popCustomerList() reads the customer.txt file 
+	 * @throws Exception  if file cannot be read  
+	 * @return true if file reading was successful or false if any problems issued 
+	 */
 	public boolean popCustomerList()
 	{
 		Scanner fread = null;
@@ -41,6 +52,10 @@ public class DepotMan {
 		return true;
 	}
 	
+	/**   popParcelList() reads the parcel.txt file 
+	 * @throws Exception  if file cannot be read 
+	 * @return true if file reading was successful or false if any problems issued 
+	 */
 	public boolean popParcelList()
 	{
 		Scanner fread = null;
@@ -67,6 +82,9 @@ public class DepotMan {
 		return true;
 	}
 	
+	/**   writeParcelReport() writes the parcel collection results of the program in parcelReport.txt 
+	 * @throws Exception  if file cannot be read 
+	 */
 	public  void writeParcelReport()
 	{
 		BufferedWriter writer;
@@ -85,6 +103,11 @@ public class DepotMan {
 		}
 	}
 	
+	/**   collectParcel() is the collection simulation method which takes one customer at a time
+	 * and checks the parcel they are claiming, calculates the fees and receives the payment. 
+	 * This process is printing on console.  
+	 * @return false at end of operation
+	 */
 	public boolean collectParcel()
 	{
 		Customer c = null;
@@ -126,7 +149,6 @@ public class DepotMan {
 		dm.popParcelList();
 		dm.collectParcel();
 		dm.writeParcelReport();
-		//some comment
-		//bb
+
 	}
 }
