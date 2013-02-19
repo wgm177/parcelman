@@ -78,6 +78,18 @@ public class Parcel {
 		return s;
 	}
 	
+	public String printParcelCost()
+	{
+				String 	s =   String.format("%1$-" + 7 + "s",this.originalFee());
+				s = s + "|" + String.format("%1$-" + 5 + "s", this.extraFeeDimensions());
+				s = s + "|" + String.format("%1$-" + 5 + "s", this.extraFeeDay());
+				s = s + "|" + String.format("%1$-" + 5 + "s",this.discount()* (originalFee()+extraFeeDay()+extraFeeDimensions()));
+				s = s + "|" + String.format("%1$-" + 5 + "s",this.calculateFee());
+				
+				
+		return s;
+	}
+	
 	public boolean equals(Parcel p)
 	{
 		if(this.parcelID == p.getParcelID())
@@ -89,10 +101,12 @@ public class Parcel {
 	//calculate the original fee
     private int originalFee()
         {
-            if(this.weight >0)
-            return this.weight*10;
+            if(this.weight > 0)
+            {	
+            	return this.weight*10;
+            }	
             else
-            return 0;
+            	return 0;
         }
     
         //the following method return extra fee will be added based on dimensions
@@ -290,12 +304,12 @@ public class Parcel {
 		this.collectedBy = collectedBy;
 	}
 	
-	/*public static void main(String[] args)
+	public static void main(String[] args)
 	{
-		Parcel p1 = new Parcel();
-		System.out.println(p1.printParcel());
-		Parcel p2 = new Parcel("XC001, 2, 3, 25, 69");
-		System.out.println(p2.printParcel());
-	}*/
+		Parcel tp1= new Parcel("D001,3,40,45,16,159");
+		System.out.println(tp1.printParcelCost());
+		
+		
+	}
 
 }
