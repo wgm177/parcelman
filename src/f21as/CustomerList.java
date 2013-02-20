@@ -2,6 +2,7 @@ package f21as;
 
 
 import java.util.HashMap;
+import java.util.LinkedHashMap;
 import java.util.Map;
 import java.util.Set;
 
@@ -17,7 +18,7 @@ import java.util.Set;
 public class CustomerList {
 	
 	/** customerList is a hashmap that stores the queue of users as they are processed */
-	private Map<Integer, Customer> customerList = new HashMap<Integer, Customer>();
+	private Map<Integer, Customer> customerList = new LinkedHashMap<Integer, Customer>();
 	
 	/** addCustomer(Customer c) adds customers read from the file to the hashmap
 	 * 

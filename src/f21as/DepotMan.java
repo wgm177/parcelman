@@ -118,7 +118,7 @@ public class DepotMan {
 			{
 				c = customerList.findBySeqNum(n);
 				p = parcelList.findByID(c.getParcelID());
-				if((p.getParcelID() != "") && (p.isReceived() != true))
+				if((p.getParcelID() != "") && ((p.isReceived() == false) ))
 				{
 					p.setCost();
 					p.setReceived(true);

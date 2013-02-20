@@ -120,7 +120,7 @@ public class Customer {
 	public static void main(String[] args)
 	{
 		
-		Customer c2 = new Customer("20,,P010");
+		Customer c2 = new Customer("2147483648,Alan Shaw,P010");
 		System.out.println(c2.printCustomer());
 		
 	}

@@ -35,7 +35,7 @@ public class Parcel {
         this.length=0;
 		this.cost = calculateFee();
 		this.collectedBy = "";
-		//this.received = null;		
+		this.received = false;		
 	}
 	
 	/** Parcel(String s) receives a string containing one line read from the parcel.txt file 
@@ -133,14 +133,14 @@ public class Parcel {
 	/** originalFee() 	calculates the original fee based on the weight 
 	 * @return			fees if the weight is greater than 0 otherwise returns 0
 	 */
-    private int originalFee()
+    private double originalFee()
         {
             if(this.weight > 0)
             {	
-            	return this.weight*10;
+            	return (double)this.weight*10;
             }	
             else
-            	return 0;
+            	return 0.0;
         }
     
     /**extraFeeDimensions()	calculates the extra fee that will be added based on dimensions 
@@ -150,8 +150,8 @@ public class Parcel {
     // sanaa: why wasn't a case used here instead of these ifs 
     private double extraFeeDimensions()
         {
-            int dimension=this.height*this.width*this.length;
-            double dimensionFee=0;
+            double dimension=(double)this.height * (double)this.width * (double)this.length;
+            double dimensionFee=0.0;
             if(dimension>9 && dimension<20)
             {
                dimensionFee=originalFee()*0.05;
@@ -351,7 +351,7 @@ public class Parcel {
 	
 	public static void main(String[] args)
 	{
-		Parcel tp1= new Parcel("P007,56,,25,114,34,130");
+		Parcel tp1= new Parcel("D005,2147483647,2147483647,2147483647,2147483647,2147483647");
 		System.out.println(tp1.printParcel());
 		
 		

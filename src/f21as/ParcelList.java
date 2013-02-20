@@ -2,6 +2,7 @@ package f21as;
 
 
 import java.util.HashMap;
+import java.util.LinkedHashMap;
 import java.util.Map;
 import java.util.Set;
 
@@ -17,7 +18,7 @@ import java.util.Set;
 public class ParcelList {
 	
 	/** parcelList is a hashmap that stores the parcels found in the depot */
-	private Map<String, Parcel> parcelList = new HashMap<String, Parcel>();
+	private Map<String, Parcel> parcelList = new LinkedHashMap<String, Parcel>();
 	private int totalCollected = 0;
 	private int totalWarehouse = 0;
 	private double totalFee = 0.0;
