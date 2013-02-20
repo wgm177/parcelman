@@ -118,12 +118,11 @@ public class ParcelList {
 	{
 		ParcelList pl = new ParcelList();
 		
-		System.out.println(pl.addParcel(new Parcel("XC001, 2, 3, 25, 69, 9")));
-		System.out.println(pl.addParcel(new Parcel("XC002, 2, 3, 25, 65, 9")));
-		System.out.println(pl.addParcel(new Parcel("XC003, 2, 3, 25, 64, 9")));
-		System.out.println(pl.addParcel(new Parcel("XC004, 2, 3, 25, 61, 8")));
-		System.out.println(pl.addParcel(new Parcel("XC005, 2, 3, 25, 58, 7")));
-		System.out.println(pl.findByID("XC002").isReceived());
+		System.out.println(pl.addParcel(new Parcel("6,5,154,36,140")));
+		System.out.println(pl.addParcel(new Parcel("P007,26,45,104,3")));
+		System.out.println(pl.addParcel(new Parcel("P007,56,,114,34,130")));
+		System.out.println((pl.parcelReport()));
+		
 		
 		
 	}

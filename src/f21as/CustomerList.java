@@ -82,10 +82,10 @@ public class CustomerList {
 	{
 		CustomerList cl = new CustomerList();
 		
-		System.out.println(cl.addCustomer(new Customer("1, Wayne Muller, XC001")));
-		System.out.println(cl.addCustomer(new Customer("2, Piet Pompies, XC003")));
-		System.out.println(cl.addCustomer(new Customer("3, Sarel Seemonster, XC004")));
-		System.out.println(cl.findByName("Wayne Muller").getParcelID());
+		System.out.println(cl.addCustomer(new Customer("4,Jenny McDonald Cooper,P036")));
+		System.out.println(cl.addCustomer(new Customer("91,Thomas Saunders Reynolds,P024")));
+		System.out.println(cl.addCustomer(new Customer("999,Zachary Poe Hood")));
+		
 		
 		
 	}

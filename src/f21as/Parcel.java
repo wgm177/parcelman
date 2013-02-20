@@ -96,7 +96,7 @@ public class Parcel {
 				s = s + "|" + String.format("%1$-" + 5 + "s",this.width);
 				s = s + "|" + String.format("%1$-" + 5 + "s",this.height);
                 s = s + "|" + String.format("%1$-" + 5 + "s",this.length);
-				s = s + "|" + String.format("%1$" + 8 + "s", String.format("%.2f",this.cost));
+				s = s + "|" + String.format("%1$" + 8 + "s", String.format("%.2f",this.calculateFee()));
 				s = s + "|" + String.format("%1$-" + 15 + "s",this.collectedBy);
 				
 		return s;
@@ -234,7 +234,7 @@ public class Parcel {
 			}
 		else
 		{
-			this.parcelID = "xxxxx";
+			this.parcelID = "invalid";
 		}
 	}
 	public int getDepotDays() 
@@ -351,8 +351,8 @@ public class Parcel {
 	
 	public static void main(String[] args)
 	{
-		Parcel tp1= new Parcel("D001,3,40,45,16,159");
-		System.out.println(tp1.printParcelCost());
+		Parcel tp1= new Parcel("P007,56,,25,114,34,130");
+		System.out.println(tp1.printParcel());
 		
 		
 	}

@@ -94,9 +94,8 @@ public class Customer {
 	
 	public static void main(String[] args)
 	{
-		Customer c1 = new Customer();
-		System.out.println(c1.printCustomer());
-		Customer c2 = new Customer("2, Wayne Muller, XC001");
+		
+		Customer c2 = new Customer("20,,P010");
 		System.out.println(c2.printCustomer());
 		
 	}
