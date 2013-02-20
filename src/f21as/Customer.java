@@ -1,18 +1,39 @@
 package f21as;
 
+/** Parcel Class handles the parcel, its fee calculation,  
+*
+* @author Amjad Bari
+* @author Wayne Muller
+* @author Sanaa Diab
+* @version 65
+* @since February, 2013
+*/
 
 public class Customer {
+	
+	/** parcelID stores the name of each user as it is read */
 	private String name;
+	/** parcelID stores the parcel ID of each parcel as it is read */
 	private String parcelID;
+	/** parcelID stores the sequence number of each customer */
 	private int seqNo;
 	
 	
+	/** Customer() sets the default variables for this class. */
 	public Customer() {
 		this.name = "";
 		this.parcelID = "";
 		this.seqNo = 0;
 	}
 	
+	/** Parcel(String s) receives a string containing one line read from the parcel.txt file 
+	 * and sets the variables according to the provided data
+	 * 
+	 * @param s	string containing read text
+	 * @throws CustomerStringFormatException  which indicates an error in the string format
+	 * @throws NumberFormatException  
+	 * @throws ArrayIndexOutOfBoundsException  
+	 */
 	public Customer(String s) {
 		String [] sr = s.split(",");
 		try
@@ -45,6 +66,10 @@ public class Customer {
 		}
 	}
 	
+	
+	/** printCustomer()
+	 * @return			string s with the customer's name
+	 */
 	public String printCustomer()
 	{
 		String s = "";

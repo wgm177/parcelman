@@ -5,7 +5,7 @@ package f21as;
 * @author Amjad Bari
 * @author Wayne Muller
 * @author Sanaa Diab
-* @version 59
+* @version 65
 * @since February, 2013
 */
 
@@ -41,7 +41,7 @@ public class Parcel {
 	/** Parcel(String s) receives a string containing one line read from the parcel.txt file 
 	 * and sets the variables according to the provided data
 	 * 
-	 * @param s			Description of a
+	 * @param s			string containing read text
 	 * @throws ParcelStringFormatException  which indicates an error in the string format
 	 * @throws NumberFormatException  
 	 * @throws ArrayIndexOutOfBoundsException  

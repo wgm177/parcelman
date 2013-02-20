@@ -11,7 +11,7 @@ import java.util.Set;
 * @author Amjad Bari
 * @author Wayne Muller
 * @author Sanaa Diab
-* @version 62
+* @version 64
 * @since February, 2013
 */
 public class CustomerList {
