@@ -117,13 +117,13 @@ public class Customer {
 		this.seqNo = seqNo;
 	}
 	
-	public static void main(String[] args)
+	/*public static void main(String[] args)
 	{
 		
 		Customer c2 = new Customer("2147483648,Alan Shaw,P010");
 		System.out.println(c2.printCustomer());
 		
-	}
+	}*/
 		
 
 }

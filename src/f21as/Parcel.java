@@ -349,12 +349,11 @@ public class Parcel {
 		this.collectedBy = collectedBy;
 	}
 	
-	public static void main(String[] args)
+	/*public static void main(String[] args)
 	{
 		Parcel tp1= new Parcel("D005,2147483647,2147483647,2147483647,2147483647,2147483647");
 		System.out.println(tp1.printParcel());
 		
 		
-	}
-
+	}*/
 }

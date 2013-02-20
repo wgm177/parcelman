@@ -115,7 +115,7 @@ public class ParcelList {
 		return this.parcelList.keySet();
 	}
 	
-	public static void main(String[] args)
+	/*public static void main(String[] args)
 	{
 		ParcelList pl = new ParcelList();
 		
@@ -126,6 +126,6 @@ public class ParcelList {
 		
 		
 		
-	}
+	}*/
 
 }
