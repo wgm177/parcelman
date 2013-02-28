@@ -124,7 +124,7 @@ public class DepotMan {
 					p.setReceived(true);
 					p.setCollectedBy(c.getName());
 					System.out.println("Parcel with ID: " + p.getParcelID() + " collected.");
-					System.out.println("Charged customer: " + c.getName() + " AED " + p.getCost());
+					System.out.println("Charged customer: " + c.getName() + " AED " + String.format("%.2f",p.getCost()));
 					System.out.println("Next customer please!");
 					System.out.println("");
 				}
@@ -132,6 +132,7 @@ public class DepotMan {
 				{
 					System.out.println("No such parcel ("+ c.getParcelID() +") in warehouse.");
 					System.out.println("Turned customer " + c.getName() + " away.");
+					System.out.println("Next customer please!");
 					System.out.println("");
 				}
 			}
