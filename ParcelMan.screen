@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Window" id="3" x="8" y="-8" width="760" height="632" text="ParcelMan v1" measuredWidth="760" measuredHeight="632"/>
+  <widgets xsi:type="model:Table" id="2" x="48" y="72" width="680" height="153" text="ParcelID, ParcelID,ParcelID, ParcelID,ParcelID, ParcelID,ParcelID, ParcelID&#xD;&#xA;p001,p002,p003,pp004,p005,p006,p007,p008&#xD;&#xA;p001,p002,p003,pp004,p005,p006,p007,p008&#xD;&#xA;p001,p002,p003,pp004,p005,p006,p007,p008&#xD;&#xA;p001,p002,p003,pp004,p005,p006,p007,p008&#xD;&#xA;p001,p002,p003,pp004,p005,p006,p007,p008&#xD;&#xA;p001,p002,p003,pp004,p005,p006,p007,p008&#xD;&#xA;p001,p002,p003,pp004,p005,p006,p007,p008&#xD;&#xA;p001,p002,p003,pp004,p005,p006,p007,p008&#xD;&#xA;" measuredWidth="680" measuredHeight="153" alternative="#eeeeee">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Table" id="5" x="176" y="409" height="201" text="Que, ParcelID&#xD;&#xA;Name Surname, P004&#xD;&#xA;Name Surname, P004&#xD;&#xA;Name Surname, P004&#xD;&#xA;Name Surname, P004&#xD;&#xA;Name Surname, P004&#xD;&#xA;Name Surname, P004&#xD;&#xA;Name Surname, P004&#xD;&#xA;Name Surname, P004" measuredWidth="145" measuredHeight="201" alternative="#eeeeee">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Group" id="10" x="48" y="256" width="112" text="Counter 1" measuredWidth="112" measuredHeight="100">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Group" id="11" x="184" y="257" width="112" text="Counter 2" measuredWidth="112" measuredHeight="100">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Group" id="12" x="328" y="258" width="112" text="Counter 3" measuredWidth="112" measuredHeight="100">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextArea" id="14" x="58" y="294" text="Processing &#xD;&#xA;Name Surname &#xD;&#xA;P004" measuredWidth="93" measuredHeight="53">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextArea" id="15" x="194" y="294" text="Processing &#xD;&#xA;Name Surname &#xD;&#xA;P004" measuredWidth="93" measuredHeight="53">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextArea" id="16" x="338" y="294" text="Counter Closed&#xD;&#xA;" measuredWidth="90" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="17" x="48" y="36" text="Warehouse" measuredWidth="64" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="18" x="176" y="376" text="Customer que" measuredWidth="80" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="26" x="544" y="259" height="341" measuredWidth="184" measuredHeight="340">
+    <widgets xsi:type="model:Group" id="1" width="184" height="340" text="Manager" measuredWidth="184" measuredHeight="340">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Button" id="19" x="24" y="24" width="134" height="26" text="Accept new shipment" measuredWidth="134" measuredHeight="26">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Button" id="20" x="24" y="67" width="133" height="26" text="Open Counter" measuredWidth="133" measuredHeight="26">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Button" id="21" x="24" y="111" width="133" height="26" text="Close Counter" measuredWidth="133" measuredHeight="26">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Button" id="22" x="24" y="155" width="133" height="26" text="Break time" measuredWidth="133" measuredHeight="26">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Button" id="23" x="24" y="280" width="133" height="26" text="Close shop" measuredWidth="133" measuredHeight="26">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Button" id="24" x="24" y="201" width="133" height="26" text="Speed up" measuredWidth="133" measuredHeight="26">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Button" id="25" x="24" y="240" width="133" height="26" text="Slow down" measuredWidth="133" measuredHeight="26">
+      <font/>
+    </widgets>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>
