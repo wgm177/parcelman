@@ -27,11 +27,12 @@ public class GUICustomerQue implements ActionListener{
 	
 	private JScrollPane setTextArea() {
 		int rows = 5;
-		int columns = 20;
+		int columns = 10;
 		textArea = new JTextArea(rows, columns);
 		textArea.setFont(new Font (Font.MONOSPACED, Font.PLAIN,12));
 		textArea.setEditable(false);
 		scrollPane= new JScrollPane(textArea);
+		scrollPane.setSize(rows, columns);
 		textArea.setText(cl.customerQueReport(1));
 		
 		return scrollPane;

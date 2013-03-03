@@ -26,17 +26,20 @@ ParcelList pl;
 		this.cl = cl;
 		this.pl = pl;
 		oc = new OrderClerk(cl, pl);
+		
 		//this.setTextArea();
 		
 	}
 	
 	private JScrollPane setTextArea() {
 		int rows = 5;
-		int columns = 20;
+		int columns = 5;
 		textArea = new JTextArea(rows, columns);
 		textArea.setFont(new Font (Font.MONOSPACED, Font.PLAIN,12));
 		textArea.setEditable(false);
+		textArea.setWrapStyleWord(true);
 		scrollPane= new JScrollPane(textArea);
+		scrollPane.setSize(rows, columns);
 		textArea.setText(oc.collectParcel());
 		
 		return scrollPane;
@@ -44,7 +47,7 @@ ParcelList pl;
 	
 	public JPanel processOrderPanel() {
 		jp = new JPanel();
-		jp.setLayout(new GridLayout(0,1));
+		jp.setLayout(new GridLayout(1,0));
 		jp.add(new JLabel("Processed"));
 		jp.add(setTextArea());
 		

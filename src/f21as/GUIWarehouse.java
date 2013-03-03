@@ -27,11 +27,12 @@ public class GUIWarehouse implements ActionListener{
 	
 	private JScrollPane setTextArea() {
 		int rows = 5;
-		int columns = 20;
+		int columns = 5;
 		textArea = new JTextArea(rows, columns);
 		textArea.setFont(new Font (Font.MONOSPACED, Font.PLAIN,12));
 		textArea.setEditable(false);
 		scrollPane= new JScrollPane(textArea);
+		scrollPane.setSize(rows, columns);
 		textArea.setText(pl.warehouseReport(7));
 		
 		return scrollPane;
