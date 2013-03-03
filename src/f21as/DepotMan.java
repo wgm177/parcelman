@@ -108,37 +108,6 @@ public class DepotMan {
 	 * This process is printing on console.  
 	 * @return false at end of operation
 	 */
-	public boolean collectParcel()
-	{
-		Customer c = null;
-		Parcel p = null;
-		
-		for (Integer n: customerList.getKeySet())
-		{
-			{
-				c = customerList.findBySeqNum(n);
-				p = parcelList.findByID(c.getParcelID());
-				if((p.getParcelID() != "") && ((p.isReceived() == false) ))
-				{
-					p.setCost();
-					p.setReceived(true);
-					p.setCollectedBy(c.getName());
-					System.out.println("Parcel with ID: " + p.getParcelID() + " collected.");
-					System.out.println("Charged customer: " + c.getName() + " AED " + String.format("%.2f",p.getCost()));
-					System.out.println("Next customer please!");
-					System.out.println("");
-				}
-				else
-				{
-					System.out.println("No such parcel ("+ c.getParcelID() +") in warehouse.");
-					System.out.println("Turned customer " + c.getName() + " away.");
-					System.out.println("Next customer please!");
-					System.out.println("");
-				}
-			}
-		}
-		return false;
-	}
 	
 	
 //	
@@ -148,8 +117,10 @@ public class DepotMan {
 		DepotMan dm = new DepotMan();
 		dm.popCustomerList();
 		dm.popParcelList();
-		dm.collectParcel();
-		dm.writeParcelReport();
+		//OrderClerk oc = new OrderClerk(dm.customerList, dm.parcelList);
+		//oc.collectParcel();
+		//dm.writeParcelReport();
+		GUIMain gm = new GUIMain("ParcelMan v2.0", dm.customerList, dm.parcelList);
 
 	}
 }

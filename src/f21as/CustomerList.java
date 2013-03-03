@@ -74,12 +74,36 @@ public class CustomerList {
 		return c;
 	}
 	
+	public String customerQueReport(int columns)
+	{
+		Customer c = null;
+		//String report = "";
+		String row = "";
+		int count = 0;
+		
+		for(Integer seqNo: customerList.keySet())
+		{
+			c = this.findBySeqNum(seqNo);
+			
+				
+					row = row + "|" + String.format("%1$-30s",c.getSeqNo() + " - " + c.getName());
+					count ++;
+				
+				if (count == columns){
+					row = row + "|\n";
+					
+					count = 0;
+				}
+				
+			}
+			return row;
+		}
 	public Set<Integer> getKeySet()
 	{
 		return this.customerList.keySet();
 	}
 	
-	/*public static void main(String[] args)
+	public static void main(String[] args)
 	{
 		CustomerList cl = new CustomerList();
 		
@@ -89,6 +113,6 @@ public class CustomerList {
 		
 		
 		
-	}*/
+	}
 
 }

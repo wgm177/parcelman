@@ -110,6 +110,33 @@ public class ParcelList {
 		return collected + unCollected + stats;
 	}
 	
+	public String warehouseReport(int columns)
+	{
+		Parcel p = null;
+		//String report = "";
+		String row = "";
+		int count = 0;
+		
+		for(String id: parcelList.keySet())
+		{
+			p = this.findByID(id);
+			
+				if(! p.isReceived())
+				{
+					row = row + "|" + String.format("%1$-6s",p.getParcelID());
+					count ++;
+				}
+				if (count == columns){
+					row = row + "|\n";
+					
+					count = 0;
+				}
+				
+			}
+			return row;
+		}
+		
+	
 	public Set<String> getKeySet()
 	{
 		return this.parcelList.keySet();
@@ -119,10 +146,15 @@ public class ParcelList {
 	{
 		ParcelList pl = new ParcelList();
 		
-		System.out.println(pl.addParcel(new Parcel("6,5,154,36,140")));
-		System.out.println(pl.addParcel(new Parcel("P007,26,45,104,3")));
-		System.out.println(pl.addParcel(new Parcel("P007,56,,114,34,130")));
-		System.out.println((pl.parcelReport()));
+		System.out.println(pl.addParcel(new Parcel("P003,6,5,154,36,140")));
+		System.out.println(pl.addParcel(new Parcel("P007,26,45,104,3,4")));
+		System.out.println(pl.addParcel(new Parcel("P008,56,3,114,34,130")));
+		System.out.println(pl.addParcel(new Parcel("P009,56,3,114,34,130")));
+		System.out.println(pl.addParcel(new Parcel("P001,56,3,114,34,130")));
+		System.out.println(pl.addParcel(new Parcel("P002,56,3,114,34,130")));
+		System.out.println(pl.addParcel(new Parcel("P004,56,3,114,34,130")));
+		
+		System.out.println((pl.warehouseReport(3)));
 		
 		
 		
