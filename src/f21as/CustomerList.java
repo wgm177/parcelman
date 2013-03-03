@@ -20,6 +20,12 @@ public class CustomerList {
 	/** customerList is a hashmap that stores the queue of users as they are processed */
 	private Map<Integer, Customer> customerList = new LinkedHashMap<Integer, Customer>();
 	
+	public Map<Integer, Customer> getCustomerList() {
+		return customerList;
+	}
+
+	
+
 	/** addCustomer(Customer c) adds customers read from the file to the hashmap
 	 * 
 	 * @param c		a parameter of type Customer
@@ -113,6 +119,11 @@ public class CustomerList {
 		
 		
 		
+	}
+
+	public void deleteCustomer(Customer c) {
+		// TODO Auto-generated method stub
+		this.customerList.remove(c.getSeqNo());
 	}
 
 }

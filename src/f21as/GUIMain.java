@@ -8,39 +8,39 @@ import java.awt.event.ActionListener;
 
 import javax.swing.*;
 
-public class GUIMain extends JFrame implements ActionListener {
+public class GUIMain extends JFrame implements ActionListener, Observer {
 	
 	private static final int WIDTH = 800;		
 	private static final int HEIGHT = 500;
 	
-	CustomerList cl;
-	ParcelList pl;
+	OrderClerk oc;
 	JPanel jp;
 	JButton btnOpenShop, btnCloseShop;
 	
 	
-	public GUIMain(String title, CustomerList cl, ParcelList pl) throws HeadlessException {
+	public GUIMain(String title, OrderClerk oc) throws HeadlessException {
 		super(title);
-		this.cl = cl;
-		this.pl = pl;
+		this.oc = oc;
+		
 		this.setSize(WIDTH, HEIGHT);
 		this.setVisible(true);
 		this.setDefaultCloseOperation(this.EXIT_ON_CLOSE);
-		GUIWarehouse guiWH = new GUIWarehouse(pl);
-		GUICustomerQue guiCQ = new GUICustomerQue(cl);
-		GUICounter guiC = new GUICounter(cl, pl);
+		GUIWarehouse guiWH = new GUIWarehouse(oc);
+		GUICustomerQue guiCQ = new GUICustomerQue(oc);
+		GUICounter guiC = new GUICounter(oc);
 		Container c = this.getContentPane();
 		jp = new JPanel();
 		c.add(jp);
 		jp.setLayout(new BorderLayout());
 		jp.add(guiWH.warehousePanel(), BorderLayout.NORTH);
 		jp.add(guiCQ.customerQuePanel(), BorderLayout.SOUTH);
+		jp.add(new JLabel("WEST"), BorderLayout.WEST);
+		jp.add(new JLabel("EAST"), BorderLayout.EAST);
 		jp.add(guiC.processOrderPanel(), BorderLayout.CENTER);
-		jp.add(new JLabel("WESTdfghdfghdfg"), BorderLayout.WEST);
-		jp.add(new JLabel("EASTdfghdfghdfg"), BorderLayout.EAST);
-		//jp.add(new JTextArea(5,40));
 		
-		//this.pack();
+		//jp.add(new JTextArea(5,40));
+		this.validate();
+		this.pack();
 		
 		// TODO Auto-generated constructor stub
 	}
@@ -59,6 +59,12 @@ public class GUIMain extends JFrame implements ActionListener {
 	public void actionPerformed(ActionEvent arg0) {
 		// TODO Auto-generated method stub
 		
+		
+	}
+
+	@Override
+	public void Update() {
+		// TODO Auto-generated method stub
 		
 	}
 

@@ -117,10 +117,10 @@ public class DepotMan {
 		DepotMan dm = new DepotMan();
 		dm.popCustomerList();
 		dm.popParcelList();
-		//OrderClerk oc = new OrderClerk(dm.customerList, dm.parcelList);
+		OrderClerk oc = new OrderClerk(dm.customerList, dm.parcelList);
 		//oc.collectParcel();
 		//dm.writeParcelReport();
-		GUIMain gm = new GUIMain("ParcelMan v2.0", dm.customerList, dm.parcelList);
+		GUIMain gm = new GUIMain("ParcelMan v2.0", oc);
 
 	}
 }

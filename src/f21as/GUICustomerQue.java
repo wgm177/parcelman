@@ -10,19 +10,21 @@ import javax.swing.JPanel;
 import javax.swing.JScrollPane;
 import javax.swing.JTextArea;
 
-public class GUICustomerQue implements ActionListener{
+public class GUICustomerQue implements ActionListener, Observer{
 
 	CustomerList cl;
 	
 	JPanel jp;
 	JTextArea textArea;
 	JScrollPane scrollPane;
+	OrderClerk oc;
 
-	public GUICustomerQue(CustomerList cl) {
+	public GUICustomerQue(OrderClerk oc) {
 		super();
-		this.cl = cl;
+		this.oc = oc;
+		this.cl = oc.customerList;
 		//this.setTextArea();
-		
+		oc.registerObserver(this);
 	}
 	
 	private JScrollPane setTextArea() {
@@ -52,6 +54,13 @@ public class GUICustomerQue implements ActionListener{
 	public void actionPerformed(ActionEvent e) {
 		// TODO Auto-generated method stub
 		
+	}
+
+	@Override
+	public void Update() {
+		// TODO Auto-generated method stub
+		textArea.setText(cl.customerQueReport(1));
+		textArea.validate();
 	}
 
 }

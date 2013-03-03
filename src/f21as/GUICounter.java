@@ -11,7 +11,7 @@ import javax.swing.JPanel;
 import javax.swing.JScrollPane;
 import javax.swing.JTextArea;
 
-public class GUICounter implements ActionListener{
+public class GUICounter implements ActionListener, Observer{
 
 CustomerList cl;
 ParcelList pl;
@@ -20,13 +20,15 @@ ParcelList pl;
 	JTextArea textArea;
 	JScrollPane scrollPane;
 	OrderClerk oc;
+	String processReport = "Next customer please!";
 
-	public GUICounter(CustomerList cl, ParcelList pl) {
+	public GUICounter(OrderClerk oc) {
 		super();
 		this.cl = cl;
 		this.pl = pl;
-		oc = new OrderClerk(cl, pl);
-		
+		this.oc = oc;
+		oc.registerObserver(this);
+		Update();
 		//this.setTextArea();
 		
 	}
@@ -40,7 +42,7 @@ ParcelList pl;
 		textArea.setWrapStyleWord(true);
 		scrollPane= new JScrollPane(textArea);
 		scrollPane.setSize(rows, columns);
-		textArea.setText(oc.collectParcel());
+		textArea.setText(oc.getProcessReport());
 		
 		return scrollPane;
 	}
@@ -51,6 +53,8 @@ ParcelList pl;
 		jp.add(new JLabel("Processed"));
 		jp.add(setTextArea());
 		
+		
+		
 		return jp;
 		
 	}
@@ -58,6 +62,14 @@ ParcelList pl;
 	@Override
 	public void actionPerformed(ActionEvent e) {
 		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void Update() {
+		// TODO Auto-generated method stub
+		//this.processReport = this.oc.getProcessReport();
+		this.textArea.setText(oc.getProcessReport());
 		
 	}
 

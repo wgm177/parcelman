@@ -11,16 +11,19 @@ import javax.swing.JScrollPane;
 import javax.swing.JTextArea;
 import javax.swing.JTextField;
 
-public class GUIWarehouse implements ActionListener{
+public class GUIWarehouse implements ActionListener, Observer{
 	ParcelList pl;
 	
 	JPanel jp;
 	JTextArea textArea;
 	JScrollPane scrollPane;
+	OrderClerk oc;
 
-	public GUIWarehouse(ParcelList pl) {
+	public GUIWarehouse(OrderClerk oc) {
 		super();
-		this.pl = pl;
+		this.oc = oc;
+		this.pl = oc.parcelList;
+		oc.registerObserver(this);
 		//this.setTextArea();
 		
 	}
@@ -51,6 +54,12 @@ public class GUIWarehouse implements ActionListener{
 
 	@Override
 	public void actionPerformed(ActionEvent e) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void Update() {
 		// TODO Auto-generated method stub
 		
 	}
