@@ -44,15 +44,6 @@ public String collectParcel()
 	return processed;
 }
 
-/*public static void main(String [] args)
-{
-	OrderClerk oc = new OrderClerk();
-	dm.popCustomerList();
-	dm.popParcelList();
-	//dm.collectParcel();
-	dm.writeParcelReport();
-	GUIMain gm = new GUIMain("ParcelMan v2.0", dm.customerList, dm.parcelList);
 
-}
-*/
+
 }
