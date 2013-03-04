@@ -21,7 +21,7 @@ private List<Observer> registeredObservers = new LinkedList<Observer>();
 
 	private String processSuccessParcel(Customer c, Parcel p)
 	{
-		String processed = null;
+		String processed = "";
 		p.setCost();
 		p.setReceived(true);
 		p.setCollectedBy(c.getName());
@@ -38,7 +38,7 @@ private List<Observer> registeredObservers = new LinkedList<Observer>();
 
 	private  String processUnSuccessParcel(Customer c, Parcel p)
 	{
-		String processed = null;
+		String processed = "";
 		
 		
 		processed = processed + ("Parcel with ID: " + c.getParcelID() + " is not found." + "\n");
@@ -65,13 +65,14 @@ private List<Observer> registeredObservers = new LinkedList<Observer>();
 					if((p.getParcelID() != "") && ((p.isReceived() == false) ))
 					{
 						System.out.println(processSuccessParcel(c, p));
-						System.out.println(Thread.currentThread().getName()+" Running ");
-						notifyObservers();
+						//System.out.println(Thread.currentThread().getName()+" Running ");
+						//notifyObservers();
 					}
 					else
 					{
 						System.out.println(processUnSuccessParcel(c, p));
-						System.out.println(Thread.currentThread().getName()+" Running ");
+						//System.out.println(Thread.currentThread().getName()+" Running ");
+						//notifyObservers();
 					}
 				}
 				

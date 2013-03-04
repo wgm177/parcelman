@@ -120,13 +120,11 @@ public class DepotMan {
 		OrderClerk oc = new OrderClerk(dm.customerList, dm.parcelList);
 		Thread t1 = new Thread(oc);
 		t1.start();
-		//oc.processCustomer();
 		
 		OrderClerk oc1 = new OrderClerk(dm.customerList, dm.parcelList);
 		Thread t2 = new Thread(oc1);
 		t2.start();
-		//oc1.processCustomer();
-		//dm.writeParcelReport();
+		
 		GUIMain gm = new GUIMain("ParcelMan v2.0", oc, oc1);
 		
 
