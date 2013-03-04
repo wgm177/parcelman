@@ -13,21 +13,24 @@ public class GUIMain extends JFrame implements ActionListener, Observer {
 	private static final int WIDTH = 800;		
 	private static final int HEIGHT = 500;
 	
-	OrderClerk oc;
+	CustomerList cl;
+	ParcelList pl;
 	JPanel jp;
 	JButton btnOpenShop, btnCloseShop;
 	
 	
-	public GUIMain(String title, OrderClerk oc) throws HeadlessException {
+	public GUIMain(String title, CustomerList cl, ParcelList pl)  {
 		super(title);
-		this.oc = oc;
+		//this.oc = oc;
+		this.cl = cl;
+		this.pl = pl;
 		
 		this.setSize(WIDTH, HEIGHT);
 		this.setVisible(true);
 		this.setDefaultCloseOperation(this.EXIT_ON_CLOSE);
-		GUIWarehouse guiWH = new GUIWarehouse(oc);
-		GUICustomerQue guiCQ = new GUICustomerQue(oc);
-		GUICounter guiC = new GUICounter(oc);
+		GUIWarehouse guiWH = new GUIWarehouse(pl);
+		GUICustomerQue guiCQ = new GUICustomerQue(cl);
+		GUICounter guiC = new GUICounter(cl, pl);
 		Container c = this.getContentPane();
 		jp = new JPanel();
 		c.add(jp);

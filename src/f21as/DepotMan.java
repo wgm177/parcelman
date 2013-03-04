@@ -16,8 +16,8 @@ import java.util.Scanner;
 */
 
 public class DepotMan {
-	private ParcelList parcelList = new ParcelList();
-	private CustomerList customerList = new CustomerList();
+	private static ParcelList parcelList = new ParcelList();
+	private static CustomerList customerList = new CustomerList();
 	private static final File customerFile = new File("customers.txt");
 	private static final File parcelFile = new File("parcels.txt");
 	private File parcelRepFile = new File("parcelReport.txt");
@@ -117,10 +117,10 @@ public class DepotMan {
 		DepotMan dm = new DepotMan();
 		dm.popCustomerList();
 		dm.popParcelList();
-		OrderClerk oc = new OrderClerk(dm.customerList, dm.parcelList);
+		//OrderClerk oc = new OrderClerk(dm.customerList, dm.parcelList);
 		//oc.collectParcel();
 		//dm.writeParcelReport();
-		GUIMain gm = new GUIMain("ParcelMan v2.0", oc);
+		GUIMain gm = new GUIMain("ParcelMan v2.0", customerList, parcelList);
 
 	}
 }

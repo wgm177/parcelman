@@ -3,7 +3,7 @@ package f21as;
 import java.util.LinkedList;
 import java.util.List;
 
-public class OrderClerk extends Thread implements Subject{
+public class OrderClerk  implements Subject{
 CustomerList customerList;
 ParcelList parcelList;
 Thread t;
@@ -21,8 +21,8 @@ public String getProcessReport() {
 public OrderClerk(CustomerList cl, ParcelList pl) {
 	this.customerList = cl;
 	this.parcelList = pl;
-	t = new Thread(this);
-	t.start();
+	//t = new Thread(this);
+	//t.start();
 	
 	
 }
@@ -39,7 +39,7 @@ public void notifyObservers()
 }
 
 
-public synchronized void collectParcel() throws InterruptedException
+public void collectParcel()
 {
 	Customer c = null;
 	Parcel p = null;
@@ -68,13 +68,13 @@ public synchronized void collectParcel() throws InterruptedException
 				processed = processed + ("\n");
 			}
 		
-			try {
+			/*try {
 				sleep(4000);
 				
 			} catch (InterruptedException e) {
 				System.out.println(e.getMessage()) ;
 			 }
-
+			*/
 			System.out.println(processed);
 			this.processReport = processed;
 			
@@ -84,14 +84,10 @@ public synchronized void collectParcel() throws InterruptedException
 }
 
 
-@Override
-public void run() {
-	// TODO Auto-generated method stub
-	try {
-		this.collectParcel();
-	} catch (InterruptedException e) {
-		// TODO Auto-generated catch block
-		e.printStackTrace();
+	public void run() {
+		// TODO Auto-generated method stub
+		
+			//this.collectParcel();
+		
 	}
-}
 }

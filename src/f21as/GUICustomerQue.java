@@ -17,14 +17,15 @@ public class GUICustomerQue implements ActionListener, Observer{
 	JPanel jp;
 	JTextArea textArea;
 	JScrollPane scrollPane;
-	OrderClerk oc;
+	//OrderClerk oc;
 
-	public GUICustomerQue(OrderClerk oc) {
+	public GUICustomerQue(CustomerList cl) {
 		super();
-		this.oc = oc;
-		this.cl = oc.customerList;
+		//this.oc = oc;
+		this.cl = cl;
+		
 		//this.setTextArea();
-		oc.registerObserver(this);
+		//oc.registerObserver(this);
 	}
 	
 	private JScrollPane setTextArea() {

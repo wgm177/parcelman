@@ -13,8 +13,8 @@ import javax.swing.JTextArea;
 
 public class GUICounter implements ActionListener, Observer{
 
-CustomerList cl;
-ParcelList pl;
+	CustomerList cl;
+	ParcelList pl;
 	
 	JPanel jp;
 	JTextArea textArea;
@@ -22,13 +22,14 @@ ParcelList pl;
 	OrderClerk oc;
 	String processReport = "Next customer please!";
 
-	public GUICounter(OrderClerk oc) {
+	public GUICounter(CustomerList cl, ParcelList pl) {
 		super();
 		this.cl = cl;
 		this.pl = pl;
-		this.oc = oc;
+		//this.oc = oc;
+		oc = new OrderClerk(cl, pl);
 		oc.registerObserver(this);
-		Update();
+		//Update();
 		//this.setTextArea();
 		
 	}
@@ -42,6 +43,7 @@ ParcelList pl;
 		textArea.setWrapStyleWord(true);
 		scrollPane= new JScrollPane(textArea);
 		scrollPane.setSize(rows, columns);
+		oc.collectParcel();
 		textArea.setText(oc.getProcessReport());
 		
 		return scrollPane;
@@ -58,6 +60,11 @@ ParcelList pl;
 		return jp;
 		
 	}
+	
+	
+	
+	
+	
 	
 	@Override
 	public void actionPerformed(ActionEvent e) {

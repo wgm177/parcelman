@@ -17,13 +17,13 @@ public class GUIWarehouse implements ActionListener, Observer{
 	JPanel jp;
 	JTextArea textArea;
 	JScrollPane scrollPane;
-	OrderClerk oc;
+	//OrderClerk oc;
 
-	public GUIWarehouse(OrderClerk oc) {
+	public GUIWarehouse(ParcelList pl) {
 		super();
-		this.oc = oc;
-		this.pl = oc.parcelList;
-		oc.registerObserver(this);
+		//this.oc = oc;
+		this.pl = pl;
+		//oc.registerObserver(this);
 		//this.setTextArea();
 		
 	}
