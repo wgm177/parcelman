@@ -15,8 +15,7 @@ public class GUIMain extends JFrame implements ActionListener {
 	private static final int WIDTH = 800;		
 	private static final int HEIGHT = 800;
 	
-	//CustomerList cl;
-	//ParcelList pl;
+	
 	JPanel jpCustQue, jpWareHouse, jpProcessOrder, jpManager , jp;
 	JButton btnOpenShop, btnCloseShop;
 	JTextArea taCustQue, taWareHouse, taProcessOrder, taManager;
@@ -26,8 +25,7 @@ public class GUIMain extends JFrame implements ActionListener {
 	public GUIMain(String title, CustomerList cl, ParcelList pl)  {
 		super(title);
 		this.oc = new OrderClerk(cl, pl);
-		//this.cl = cl;
-		//this.pl = pl;
+		
 		
 		this.setSize(WIDTH, HEIGHT);
 		this.setVisible(true);
@@ -42,11 +40,9 @@ public class GUIMain extends JFrame implements ActionListener {
 		jp.add(managerPanel(), BorderLayout.EAST);
 		jp.add(processOrderPanel(), BorderLayout.CENTER);
 		
-		//jp.add(new JTextArea(5,40));
-		this.validate();
-		//this.pack();
 		
-		// TODO Auto-generated constructor stub
+		this.validate();
+		
 	}
 	
 	private JPanel warehousePanel()
@@ -110,15 +106,19 @@ public class GUIMain extends JFrame implements ActionListener {
 		btnCloseShop = new JButton("CloseShop");
 		jpManager.add(btnOpenShop);
 		jpManager.add(btnCloseShop);
-		//Setup text area and scroll pane
+		
 		
 		return jpManager;
 	}
 
 	@Override
-	public void actionPerformed(ActionEvent arg0) {
+	public void actionPerformed(ActionEvent ae) {
 		// TODO Auto-generated method stub
-		
+		if (ae.getSource() == btnOpenShop)
+		{
+			oc.processCustomer();
+			
+		}
 		
 	}
 
