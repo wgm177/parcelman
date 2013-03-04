@@ -17,8 +17,17 @@ public class Customer {
 	private String parcelID;
 	/** parcelID stores the sequence number of each customer */
 	private int seqNo;
+	private boolean processed = false;
 	
 	
+	public boolean isProcessed() {
+		return processed;
+	}
+
+	public void setProcessed(boolean processed) {
+		this.processed = processed;
+	}
+
 	/** Customer() sets the default variables for this class. */
 	public Customer() {
 		this.name = "";
