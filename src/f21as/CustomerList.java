@@ -90,15 +90,16 @@ public class CustomerList {
 		for(Integer seqNo: customerList.keySet())
 		{
 			c = this.findBySeqNum(seqNo);
-			
-				
+				if(! c.isProcessed())
+				{
 					row = row + "|" + String.format("%1$-30s",c.getSeqNo() + " - " + c.getName());
 					count ++;
-				
-				if (count == columns){
-					row = row + "|\n";
 					
-					count = 0;
+					if (count == columns)
+					{
+							row = row + "|\n";
+							count = 0;
+					}
 				}
 				
 			}
