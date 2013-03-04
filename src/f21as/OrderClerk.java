@@ -1,10 +1,13 @@
 package f21as;
 
-public class OrderClerk implements Runnable{
+import java.util.LinkedList;
+import java.util.List;
+
+public class OrderClerk implements Runnable, Subject {
 CustomerList customerList;
 ParcelList parcelList;
 String processReport = "Start process report";
-
+private List<Observer> registeredObservers = new LinkedList<Observer>();
 
 	public OrderClerk(CustomerList cl, ParcelList pl) {
 		this.customerList = cl;
@@ -23,7 +26,7 @@ String processReport = "Start process report";
 		p.setReceived(true);
 		p.setCollectedBy(c.getName());
 		c.setProcessed(true);
-		
+		notifyObservers();
 		processed = processed + ("Parcel with ID: " + p.getParcelID() + " collected." + "\n");
 		processed = processed + ("Charged customer: " + c.getName() + " AED " + String.format("%.2f",p.getCost()) + "\n");
 		processed = processed + ("Next customer please!" + "\n");
@@ -63,6 +66,7 @@ String processReport = "Start process report";
 					{
 						System.out.println(processSuccessParcel(c, p));
 						System.out.println(Thread.currentThread().getName()+" Running ");
+						notifyObservers();
 					}
 					else
 					{
@@ -73,10 +77,11 @@ String processReport = "Start process report";
 				
 				try {
 				        //System.out.println("Here");
-				        Thread.sleep(1000);
+				        Thread.sleep(3000);
 				    } catch (InterruptedException e) {
 				        e.printStackTrace();
 				    }
+				notifyObservers();
 			}
 	}
 
@@ -84,6 +89,27 @@ String processReport = "Start process report";
 	public void run() {
 		// TODO Auto-generated method stub
 		processCustomer();
+	}
+
+	@Override
+	public void registerObserver(Observer obs) {
+		// TODO Auto-generated method stub
+		registeredObservers.add(obs);
+	}
+
+	@Override
+	public void removeObserver(Observer obs) {
+		// TODO Auto-generated method stub
+		registeredObservers.remove( obs); 
+	}
+
+	@Override
+	public void notifyObservers() {
+		// TODO Auto-generated method stub
+		for( Observer obs : registeredObservers)
+			{
+			obs.update();  
+			}
 	}
 
 	

@@ -10,21 +10,26 @@ import java.awt.event.ActionListener;
 
 import javax.swing.*;
 
-public class GUIMain extends JFrame implements ActionListener {
+public class GUIMain extends JFrame implements ActionListener, Observer {
 	
 	private static final int WIDTH = 800;		
 	private static final int HEIGHT = 800;
+	private static final int WHCOLUMNS = 10;
 	
-	
-	JPanel jpCustQue, jpWareHouse, jpProcessOrder, jpManager , jp;
+	JPanel jpCustQue, jpWareHouse, jpProcessOrder, jpProcessOrder1, jpCounters ,jpManager, jp;
 	JButton btnOpenShop, btnCloseShop;
-	JTextArea taCustQue, taWareHouse, taProcessOrder, taManager;
-	JScrollPane spCustQue, spWareHouse, spProcessOrder;
-	OrderClerk oc;
+	JTextArea taCustQue, taWareHouse, taProcessOrder, taProcessOrder1, taManager;
+	JScrollPane spCustQue, spWareHouse, spProcessOrder, spProcessOrder1;
+	OrderClerk oc, oc1;
 	
-	public GUIMain(String title, CustomerList cl, ParcelList pl)  {
+	
+	public GUIMain(String title, OrderClerk oc, OrderClerk oc1)  {
 		super(title);
-		this.oc = new OrderClerk(cl, pl);
+		this.oc = oc;
+		this.oc1 = oc1;
+		
+		oc.registerObserver(this);
+		oc1.registerObserver(this);
 		
 		
 		this.setSize(WIDTH, HEIGHT);
@@ -36,9 +41,15 @@ public class GUIMain extends JFrame implements ActionListener {
 		jp.setLayout(new BorderLayout(10,10));
 		jp.add(warehousePanel(), BorderLayout.NORTH);
 		jp.add(customerQuePanel(), BorderLayout.SOUTH);
-		jp.add(new JLabel("WEST"), BorderLayout.WEST);
+		
 		jp.add(managerPanel(), BorderLayout.EAST);
-		jp.add(processOrderPanel(), BorderLayout.CENTER);
+		
+		jpCounters = new JPanel();
+		jpCounters.setLayout(new GridLayout(1,0));
+		jp.add(jpCounters, BorderLayout.CENTER);
+		jpCounters.add(processOrderPanel2());
+		jpCounters.add(processOrderPanel());
+		
 		
 		
 		this.validate();
@@ -54,7 +65,7 @@ public class GUIMain extends JFrame implements ActionListener {
 		taWareHouse = new JTextArea(5, 5);
 		taWareHouse.setFont(new Font (Font.MONOSPACED, Font.PLAIN,12));
 		taWareHouse.setEditable(false);
-		taWareHouse.setText(oc.parcelList.warehouseReport(7));
+		taWareHouse.setText(oc.parcelList.warehouseReport(WHCOLUMNS));
 		spWareHouse = new JScrollPane(taWareHouse);
 		
 		jpWareHouse.add(spWareHouse);
@@ -96,6 +107,22 @@ public class GUIMain extends JFrame implements ActionListener {
 		return jpProcessOrder;
 	}
 	
+	private JPanel processOrderPanel2()
+	{
+		jpProcessOrder1 = new JPanel();
+		jpProcessOrder1.setLayout(new GridLayout(0,1));
+		jpProcessOrder1.add(new JLabel("Process"));
+		//Setup text area and scroll pane
+		taProcessOrder1 = new JTextArea(5, 5);
+		taProcessOrder1.setFont(new Font (Font.MONOSPACED, Font.PLAIN,12));
+		taProcessOrder1.setEditable(false);
+		taProcessOrder1.setText(oc1.getProcessReport());
+		spProcessOrder1 = new JScrollPane(taProcessOrder1);
+		
+		jpProcessOrder1.add(spProcessOrder1);
+		
+		return jpProcessOrder1;
+	}
 	
 	private JPanel managerPanel()
 	{
@@ -121,6 +148,23 @@ public class GUIMain extends JFrame implements ActionListener {
 		}
 		
 	}
+
+	
+
+	@Override
+	public void update() {
+		// TODO Auto-generated method stub
+		String processReport = oc.getProcessReport();
+		this.taProcessOrder.setText(processReport);
+		String processReport1 = oc1.getProcessReport();
+		this.taProcessOrder1.setText(processReport1);
+		String customerQue = oc.customerList.customerQueReport(1);
+		this.taCustQue.setText(customerQue);
+		String warehouse = oc.parcelList.warehouseReport(WHCOLUMNS);
+		this.taWareHouse.setText(warehouse);
+	}
+
+	
 
 	
 

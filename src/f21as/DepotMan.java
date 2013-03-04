@@ -127,7 +127,7 @@ public class DepotMan {
 		t2.start();
 		//oc1.processCustomer();
 		//dm.writeParcelReport();
-		GUIMain gm = new GUIMain("ParcelMan v2.0", dm.customerList, dm.parcelList);
+		GUIMain gm = new GUIMain("ParcelMan v2.0", oc, oc1);
 		
 
 	}
