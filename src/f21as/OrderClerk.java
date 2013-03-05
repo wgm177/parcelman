@@ -6,7 +6,7 @@ import java.util.List;
 public class OrderClerk implements Runnable, Subject {
 CustomerList customerList;
 ParcelList parcelList;
-String processReport = "Start process report";
+String processReport = "Counter Closed";
 private List<Observer> registeredObservers = new LinkedList<Observer>();
 
 	public OrderClerk(CustomerList cl, ParcelList pl) {

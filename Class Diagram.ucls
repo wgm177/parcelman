@@ -10,7 +10,7 @@
   </class>  
   <class id="2" corner="BOTTOM_RIGHT" language="java" name="f21as.CustomerList" project="ParcelMan" 
     file="/ParcelMan/src/f21as/CustomerList.java" binary="false">    
-    <position height="-1" width="-1" x="355" y="56"/>    
+    <position height="-1" width="-1" x="477" y="77"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true"/>      
       <operations public="true" package="true" protected="true" private="true"/>    
@@ -18,7 +18,7 @@
   </class>  
   <class id="3" corner="BOTTOM_RIGHT" language="java" name="f21as.CustomerStringFormatException" project="ParcelMan" 
     file="/ParcelMan/src/f21as/CustomerStringFormatException.java" binary="false">    
-    <position height="-1" width="-1" x="414" y="749"/>    
+    <position height="-1" width="-1" x="548" y="777"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true"/>      
       <operations public="true" package="true" protected="true" private="true"/>    
@@ -26,7 +26,7 @@
   </class>  
   <class id="4" corner="BOTTOM_RIGHT" language="java" name="f21as.DepotMan" project="ParcelMan" 
     file="/ParcelMan/src/f21as/DepotMan.java" binary="false">    
-    <position height="-1" width="-1" x="607" y="216"/>    
+    <position height="-1" width="-1" x="774" y="216"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true"/>      
       <operations public="true" package="true" protected="true" private="true"/>    
@@ -34,7 +34,7 @@
   </class>  
   <class id="5" corner="BOTTOM_RIGHT" language="java" name="f21as.Parcel" project="ParcelMan" 
     file="/ParcelMan/src/f21as/Parcel.java" binary="false">    
-    <position height="-1" width="-1" x="118" y="315"/>    
+    <position height="-1" width="-1" x="121" y="607"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true"/>      
       <operations public="true" package="true" protected="true" private="true"/>    
@@ -42,7 +42,7 @@
   </class>  
   <class id="6" corner="BOTTOM_RIGHT" language="java" name="f21as.ParcelList" project="ParcelMan" 
     file="/ParcelMan/src/f21as/ParcelList.java" binary="false">    
-    <position height="-1" width="-1" x="335" y="351"/>    
+    <position height="-1" width="-1" x="485" y="359"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true"/>      
       <operations public="true" package="true" protected="true" private="true"/>    
@@ -50,34 +50,34 @@
   </class>  
   <class id="7" corner="BOTTOM_RIGHT" language="java" name="f21as.ParcelStringFormatException" project="ParcelMan" 
     file="/ParcelMan/src/f21as/ParcelStringFormatException.java" binary="false">    
-    <position height="-1" width="-1" x="403" y="582"/>    
+    <position height="-1" width="-1" x="534" y="581"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true"/>      
       <operations public="true" package="true" protected="true" private="true"/>    
     </display>  
   </class>  
   <association id="8">    
-    <end type="SOURCE" refId="6" navigable="false">      
-      <attribute id="9" name="parcelList"/>      
+    <end type="SOURCE" refId="2" navigable="false">      
+      <attribute id="9" name="customerList"/>      
       <multiplicity id="10" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="1" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="11">    
+    <end type="SOURCE" refId="6" navigable="false">      
+      <attribute id="12" name="parcelList"/>      
+      <multiplicity id="13" minimum="0" maximum="2147483647"/>    
     </end>    
     <end type="TARGET" refId="5" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
-  <association id="11">    
+  <association id="14">    
     <end type="SOURCE" refId="4" navigable="false">      
-      <attribute id="12" name="customerList"/>      
-      <multiplicity id="13" minimum="0" maximum="1"/>    
+      <attribute id="15" name="customerList"/>      
+      <multiplicity id="16" minimum="0" maximum="1"/>    
     </end>    
     <end type="TARGET" refId="2" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
-  </association>  
-  <association id="14">    
-    <end type="SOURCE" refId="2" navigable="false">      
-      <attribute id="15" name="customerList"/>      
-      <multiplicity id="16" minimum="0" maximum="2147483647"/>    
-    </end>    
-    <end type="TARGET" refId="1" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
   <association id="17">    
