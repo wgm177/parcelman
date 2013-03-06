@@ -1,0 +1,23 @@
+
+ Parcels Collected: 
+ID     |DIW  |W(kg)|W(m) |H(m) |L(m) |     AED|Collected By   
+D001   |3    |40   |45   |16   |159  |  460.80|Aaron Benson McLean
+P002   |0    |0    |0    |0    |0    |    0.00|Aaron Douglas King
+null   |0    |0    |0    |0    |0    |    0.00|null           
+D007   |1    |21   |28   |87   |161  |  238.14|Adam  Butler   
+
+ Parcels in warehouse: 
+ID     |DIW  |W(kg)|W(m) |H(m) |L(m) |     AED|Collected By   
+P001   |11   |30   |73   |106  |64   |  408.00|               
+invalid|21   |47   |158  |200  |13   |  686.20|               
+D004   |33   |192  |183  |91   |68   | 2730.24|               
+D005   |2147483647|2147483647|2147483647|2147483647|2147483647|415051765431108860.00|               
+P005   |0    |0    |0    |0    |0    |    0.00|               
+D006   |0    |0    |0    |0    |0    |    0.00|               
+P006   |56   |200  |79   |78   |166  | 3620.00|               
+P007   |38   |81   |52   |4    |84   | 1320.30|               
+
+Summary:
+Total parcels collected: 4
+Total parcels in warehouse: 8
+Total fee collected: 698.94
