@@ -1,5 +1,6 @@
 package f21as;
 
+import java.io.IOException;
 import java.util.LinkedList;
 import java.util.List;
 
@@ -8,6 +9,7 @@ CustomerList customerList;
 ParcelList parcelList;
 String processReport = "Counter Closed";
 private List<Observer> registeredObservers = new LinkedList<Observer>();
+private LogFile lf = LogFile.getInstance();
 
 	public OrderClerk(CustomerList cl, ParcelList pl) {
 		this.customerList = cl;
@@ -83,7 +85,11 @@ private List<Observer> registeredObservers = new LinkedList<Observer>();
 				        e.printStackTrace();
 				    }
 				notifyObservers();
+				lf.addLog("Processed customer: " + c.getName());
 			}
+		
+			lf.saveLogList();
+		
 	}
 
 	@Override

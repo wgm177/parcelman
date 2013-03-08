@@ -3,6 +3,7 @@ package f21as;
 import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileWriter;
+import java.io.IOException;
 import java.util.Scanner;
 
 /** DepotMan class runs the parcel man program. It reads the lists and initiates the parcel 
@@ -21,7 +22,8 @@ public class DepotMan {
 	private static final File customerFile = new File("customers.txt");
 	private static final File parcelFile = new File("parcels.txt");
 	private File parcelRepFile = new File("parcelReport.txt");
-
+	private LogFile lf = LogFile.getInstance();
+	
 	/**  popCustomerList() reads the customer.txt file 
 	 * @throws Exception  if file cannot be read  
 	 * @return true if file reading was successful or false if any problems issued 
@@ -48,7 +50,10 @@ public class DepotMan {
 			{
 				fread.close();
 			}
-			
+		
+		
+		
+		
 		return true;
 	}
 	
@@ -68,10 +73,12 @@ public class DepotMan {
 				Parcel p = new Parcel(fread.nextLine());
 				parcelList.addParcel(p);
 			}
+			lf.addLog("Read in parcelFile: " + parcelFile.getName());
 		}
 		catch(Exception e)
 			{
 				System.out.println("Cannot read from parcel input file.");
+				lf.addLog("Cannot read in parcelFile: " + parcelFile.getName());
 				return false;
 			}
 			finally
@@ -79,6 +86,7 @@ public class DepotMan {
 				fread.close();
 			}
 			
+		lf.saveLogList();
 		return true;
 	}
 	
@@ -101,6 +109,7 @@ public class DepotMan {
 			System.out.println("Error opening"	+ " the file " + this.parcelRepFile.getName());
 			System.exit(0);
 		}
+		
 	}
 	
 	/**   collectParcel() is the collection simulation method which takes one customer at a time
@@ -115,6 +124,7 @@ public class DepotMan {
 	public static void main(String [] args)
 	{
 		DepotMan dm = new DepotMan();
+		
 		System.out.println(dm.popCustomerList());
 		System.out.println(dm.popParcelList());
 		OrderClerk oc = new OrderClerk(dm.customerList, dm.parcelList);
@@ -126,6 +136,7 @@ public class DepotMan {
 		t2.start();
 		
 		GUIMain gm = new GUIMain("ParcelMan v2.0", oc, oc1);
+		
 		
 
 	}
