@@ -1,36 +1,57 @@
 package f21as;
 
 import java.awt.BorderLayout;
+import java.awt.Color;
+import java.awt.Component;
 import java.awt.Container;
+import java.awt.Dimension;
 import java.awt.Font;
 import java.awt.GridLayout;
 import java.awt.HeadlessException;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.util.ArrayList;
 
 import javax.swing.*;
 
 public class GUIMain extends JFrame implements ActionListener, Observer {
 	
-	private static final int WIDTH = 800;		
-	private static final int HEIGHT = 800;
+	private static final int WIDTH = 900;		
+	private static final int HEIGHT = 600;
 	private static final int WHCOLUMNS = 10;
+	private static final int MAX_OREDERCLERKS = 3;
 	
-	JPanel jpCustQue, jpWareHouse, jpProcessOrder, jpProcessOrder1, jpCounters ,jpManager, jp;
+	JPanel jpCustQue, jpWareHouse, jpProcessOrder,  jpCounters ,jpManager, jp;
 	JButton btnOpenShop, btnCloseShop;
-	JTextArea taCustQue, taWareHouse, taProcessOrder, taProcessOrder1, taManager;
+	JTextArea taCustQue, taWareHouse, taProcessOrder,  taManager;
 	JScrollPane spCustQue, spWareHouse, spProcessOrder, spProcessOrder1;
-	OrderClerk oc, oc1;
+	OrderClerkList orderClerkList;
+	CustomerList customerList;
+	ParcelList parcelList;
+	ArrayList<Counters> counters = new ArrayList<Counters>();
+	//ArrayList<JTextArea> taCounters = new ArrayList<JTextArea>(0); 
 	
 	
-	public GUIMain(String title, OrderClerk oc, OrderClerk oc1)  {
+	public GUIMain(String title, OrderClerkList orderClerkList)  {
 		super(title);
-		this.oc = oc;
-		this.oc1 = oc1;
+		//this.oc = oc;
+		//this.oc1 = oc1;
+		this.orderClerkList = orderClerkList;
+		this.customerList = orderClerkList.getCustomerList();
+		this.parcelList = orderClerkList.getParcelList();
+		LogFile.addLog("customerList.size:" + customerList.getCustomerList().size());
 		
-		oc.registerObserver(this);
-		oc1.registerObserver(this);
 		
+		for (int i = 1; i <= MAX_OREDERCLERKS; i++){
+			orderClerkList.addOrderClerk();
+		LogFile.addLog("New order clerk added");
+		}
+					
+		for (OrderClerk oc: orderClerkList.getOrderClerkList())
+		{
+			oc.registerObserver(this);
+			oc.start();
+		}
 		
 		this.setSize(WIDTH, HEIGHT);
 		this.setVisible(true);
@@ -40,17 +61,9 @@ public class GUIMain extends JFrame implements ActionListener, Observer {
 		c.add(jp);
 		jp.setLayout(new BorderLayout(10,10));
 		jp.add(warehousePanel(), BorderLayout.NORTH);
-		jp.add(customerQuePanel(), BorderLayout.SOUTH);
-		
-		jp.add(managerPanel(), BorderLayout.EAST);
-		
-		jpCounters = new JPanel();
-		jpCounters.setLayout(new GridLayout(1,0));
-		jp.add(jpCounters, BorderLayout.CENTER);
-		jpCounters.add(processOrderPanel2());
-		jpCounters.add(processOrderPanel());
-		
-		
+		jp.add(customerQuePanel(), BorderLayout.EAST);
+		jp.add(managerPanel(), BorderLayout.SOUTH);
+		jp.add(counterPanel(), BorderLayout.CENTER);
 		
 		this.validate();
 		
@@ -65,7 +78,7 @@ public class GUIMain extends JFrame implements ActionListener, Observer {
 		taWareHouse = new JTextArea(5, 5);
 		taWareHouse.setFont(new Font (Font.MONOSPACED, Font.PLAIN,12));
 		taWareHouse.setEditable(false);
-		taWareHouse.setText(oc.parcelList.warehouseReport(WHCOLUMNS));
+		taWareHouse.setText(this.parcelList.warehouseReport(WHCOLUMNS));
 		spWareHouse = new JScrollPane(taWareHouse);
 		
 		jpWareHouse.add(spWareHouse);
@@ -82,47 +95,34 @@ public class GUIMain extends JFrame implements ActionListener, Observer {
 		taCustQue = new JTextArea(5, 5);
 		taCustQue.setFont(new Font (Font.MONOSPACED, Font.PLAIN,12));
 		taCustQue.setEditable(false);
-		taCustQue.setText(oc.customerList.customerQueReport(1));
+		taCustQue.setText(this.customerList.customerQueReport(1));
 		spCustQue = new JScrollPane(taCustQue);
 		
 		jpCustQue.add(spCustQue);
-		
+		jpCustQue.setPreferredSize(new Dimension(300,300));
+		jpCustQue.setMaximumSize(new Dimension(300,300));
+		jpCustQue.setMinimumSize(new Dimension(300,300));
 		return jpCustQue;
 	}
 	
-	private JPanel processOrderPanel()
+	private JPanel counterPanel()
 	{
-		jpProcessOrder = new JPanel();
-		jpProcessOrder.setLayout(new GridLayout(0,1));
-		jpProcessOrder.add(new JLabel("Process"));
+		jpCounters = new JPanel();
+		jpCounters.setLayout(new GridLayout(0,4));
+		int i = 0;
 		//Setup text area and scroll pane
-		taProcessOrder = new JTextArea(5, 5);
-		taProcessOrder.setFont(new Font (Font.MONOSPACED, Font.PLAIN,12));
-		taProcessOrder.setEditable(false);
-		taProcessOrder.setText(oc.getProcessReport());
-		spProcessOrder = new JScrollPane(taProcessOrder);
 		
-		jpProcessOrder.add(spProcessOrder);
-		
-		return jpProcessOrder;
+			for (OrderClerk oc: orderClerkList.getOrderClerkList())
+			{
+				i++;
+				Counters c = new Counters(oc,i);
+				jpCounters.add(c.getPanel());
+				counters.add(c);
+			}
+			
+		return jpCounters;
 	}
 	
-	private JPanel processOrderPanel2()
-	{
-		jpProcessOrder1 = new JPanel();
-		jpProcessOrder1.setLayout(new GridLayout(0,1));
-		jpProcessOrder1.add(new JLabel("Process"));
-		//Setup text area and scroll pane
-		taProcessOrder1 = new JTextArea(5, 5);
-		taProcessOrder1.setFont(new Font (Font.MONOSPACED, Font.PLAIN,12));
-		taProcessOrder1.setEditable(false);
-		taProcessOrder1.setText(oc1.getProcessReport());
-		spProcessOrder1 = new JScrollPane(taProcessOrder1);
-		
-		jpProcessOrder1.add(spProcessOrder1);
-		
-		return jpProcessOrder1;
-	}
 	
 	private JPanel managerPanel()
 	{
@@ -143,7 +143,7 @@ public class GUIMain extends JFrame implements ActionListener, Observer {
 		// TODO Auto-generated method stub
 		if (ae.getSource() == btnOpenShop)
 		{
-			oc.processCustomer();
+			//c.processCustomer();
 			
 		}
 		
@@ -154,14 +154,19 @@ public class GUIMain extends JFrame implements ActionListener, Observer {
 	@Override
 	public void update() {
 		// TODO Auto-generated method stub
-		String processReport = oc.getProcessReport();
-		this.taProcessOrder.setText(processReport);
-		String processReport1 = oc1.getProcessReport();
-		this.taProcessOrder1.setText(processReport1);
-		String customerQue = oc.customerList.customerQueReport(1);
-		this.taCustQue.setText(customerQue);
-		String warehouse = oc.parcelList.warehouseReport(WHCOLUMNS);
-		this.taWareHouse.setText(warehouse);
+		try{
+		taWareHouse.setText(this.parcelList.warehouseReport(WHCOLUMNS));
+		taCustQue.setText(this.customerList.customerQueReport(1));
+		}catch(NullPointerException e){
+			System.out.println("Null pointer to:" + e.getMessage());
+		}
+		
+		for(Counters c: counters)
+		{
+			c.upDateText();
+		}
+		
+		
 	}
 
 	

@@ -22,7 +22,10 @@ public class DepotMan {
 	private static final File customerFile = new File("customers.txt");
 	private static final File parcelFile = new File("parcels.txt");
 	private File parcelRepFile = new File("parcelReport.txt");
-	private LogFile lf = LogFile.getInstance();
+	private OrderClerkList orderClerkList;
+	
+	
+	
 	
 	/**  popCustomerList() reads the customer.txt file 
 	 * @throws Exception  if file cannot be read  
@@ -39,22 +42,22 @@ public class DepotMan {
 			{
 				Customer c = new Customer(fread.nextLine());
 				customerList.addCustomer(c);
+				LogFile.addLog("New customer: " + c.getName());
 			}
 		}
 		catch(Exception e)
 			{
-				System.out.println("Cannot read from customer input file");
+				//System.out.println("Cannot read from customer input file");
+				LogFile.addLog("Cannot read from customer input file: " + customerFile.getName());
 				return false;
 			}
 			finally
 			{
 				fread.close();
+				LogFile.saveLogList();
 			}
-		
-		
-		
-		
 		return true;
+		
 	}
 	
 	/**   popParcelList() reads the parcel.txt file 
@@ -72,13 +75,15 @@ public class DepotMan {
 			{
 				Parcel p = new Parcel(fread.nextLine());
 				parcelList.addParcel(p);
+				LogFile.addLog("New parcel: " + p.getParcelID());
 			}
-			lf.addLog("Read in parcelFile: " + parcelFile.getName());
+			
 		}
 		catch(Exception e)
 			{
 				System.out.println("Cannot read from parcel input file.");
-				lf.addLog("Cannot read in parcelFile: " + parcelFile.getName());
+				LogFile.addLog("Cannot read in parcelFile: " + parcelFile.getName());
+				
 				return false;
 			}
 			finally
@@ -86,7 +91,7 @@ public class DepotMan {
 				fread.close();
 			}
 			
-		lf.saveLogList();
+		LogFile.saveLogList();
 		return true;
 	}
 	
@@ -102,15 +107,18 @@ public class DepotMan {
 			writer.write(this.parcelList.parcelReport());
 			writer.newLine();
 			writer.close();
+			LogFile.addLog("Write parcel report");
 			
 		}
 		catch (Exception e)
 		{
-			System.out.println("Error opening"	+ " the file " + this.parcelRepFile.getName());
+			LogFile.addLog("Error opening"	+ " the file " + this.parcelRepFile.getName());
 			System.exit(0);
 		}
-		
+		LogFile.saveLogList();
 	}
+	
+	
 	
 	/**   collectParcel() is the collection simulation method which takes one customer at a time
 	 * and checks the parcel they are claiming, calculates the fees and receives the payment. 
@@ -127,17 +135,21 @@ public class DepotMan {
 		
 		System.out.println(dm.popCustomerList());
 		System.out.println(dm.popParcelList());
-		OrderClerk oc = new OrderClerk(dm.customerList, dm.parcelList);
-		Thread t1 = new Thread(oc);
-		t1.start();
+		dm.orderClerkList = new OrderClerkList(dm.customerList,dm.parcelList);
 		
-		OrderClerk oc1 = new OrderClerk(dm.customerList, dm.parcelList);
-		Thread t2 = new Thread(oc1);
-		t2.start();
+		//OrderClerk oc = new OrderClerk(dm.customerList, dm.parcelList);
+		//Thread t1 = new Thread(oc);
+		//t1.start();
 		
-		GUIMain gm = new GUIMain("ParcelMan v2.0", oc, oc1);
+		//OrderClerk oc1 = new OrderClerk(dm.customerList, dm.parcelList);
+		//Thread t2 = new Thread(oc1);
+		//t2.start();
+		
+		GUIMain gm = new GUIMain("ParcelMan v2.0", dm.orderClerkList);
 		
 		
 
 	}
+
+	
 }

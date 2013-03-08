@@ -4,12 +4,13 @@ import java.io.IOException;
 import java.util.LinkedList;
 import java.util.List;
 
-public class OrderClerk implements Runnable, Subject {
-CustomerList customerList;
-ParcelList parcelList;
-String processReport = "Counter Closed";
+public class OrderClerk extends Thread implements Subject {
+private CustomerList customerList;
+private ParcelList parcelList;
+private String processReport = "Counter Closed";
 private List<Observer> registeredObservers = new LinkedList<Observer>();
-private LogFile lf = LogFile.getInstance();
+private int workingSpeed = 2000;
+//private LogFile lf = LogFile.getInstance();
 
 	public OrderClerk(CustomerList cl, ParcelList pl) {
 		this.customerList = cl;
@@ -21,20 +22,21 @@ private LogFile lf = LogFile.getInstance();
 		return processReport;
 	}
 
-	private String processSuccessParcel(Customer c, Parcel p)
+	private synchronized String processSuccessParcel(Customer c, Parcel p)
 	{
 		String processed = "";
 		p.setCost();
 		p.setReceived(true);
 		p.setCollectedBy(c.getName());
 		c.setProcessed(true);
-		notifyObservers();
-		processed = processed + ("Parcel with ID: " + p.getParcelID() + " collected." + "\n");
-		processed = processed + ("Charged customer: " + c.getName() + " AED " + String.format("%.2f",p.getCost()) + "\n");
-		processed = processed + ("Next customer please!" + "\n");
+		
+		processed = processed + ("ParcelID: " + p.getParcelID() + "\ncollected." + "\n");
+		processed = processed + ("Charged: " + c.getName() + "\nAED " + String.format("%.2f",p.getCost()) + "\n");
+		processed = processed + ("Next please!" + "\n");
 		processed = processed + ("\n");
 		
 		processReport = processed;
+		//notifyObservers();
 		return processed;
 	}
 
@@ -43,9 +45,9 @@ private LogFile lf = LogFile.getInstance();
 		String processed = "";
 		
 		
-		processed = processed + ("Parcel with ID: " + c.getParcelID() + " is not found." + "\n");
-		processed = processed + ("Turned away customer: " + c.getName() + "\n");
-		processed = processed + ("Next customer please!" + "\n");
+		processed = processed + ("ParcelID: " + c.getParcelID() + "\nis not found." + "\n");
+		processed = processed + ("Turned away customer:\n" + c.getName() + "\n");
+		processed = processed + ("Next please!" + "\n");
 		processed = processed + ("\n");
 		
 		processReport = processed;
@@ -79,16 +81,16 @@ private LogFile lf = LogFile.getInstance();
 				}
 				
 				try {
-				        //System.out.println("Here");
-				        Thread.sleep(3000);
+				     this.sleep(2000);
 				    } catch (InterruptedException e) {
 				        e.printStackTrace();
 				    }
 				notifyObservers();
-				lf.addLog("Processed customer: " + c.getName());
+				LogFile.addLog("Processed customer: " + c.getName());
 			}
-		
-			lf.saveLogList();
+			this.processReport = "Finished";
+			notifyObservers();
+			LogFile.saveLogList();
 		
 	}
 
@@ -117,6 +119,10 @@ private LogFile lf = LogFile.getInstance();
 			{
 			obs.update();  
 			}
+	}
+
+	public void setWorkingSpeed(int workingSpeed) {
+		this.workingSpeed = workingSpeed;
 	}
 
 	

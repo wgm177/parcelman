@@ -8,8 +8,8 @@ import java.util.ArrayList;
 
 public class LogFile {
 	private static LogFile instance = null;
-	private ArrayList<String> logList = new ArrayList<String>();
-	private String fileName = "logfile.txt";
+	private static ArrayList<String> logList = new ArrayList<String>();
+	private static String fileName = "logfile.txt";
 	protected LogFile(){
 		
 	
@@ -23,20 +23,20 @@ public class LogFile {
 		return instance;
 	}
 	
-	public void addLog(String log) 
+	public static void addLog(String log) 
 	{
 		
-		this.logList.add(log);
+		logList.add(log);
 		
 	}
 	
-	public void saveLogList()
+	public static void saveLogList()
 	{
 		StringBuilder sb = new StringBuilder();
 		PrintWriter pw = null;
 		try{
 			pw = new PrintWriter(new BufferedWriter( new FileWriter(fileName, true)));
-			for(String s: this.logList)
+			for(String s: logList)
 			{
 				sb = sb.append(s + "\n");
 			}
