@@ -7874,3 +7874,1838 @@ Processed customer: Adam  Butler
 Processed customer: Adam  Werner
 Processed customer: Adam  Werner
 Processed customer: Adam  Werner
+New customer: Aaron Benson McLean
+New customer: Aaron Clayton McKenzie
+New customer: Aaron Coleman Woods
+New customer: Aaron Douglas King
+New customer: Aaron Fowler Brandon
+New customer: Aaron Frazier Li
+New customer: Aaron McLeod Moody
+New customer: Aaron Montgomery McLamb
+New customer: Aaron Peacock Dalton
+New customer: Aaron Peters Carpenter
+New customer: Aaron Porter Simmons
+New customer: Aaron Quinn Pugh
+New customer: Aaron Roy Lawrence
+New customer: Aaron Sherrill Kirkland
+New customer: Adam  Butler
+New customer: Adam  Werner
+New customer: Aaron Benson McLean
+New customer: Aaron Clayton McKenzie
+New customer: Aaron Coleman Woods
+New customer: Aaron Douglas King
+New customer: Aaron Fowler Brandon
+New customer: Aaron Frazier Li
+New customer: Aaron McLeod Moody
+New customer: Aaron Montgomery McLamb
+New customer: Aaron Peacock Dalton
+New customer: Aaron Peters Carpenter
+New customer: Aaron Porter Simmons
+New customer: Aaron Quinn Pugh
+New customer: Aaron Roy Lawrence
+New customer: Aaron Sherrill Kirkland
+New customer: Adam  Butler
+New customer: Adam  Werner
+New parcel: D001
+New parcel: D002
+New parcel: D003
+New parcel: D004
+New parcel: D005
+New parcel: D006
+New parcel: D007
+New parcel: D008
+New parcel: D009
+New parcel: D010
+New parcel: D011
+New parcel: D012
+New parcel: D013
+New parcel: D014
+New parcel: D015
+New parcel: D016
+New parcel: D017
+New parcel: D018
+New parcel: D019
+New parcel: D020
+New parcel: D021
+New parcel: D022
+New parcel: D023
+New parcel: D024
+New parcel: D025
+New parcel: D026
+New parcel: D027
+New parcel: D028
+New parcel: D029
+New parcel: D030
+New parcel: D031
+New parcel: D032
+New parcel: D033
+New customer: Aaron Benson McLean
+New customer: Aaron Clayton McKenzie
+New customer: Aaron Coleman Woods
+New customer: Aaron Douglas King
+New customer: Aaron Fowler Brandon
+New customer: Aaron Frazier Li
+New customer: Aaron McLeod Moody
+New customer: Aaron Montgomery McLamb
+New customer: Aaron Peacock Dalton
+New customer: Aaron Peters Carpenter
+New customer: Aaron Porter Simmons
+New customer: Aaron Quinn Pugh
+New customer: Aaron Roy Lawrence
+New customer: Aaron Sherrill Kirkland
+New customer: Adam  Butler
+New customer: Adam  Werner
+New parcel: D001
+New parcel: D002
+New parcel: D003
+New parcel: D004
+New parcel: D005
+New parcel: D006
+New parcel: D007
+New parcel: D008
+New parcel: D009
+New parcel: D010
+New parcel: D011
+New parcel: D012
+New parcel: D013
+New parcel: D014
+New parcel: D015
+New parcel: D016
+New parcel: D017
+New parcel: D018
+New parcel: D019
+New parcel: D020
+New parcel: D021
+New parcel: D022
+New parcel: D023
+New parcel: D024
+New parcel: D025
+New parcel: D026
+New parcel: D027
+New parcel: D028
+New parcel: D029
+New parcel: D030
+New parcel: D031
+New parcel: D032
+New parcel: D033
+customerList.size:16
+New order clerk added
+New order clerk added
+New order clerk added
+Processed customer: Aaron Benson McLean
+Processed customer: Aaron Benson McLean
+Processed customer: Aaron Benson McLean
+Processed customer: Aaron Clayton McKenzie
+Processed customer: Aaron Clayton McKenzie
+Processed customer: Aaron Clayton McKenzie
+Processed customer: Aaron Coleman Woods
+Processed customer: Aaron Coleman Woods
+Processed customer: Aaron Coleman Woods
+Processed customer: Aaron Douglas King
+Processed customer: Aaron Douglas King
+Processed customer: Aaron Douglas King
+Processed customer: Aaron Fowler Brandon
+Processed customer: Aaron Fowler Brandon
+Processed customer: Aaron Fowler Brandon
+Processed customer: Aaron Frazier Li
+Processed customer: Aaron Frazier Li
+Processed customer: Aaron Frazier Li
+Processed customer: Aaron McLeod Moody
+Processed customer: Aaron McLeod Moody
+Processed customer: Aaron McLeod Moody
+Processed customer: Aaron Montgomery McLamb
+Processed customer: Aaron Montgomery McLamb
+Processed customer: Aaron Montgomery McLamb
+Processed customer: Aaron Peacock Dalton
+Processed customer: Aaron Peacock Dalton
+Processed customer: Aaron Peacock Dalton
+Processed customer: Aaron Peters Carpenter
+Processed customer: Aaron Peters Carpenter
+Processed customer: Aaron Peters Carpenter
+Processed customer: Aaron Porter Simmons
+Processed customer: Aaron Porter Simmons
+Processed customer: Aaron Porter Simmons
+Processed customer: Aaron Quinn Pugh
+Processed customer: Aaron Quinn Pugh
+Processed customer: Aaron Quinn Pugh
+Processed customer: Aaron Roy Lawrence
+Processed customer: Aaron Roy Lawrence
+Processed customer: Aaron Roy Lawrence
+Processed customer: Aaron Sherrill Kirkland
+Processed customer: Aaron Sherrill Kirkland
+Processed customer: Aaron Sherrill Kirkland
+Processed customer: Adam  Butler
+Processed customer: Adam  Butler
+Processed customer: Adam  Butler
+Processed customer: Adam  Werner
+New customer: Aaron Benson McLean
+New customer: Aaron Clayton McKenzie
+New customer: Aaron Coleman Woods
+New customer: Aaron Douglas King
+New customer: Aaron Fowler Brandon
+New customer: Aaron Frazier Li
+New customer: Aaron McLeod Moody
+New customer: Aaron Montgomery McLamb
+New customer: Aaron Peacock Dalton
+New customer: Aaron Peters Carpenter
+New customer: Aaron Porter Simmons
+New customer: Aaron Quinn Pugh
+New customer: Aaron Roy Lawrence
+New customer: Aaron Sherrill Kirkland
+New customer: Adam  Butler
+New customer: Adam  Werner
+New parcel: D001
+New parcel: D002
+New parcel: D003
+New parcel: D004
+New parcel: D005
+New parcel: D006
+New parcel: D007
+New parcel: D008
+New parcel: D009
+New parcel: D010
+New parcel: D011
+New parcel: D012
+New parcel: D013
+New parcel: D014
+New parcel: D015
+New parcel: D016
+New parcel: D017
+New parcel: D018
+New parcel: D019
+New parcel: D020
+New parcel: D021
+New parcel: D022
+New parcel: D023
+New parcel: D024
+New parcel: D025
+New parcel: D026
+New parcel: D027
+New parcel: D028
+New parcel: D029
+New parcel: D030
+New parcel: D031
+New parcel: D032
+New parcel: D033
+customerList.size:16
+New order clerk added
+New order clerk added
+New order clerk added
+Processed customer: Aaron Benson McLean
+Processed customer: Aaron Benson McLean
+Processed customer: Aaron Benson McLean
+Processed customer: Aaron Clayton McKenzie
+Processed customer: Aaron Clayton McKenzie
+Processed customer: Aaron Clayton McKenzie
+Processed customer: Aaron Coleman Woods
+Processed customer: Aaron Coleman Woods
+Processed customer: Aaron Coleman Woods
+Processed customer: Aaron Douglas King
+Processed customer: Aaron Douglas King
+Processed customer: Aaron Douglas King
+Processed customer: Aaron Fowler Brandon
+Processed customer: Aaron Fowler Brandon
+Processed customer: Aaron Fowler Brandon
+Processed customer: Aaron Frazier Li
+Processed customer: Aaron Frazier Li
+Processed customer: Aaron Frazier Li
+Processed customer: Aaron McLeod Moody
+Processed customer: Aaron McLeod Moody
+Processed customer: Aaron McLeod Moody
+Processed customer: Aaron Montgomery McLamb
+Processed customer: Aaron Montgomery McLamb
+Processed customer: Aaron Montgomery McLamb
+Processed customer: Aaron Peacock Dalton
+Processed customer: Aaron Peacock Dalton
+Processed customer: Aaron Peacock Dalton
+Processed customer: Aaron Peters Carpenter
+Processed customer: Aaron Peters Carpenter
+Processed customer: Aaron Peters Carpenter
+Processed customer: Aaron Porter Simmons
+Processed customer: Aaron Porter Simmons
+Processed customer: Aaron Porter Simmons
+Processed customer: Aaron Quinn Pugh
+Processed customer: Aaron Quinn Pugh
+Processed customer: Aaron Quinn Pugh
+Processed customer: Aaron Roy Lawrence
+Processed customer: Aaron Roy Lawrence
+Processed customer: Aaron Roy Lawrence
+Processed customer: Aaron Sherrill Kirkland
+Processed customer: Aaron Sherrill Kirkland
+Processed customer: Aaron Sherrill Kirkland
+Processed customer: Adam  Butler
+Processed customer: Adam  Butler
+Processed customer: Adam  Butler
+Processed customer: Adam  Werner
+Processed customer: Adam  Werner
+New customer: Aaron Benson McLean
+New customer: Aaron Clayton McKenzie
+New customer: Aaron Coleman Woods
+New customer: Aaron Douglas King
+New customer: Aaron Fowler Brandon
+New customer: Aaron Frazier Li
+New customer: Aaron McLeod Moody
+New customer: Aaron Montgomery McLamb
+New customer: Aaron Peacock Dalton
+New customer: Aaron Peters Carpenter
+New customer: Aaron Porter Simmons
+New customer: Aaron Quinn Pugh
+New customer: Aaron Roy Lawrence
+New customer: Aaron Sherrill Kirkland
+New customer: Adam  Butler
+New customer: Adam  Werner
+New parcel: D001
+New parcel: D002
+New parcel: D003
+New parcel: D004
+New parcel: D005
+New parcel: D006
+New parcel: D007
+New parcel: D008
+New parcel: D009
+New parcel: D010
+New parcel: D011
+New parcel: D012
+New parcel: D013
+New parcel: D014
+New parcel: D015
+New parcel: D016
+New parcel: D017
+New parcel: D018
+New parcel: D019
+New parcel: D020
+New parcel: D021
+New parcel: D022
+New parcel: D023
+New parcel: D024
+New parcel: D025
+New parcel: D026
+New parcel: D027
+New parcel: D028
+New parcel: D029
+New parcel: D030
+New parcel: D031
+New parcel: D032
+New parcel: D033
+customerList.size:16
+New order clerk added
+New order clerk added
+New order clerk added
+Processed customer: Aaron Benson McLean
+Processed customer: Aaron Benson McLean
+Processed customer: Aaron Benson McLean
+Processed customer: Aaron Clayton McKenzie
+Processed customer: Aaron Clayton McKenzie
+Processed customer: Aaron Clayton McKenzie
+Processed customer: Aaron Coleman Woods
+Processed customer: Aaron Coleman Woods
+Processed customer: Aaron Coleman Woods
+Processed customer: Aaron Douglas King
+Processed customer: Aaron Douglas King
+Processed customer: Aaron Douglas King
+Processed customer: Aaron Fowler Brandon
+Processed customer: Aaron Fowler Brandon
+Processed customer: Aaron Fowler Brandon
+Processed customer: Aaron Frazier Li
+Processed customer: Aaron Frazier Li
+Processed customer: Aaron Frazier Li
+Processed customer: Aaron McLeod Moody
+Processed customer: Aaron McLeod Moody
+Processed customer: Aaron McLeod Moody
+Processed customer: Aaron Montgomery McLamb
+Processed customer: Aaron Montgomery McLamb
+Processed customer: Aaron Montgomery McLamb
+Processed customer: Aaron Peacock Dalton
+Processed customer: Aaron Peacock Dalton
+Processed customer: Aaron Peacock Dalton
+Processed customer: Aaron Peters Carpenter
+Processed customer: Aaron Peters Carpenter
+Processed customer: Aaron Peters Carpenter
+Processed customer: Aaron Porter Simmons
+Processed customer: Aaron Porter Simmons
+Processed customer: Aaron Porter Simmons
+Processed customer: Aaron Quinn Pugh
+Processed customer: Aaron Quinn Pugh
+Processed customer: Aaron Quinn Pugh
+Processed customer: Aaron Roy Lawrence
+Processed customer: Aaron Roy Lawrence
+Processed customer: Aaron Roy Lawrence
+Processed customer: Aaron Sherrill Kirkland
+Processed customer: Aaron Sherrill Kirkland
+Processed customer: Aaron Sherrill Kirkland
+Processed customer: Adam  Butler
+Processed customer: Adam  Butler
+Processed customer: Adam  Butler
+Processed customer: Adam  Werner
+Processed customer: Adam  Werner
+Processed customer: Adam  Werner
+New customer: Aaron Benson McLean
+New customer: Aaron Clayton McKenzie
+New customer: Aaron Coleman Woods
+New customer: Aaron Douglas King
+New customer: Aaron Fowler Brandon
+New customer: Aaron Frazier Li
+New customer: Aaron McLeod Moody
+New customer: Aaron Montgomery McLamb
+New customer: Aaron Peacock Dalton
+New customer: Aaron Peters Carpenter
+New customer: Aaron Porter Simmons
+New customer: Aaron Quinn Pugh
+New customer: Aaron Roy Lawrence
+New customer: Aaron Sherrill Kirkland
+New customer: Adam  Butler
+New customer: Adam  Werner
+New customer: Aaron Benson McLean
+New customer: Aaron Clayton McKenzie
+New customer: Aaron Coleman Woods
+New customer: Aaron Douglas King
+New customer: Aaron Fowler Brandon
+New customer: Aaron Frazier Li
+New customer: Aaron McLeod Moody
+New customer: Aaron Montgomery McLamb
+New customer: Aaron Peacock Dalton
+New customer: Aaron Peters Carpenter
+New customer: Aaron Porter Simmons
+New customer: Aaron Quinn Pugh
+New customer: Aaron Roy Lawrence
+New customer: Aaron Sherrill Kirkland
+New customer: Adam  Butler
+New customer: Adam  Werner
+New parcel: D001
+New parcel: D002
+New parcel: D003
+New parcel: D004
+New parcel: D005
+New parcel: D006
+New parcel: D007
+New parcel: D008
+New parcel: D009
+New parcel: D010
+New parcel: D011
+New parcel: D012
+New parcel: D013
+New parcel: D014
+New parcel: D015
+New parcel: D016
+New parcel: D017
+New parcel: D018
+New parcel: D019
+New parcel: D020
+New parcel: D021
+New parcel: D022
+New parcel: D023
+New parcel: D024
+New parcel: D025
+New parcel: D026
+New parcel: D027
+New parcel: D028
+New parcel: D029
+New parcel: D030
+New parcel: D031
+New parcel: D032
+New parcel: D033
+New customer: Aaron Benson McLean
+New customer: Aaron Clayton McKenzie
+New customer: Aaron Coleman Woods
+New customer: Aaron Douglas King
+New customer: Aaron Fowler Brandon
+New customer: Aaron Frazier Li
+New customer: Aaron McLeod Moody
+New customer: Aaron Montgomery McLamb
+New customer: Aaron Peacock Dalton
+New customer: Aaron Peters Carpenter
+New customer: Aaron Porter Simmons
+New customer: Aaron Quinn Pugh
+New customer: Aaron Roy Lawrence
+New customer: Aaron Sherrill Kirkland
+New customer: Adam  Butler
+New customer: Adam  Werner
+New customer: Aaron Benson McLean
+New customer: Aaron Clayton McKenzie
+New customer: Aaron Coleman Woods
+New customer: Aaron Douglas King
+New customer: Aaron Fowler Brandon
+New customer: Aaron Frazier Li
+New customer: Aaron McLeod Moody
+New customer: Aaron Montgomery McLamb
+New customer: Aaron Peacock Dalton
+New customer: Aaron Peters Carpenter
+New customer: Aaron Porter Simmons
+New customer: Aaron Quinn Pugh
+New customer: Aaron Roy Lawrence
+New customer: Aaron Sherrill Kirkland
+New customer: Adam  Butler
+New customer: Adam  Werner
+New parcel: D001
+New parcel: D002
+New parcel: D003
+New parcel: D004
+New parcel: D005
+New parcel: D006
+New parcel: D007
+New parcel: D008
+New parcel: D009
+New parcel: D010
+New parcel: D011
+New parcel: D012
+New parcel: D013
+New parcel: D014
+New parcel: D015
+New parcel: D016
+New parcel: D017
+New parcel: D018
+New parcel: D019
+New parcel: D020
+New parcel: D021
+New parcel: D022
+New parcel: D023
+New parcel: D024
+New parcel: D025
+New parcel: D026
+New parcel: D027
+New parcel: D028
+New parcel: D029
+New parcel: D030
+New parcel: D031
+New parcel: D032
+New parcel: D033
+New customer: Aaron Benson McLean
+New customer: Aaron Clayton McKenzie
+New customer: Aaron Coleman Woods
+New customer: Aaron Douglas King
+New customer: Aaron Fowler Brandon
+New customer: Aaron Frazier Li
+New customer: Aaron McLeod Moody
+New customer: Aaron Montgomery McLamb
+New customer: Aaron Peacock Dalton
+New customer: Aaron Peters Carpenter
+New customer: Aaron Porter Simmons
+New customer: Aaron Quinn Pugh
+New customer: Aaron Roy Lawrence
+New customer: Aaron Sherrill Kirkland
+New customer: Adam  Butler
+New customer: Adam  Werner
+New customer: Aaron Benson McLean
+New customer: Aaron Clayton McKenzie
+New customer: Aaron Coleman Woods
+New customer: Aaron Douglas King
+New customer: Aaron Fowler Brandon
+New customer: Aaron Frazier Li
+New customer: Aaron McLeod Moody
+New customer: Aaron Montgomery McLamb
+New customer: Aaron Peacock Dalton
+New customer: Aaron Peters Carpenter
+New customer: Aaron Porter Simmons
+New customer: Aaron Quinn Pugh
+New customer: Aaron Roy Lawrence
+New customer: Aaron Sherrill Kirkland
+New customer: Adam  Butler
+New customer: Adam  Werner
+New parcel: D001
+New parcel: D002
+New parcel: D003
+New parcel: D004
+New parcel: D005
+New parcel: D006
+New parcel: D007
+New parcel: D008
+New parcel: D009
+New parcel: D010
+New parcel: D011
+New parcel: D012
+New parcel: D013
+New parcel: D014
+New parcel: D015
+New parcel: D016
+New parcel: D017
+New parcel: D018
+New parcel: D019
+New parcel: D020
+New parcel: D021
+New parcel: D022
+New parcel: D023
+New parcel: D024
+New parcel: D025
+New parcel: D026
+New parcel: D027
+New parcel: D028
+New parcel: D029
+New parcel: D030
+New parcel: D031
+New parcel: D032
+New parcel: D033
+New customer: Aaron Benson McLean
+New customer: Aaron Clayton McKenzie
+New customer: Aaron Coleman Woods
+New customer: Aaron Douglas King
+New customer: Aaron Fowler Brandon
+New customer: Aaron Frazier Li
+New customer: Aaron McLeod Moody
+New customer: Aaron Montgomery McLamb
+New customer: Aaron Peacock Dalton
+New customer: Aaron Peters Carpenter
+New customer: Aaron Porter Simmons
+New customer: Aaron Quinn Pugh
+New customer: Aaron Roy Lawrence
+New customer: Aaron Sherrill Kirkland
+New customer: Adam  Butler
+New customer: Adam  Werner
+New customer: Aaron Benson McLean
+New customer: Aaron Clayton McKenzie
+New customer: Aaron Coleman Woods
+New customer: Aaron Douglas King
+New customer: Aaron Fowler Brandon
+New customer: Aaron Frazier Li
+New customer: Aaron McLeod Moody
+New customer: Aaron Montgomery McLamb
+New customer: Aaron Peacock Dalton
+New customer: Aaron Peters Carpenter
+New customer: Aaron Porter Simmons
+New customer: Aaron Quinn Pugh
+New customer: Aaron Roy Lawrence
+New customer: Aaron Sherrill Kirkland
+New customer: Adam  Butler
+New customer: Adam  Werner
+New parcel: D001
+New parcel: D002
+New parcel: D003
+New parcel: D004
+New parcel: D005
+New parcel: D006
+New parcel: D007
+New parcel: D008
+New parcel: D009
+New parcel: D010
+New parcel: D011
+New parcel: D012
+New parcel: D013
+New parcel: D014
+New parcel: D015
+New parcel: D016
+New parcel: D017
+New parcel: D018
+New parcel: D019
+New parcel: D020
+New parcel: D021
+New parcel: D022
+New parcel: D023
+New parcel: D024
+New parcel: D025
+New parcel: D026
+New parcel: D027
+New parcel: D028
+New parcel: D029
+New parcel: D030
+New parcel: D031
+New parcel: D032
+New parcel: D033
+New customer: Aaron Benson McLean
+New customer: Aaron Clayton McKenzie
+New customer: Aaron Coleman Woods
+New customer: Aaron Douglas King
+New customer: Aaron Fowler Brandon
+New customer: Aaron Frazier Li
+New customer: Aaron McLeod Moody
+New customer: Aaron Montgomery McLamb
+New customer: Aaron Peacock Dalton
+New customer: Aaron Peters Carpenter
+New customer: Aaron Porter Simmons
+New customer: Aaron Quinn Pugh
+New customer: Aaron Roy Lawrence
+New customer: Aaron Sherrill Kirkland
+New customer: Adam  Butler
+New customer: Adam  Werner
+New customer: Aaron Benson McLean
+New customer: Aaron Clayton McKenzie
+New customer: Aaron Coleman Woods
+New customer: Aaron Douglas King
+New customer: Aaron Fowler Brandon
+New customer: Aaron Frazier Li
+New customer: Aaron McLeod Moody
+New customer: Aaron Montgomery McLamb
+New customer: Aaron Peacock Dalton
+New customer: Aaron Peters Carpenter
+New customer: Aaron Porter Simmons
+New customer: Aaron Quinn Pugh
+New customer: Aaron Roy Lawrence
+New customer: Aaron Sherrill Kirkland
+New customer: Adam  Butler
+New customer: Adam  Werner
+New parcel: D001
+New parcel: D002
+New parcel: D003
+New parcel: D004
+New parcel: D005
+New parcel: D006
+New parcel: D007
+New parcel: D008
+New parcel: D009
+New parcel: D010
+New parcel: D011
+New parcel: D012
+New parcel: D013
+New parcel: D014
+New parcel: D015
+New parcel: D016
+New parcel: D017
+New parcel: D018
+New parcel: D019
+New parcel: D020
+New parcel: D021
+New parcel: D022
+New parcel: D023
+New parcel: D024
+New parcel: D025
+New parcel: D026
+New parcel: D027
+New parcel: D028
+New parcel: D029
+New parcel: D030
+New parcel: D031
+New parcel: D032
+New parcel: D033
+New customer: Aaron Benson McLean
+New customer: Aaron Clayton McKenzie
+New customer: Aaron Coleman Woods
+New customer: Aaron Douglas King
+New customer: Aaron Fowler Brandon
+New customer: Aaron Frazier Li
+New customer: Aaron McLeod Moody
+New customer: Aaron Montgomery McLamb
+New customer: Aaron Peacock Dalton
+New customer: Aaron Peters Carpenter
+New customer: Aaron Porter Simmons
+New customer: Aaron Quinn Pugh
+New customer: Aaron Roy Lawrence
+New customer: Aaron Sherrill Kirkland
+New customer: Adam  Butler
+New customer: Adam  Werner
+New customer: Aaron Benson McLean
+New customer: Aaron Clayton McKenzie
+New customer: Aaron Coleman Woods
+New customer: Aaron Douglas King
+New customer: Aaron Fowler Brandon
+New customer: Aaron Frazier Li
+New customer: Aaron McLeod Moody
+New customer: Aaron Montgomery McLamb
+New customer: Aaron Peacock Dalton
+New customer: Aaron Peters Carpenter
+New customer: Aaron Porter Simmons
+New customer: Aaron Quinn Pugh
+New customer: Aaron Roy Lawrence
+New customer: Aaron Sherrill Kirkland
+New customer: Adam  Butler
+New customer: Adam  Werner
+New parcel: D001
+New parcel: D002
+New parcel: D003
+New parcel: D004
+New parcel: D005
+New parcel: D006
+New parcel: D007
+New parcel: D008
+New parcel: D009
+New parcel: D010
+New parcel: D011
+New parcel: D012
+New parcel: D013
+New parcel: D014
+New parcel: D015
+New parcel: D016
+New parcel: D017
+New parcel: D018
+New parcel: D019
+New parcel: D020
+New parcel: D021
+New parcel: D022
+New parcel: D023
+New parcel: D024
+New parcel: D025
+New parcel: D026
+New parcel: D027
+New parcel: D028
+New parcel: D029
+New parcel: D030
+New parcel: D031
+New parcel: D032
+New parcel: D033
+New customer: Aaron Benson McLean
+New customer: Aaron Clayton McKenzie
+New customer: Aaron Coleman Woods
+New customer: Aaron Douglas King
+New customer: Aaron Fowler Brandon
+New customer: Aaron Frazier Li
+New customer: Aaron McLeod Moody
+New customer: Aaron Montgomery McLamb
+New customer: Aaron Peacock Dalton
+New customer: Aaron Peters Carpenter
+New customer: Aaron Porter Simmons
+New customer: Aaron Quinn Pugh
+New customer: Aaron Roy Lawrence
+New customer: Aaron Sherrill Kirkland
+New customer: Adam  Butler
+New customer: Adam  Werner
+New customer: Aaron Benson McLean
+New customer: Aaron Clayton McKenzie
+New customer: Aaron Coleman Woods
+New customer: Aaron Douglas King
+New customer: Aaron Fowler Brandon
+New customer: Aaron Frazier Li
+New customer: Aaron McLeod Moody
+New customer: Aaron Montgomery McLamb
+New customer: Aaron Peacock Dalton
+New customer: Aaron Peters Carpenter
+New customer: Aaron Porter Simmons
+New customer: Aaron Quinn Pugh
+New customer: Aaron Roy Lawrence
+New customer: Aaron Sherrill Kirkland
+New customer: Adam  Butler
+New customer: Adam  Werner
+New parcel: D001
+New parcel: D002
+New parcel: D003
+New parcel: D004
+New parcel: D005
+New parcel: D006
+New parcel: D007
+New parcel: D008
+New parcel: D009
+New parcel: D010
+New parcel: D011
+New parcel: D012
+New parcel: D013
+New parcel: D014
+New parcel: D015
+New parcel: D016
+New parcel: D017
+New parcel: D018
+New parcel: D019
+New parcel: D020
+New parcel: D021
+New parcel: D022
+New parcel: D023
+New parcel: D024
+New parcel: D025
+New parcel: D026
+New parcel: D027
+New parcel: D028
+New parcel: D029
+New parcel: D030
+New parcel: D031
+New parcel: D032
+New parcel: D033
+New customer: Aaron Benson McLean
+New customer: Aaron Clayton McKenzie
+New customer: Aaron Coleman Woods
+New customer: Aaron Douglas King
+New customer: Aaron Fowler Brandon
+New customer: Aaron Frazier Li
+New customer: Aaron McLeod Moody
+New customer: Aaron Montgomery McLamb
+New customer: Aaron Peacock Dalton
+New customer: Aaron Peters Carpenter
+New customer: Aaron Porter Simmons
+New customer: Aaron Quinn Pugh
+New customer: Aaron Roy Lawrence
+New customer: Aaron Sherrill Kirkland
+New customer: Adam  Butler
+New customer: Adam  Werner
+New customer: Aaron Benson McLean
+New customer: Aaron Clayton McKenzie
+New customer: Aaron Coleman Woods
+New customer: Aaron Douglas King
+New customer: Aaron Fowler Brandon
+New customer: Aaron Frazier Li
+New customer: Aaron McLeod Moody
+New customer: Aaron Montgomery McLamb
+New customer: Aaron Peacock Dalton
+New customer: Aaron Peters Carpenter
+New customer: Aaron Porter Simmons
+New customer: Aaron Quinn Pugh
+New customer: Aaron Roy Lawrence
+New customer: Aaron Sherrill Kirkland
+New customer: Adam  Butler
+New customer: Adam  Werner
+New parcel: D001
+New parcel: D002
+New parcel: D003
+New parcel: D004
+New parcel: D005
+New parcel: D006
+New parcel: D007
+New parcel: D008
+New parcel: D009
+New parcel: D010
+New parcel: D011
+New parcel: D012
+New parcel: D013
+New parcel: D014
+New parcel: D015
+New parcel: D016
+New parcel: D017
+New parcel: D018
+New parcel: D019
+New parcel: D020
+New parcel: D021
+New parcel: D022
+New parcel: D023
+New parcel: D024
+New parcel: D025
+New parcel: D026
+New parcel: D027
+New parcel: D028
+New parcel: D029
+New parcel: D030
+New parcel: D031
+New parcel: D032
+New parcel: D033
+New customer: Aaron Benson McLean
+New customer: Aaron Clayton McKenzie
+New customer: Aaron Coleman Woods
+New customer: Aaron Douglas King
+New customer: Aaron Fowler Brandon
+New customer: Aaron Frazier Li
+New customer: Aaron McLeod Moody
+New customer: Aaron Montgomery McLamb
+New customer: Aaron Peacock Dalton
+New customer: Aaron Peters Carpenter
+New customer: Aaron Porter Simmons
+New customer: Aaron Quinn Pugh
+New customer: Aaron Roy Lawrence
+New customer: Aaron Sherrill Kirkland
+New customer: Adam  Butler
+New customer: Adam  Werner
+New customer: Aaron Benson McLean
+New customer: Aaron Clayton McKenzie
+New customer: Aaron Coleman Woods
+New customer: Aaron Douglas King
+New customer: Aaron Fowler Brandon
+New customer: Aaron Frazier Li
+New customer: Aaron McLeod Moody
+New customer: Aaron Montgomery McLamb
+New customer: Aaron Peacock Dalton
+New customer: Aaron Peters Carpenter
+New customer: Aaron Porter Simmons
+New customer: Aaron Quinn Pugh
+New customer: Aaron Roy Lawrence
+New customer: Aaron Sherrill Kirkland
+New customer: Adam  Butler
+New customer: Adam  Werner
+New parcel: D001
+New parcel: D002
+New parcel: D003
+New parcel: D004
+New parcel: D005
+New parcel: D006
+New parcel: D007
+New parcel: D008
+New parcel: D009
+New parcel: D010
+New parcel: D011
+New parcel: D012
+New parcel: D013
+New parcel: D014
+New parcel: D015
+New parcel: D016
+New parcel: D017
+New parcel: D018
+New parcel: D019
+New parcel: D020
+New parcel: D021
+New parcel: D022
+New parcel: D023
+New parcel: D024
+New parcel: D025
+New parcel: D026
+New parcel: D027
+New parcel: D028
+New parcel: D029
+New parcel: D030
+New parcel: D031
+New parcel: D032
+New parcel: D033
+New customer: Aaron Benson McLean
+New customer: Aaron Clayton McKenzie
+New customer: Aaron Coleman Woods
+New customer: Aaron Douglas King
+New customer: Aaron Fowler Brandon
+New customer: Aaron Frazier Li
+New customer: Aaron McLeod Moody
+New customer: Aaron Montgomery McLamb
+New customer: Aaron Peacock Dalton
+New customer: Aaron Peters Carpenter
+New customer: Aaron Porter Simmons
+New customer: Aaron Quinn Pugh
+New customer: Aaron Roy Lawrence
+New customer: Aaron Sherrill Kirkland
+New customer: Adam  Butler
+New customer: Adam  Werner
+New customer: Aaron Benson McLean
+New customer: Aaron Clayton McKenzie
+New customer: Aaron Coleman Woods
+New customer: Aaron Douglas King
+New customer: Aaron Fowler Brandon
+New customer: Aaron Frazier Li
+New customer: Aaron McLeod Moody
+New customer: Aaron Montgomery McLamb
+New customer: Aaron Peacock Dalton
+New customer: Aaron Peters Carpenter
+New customer: Aaron Porter Simmons
+New customer: Aaron Quinn Pugh
+New customer: Aaron Roy Lawrence
+New customer: Aaron Sherrill Kirkland
+New customer: Adam  Butler
+New customer: Adam  Werner
+New parcel: D001
+New parcel: D002
+New parcel: D003
+New parcel: D004
+New parcel: D005
+New parcel: D006
+New parcel: D007
+New parcel: D008
+New parcel: D009
+New parcel: D010
+New parcel: D011
+New parcel: D012
+New parcel: D013
+New parcel: D014
+New parcel: D015
+New parcel: D016
+New parcel: D017
+New parcel: D018
+New parcel: D019
+New parcel: D020
+New parcel: D021
+New parcel: D022
+New parcel: D023
+New parcel: D024
+New parcel: D025
+New parcel: D026
+New parcel: D027
+New parcel: D028
+New parcel: D029
+New parcel: D030
+New parcel: D031
+New parcel: D032
+New parcel: D033
+New customer: Aaron Benson McLean
+New customer: Aaron Clayton McKenzie
+New customer: Aaron Coleman Woods
+New customer: Aaron Douglas King
+New customer: Aaron Fowler Brandon
+New customer: Aaron Frazier Li
+New customer: Aaron McLeod Moody
+New customer: Aaron Montgomery McLamb
+New customer: Aaron Peacock Dalton
+New customer: Aaron Peters Carpenter
+New customer: Aaron Porter Simmons
+New customer: Aaron Quinn Pugh
+New customer: Aaron Roy Lawrence
+New customer: Aaron Sherrill Kirkland
+New customer: Adam  Butler
+New customer: Adam  Werner
+New customer: Aaron Benson McLean
+New customer: Aaron Clayton McKenzie
+New customer: Aaron Coleman Woods
+New customer: Aaron Douglas King
+New customer: Aaron Fowler Brandon
+New customer: Aaron Frazier Li
+New customer: Aaron McLeod Moody
+New customer: Aaron Montgomery McLamb
+New customer: Aaron Peacock Dalton
+New customer: Aaron Peters Carpenter
+New customer: Aaron Porter Simmons
+New customer: Aaron Quinn Pugh
+New customer: Aaron Roy Lawrence
+New customer: Aaron Sherrill Kirkland
+New customer: Adam  Butler
+New customer: Adam  Werner
+New parcel: D001
+New parcel: D002
+New parcel: D003
+New parcel: D004
+New parcel: D005
+New parcel: D006
+New parcel: D007
+New parcel: D008
+New parcel: D009
+New parcel: D010
+New parcel: D011
+New parcel: D012
+New parcel: D013
+New parcel: D014
+New parcel: D015
+New parcel: D016
+New parcel: D017
+New parcel: D018
+New parcel: D019
+New parcel: D020
+New parcel: D021
+New parcel: D022
+New parcel: D023
+New parcel: D024
+New parcel: D025
+New parcel: D026
+New parcel: D027
+New parcel: D028
+New parcel: D029
+New parcel: D030
+New parcel: D031
+New parcel: D032
+New parcel: D033
+New customer: Aaron Benson McLean
+New customer: Aaron Clayton McKenzie
+New customer: Aaron Coleman Woods
+New customer: Aaron Douglas King
+New customer: Aaron Fowler Brandon
+New customer: Aaron Frazier Li
+New customer: Aaron McLeod Moody
+New customer: Aaron Montgomery McLamb
+New customer: Aaron Peacock Dalton
+New customer: Aaron Peters Carpenter
+New customer: Aaron Porter Simmons
+New customer: Aaron Quinn Pugh
+New customer: Aaron Roy Lawrence
+New customer: Aaron Sherrill Kirkland
+New customer: Adam  Butler
+New customer: Adam  Werner
+New customer: Aaron Benson McLean
+New customer: Aaron Clayton McKenzie
+New customer: Aaron Coleman Woods
+New customer: Aaron Douglas King
+New customer: Aaron Fowler Brandon
+New customer: Aaron Frazier Li
+New customer: Aaron McLeod Moody
+New customer: Aaron Montgomery McLamb
+New customer: Aaron Peacock Dalton
+New customer: Aaron Peters Carpenter
+New customer: Aaron Porter Simmons
+New customer: Aaron Quinn Pugh
+New customer: Aaron Roy Lawrence
+New customer: Aaron Sherrill Kirkland
+New customer: Adam  Butler
+New customer: Adam  Werner
+New parcel: D001
+New parcel: D002
+New parcel: D003
+New parcel: D004
+New parcel: D005
+New parcel: D006
+New parcel: D007
+New parcel: D008
+New parcel: D009
+New parcel: D010
+New parcel: D011
+New parcel: D012
+New parcel: D013
+New parcel: D014
+New parcel: D015
+New parcel: D016
+New parcel: D017
+New parcel: D018
+New parcel: D019
+New parcel: D020
+New parcel: D021
+New parcel: D022
+New parcel: D023
+New parcel: D024
+New parcel: D025
+New parcel: D026
+New parcel: D027
+New parcel: D028
+New parcel: D029
+New parcel: D030
+New parcel: D031
+New parcel: D032
+New parcel: D033
+New customer: Aaron Benson McLean
+New customer: Aaron Clayton McKenzie
+New customer: Aaron Coleman Woods
+New customer: Aaron Douglas King
+New customer: Aaron Fowler Brandon
+New customer: Aaron Frazier Li
+New customer: Aaron McLeod Moody
+New customer: Aaron Montgomery McLamb
+New customer: Aaron Peacock Dalton
+New customer: Aaron Peters Carpenter
+New customer: Aaron Porter Simmons
+New customer: Aaron Quinn Pugh
+New customer: Aaron Roy Lawrence
+New customer: Aaron Sherrill Kirkland
+New customer: Adam  Butler
+New customer: Adam  Werner
+New customer: Aaron Benson McLean
+New customer: Aaron Clayton McKenzie
+New customer: Aaron Coleman Woods
+New customer: Aaron Douglas King
+New customer: Aaron Fowler Brandon
+New customer: Aaron Frazier Li
+New customer: Aaron McLeod Moody
+New customer: Aaron Montgomery McLamb
+New customer: Aaron Peacock Dalton
+New customer: Aaron Peters Carpenter
+New customer: Aaron Porter Simmons
+New customer: Aaron Quinn Pugh
+New customer: Aaron Roy Lawrence
+New customer: Aaron Sherrill Kirkland
+New customer: Adam  Butler
+New customer: Adam  Werner
+New parcel: D001
+New parcel: D002
+New parcel: D003
+New parcel: D004
+New parcel: D005
+New parcel: D006
+New parcel: D007
+New parcel: D008
+New parcel: D009
+New parcel: D010
+New parcel: D011
+New parcel: D012
+New parcel: D013
+New parcel: D014
+New parcel: D015
+New parcel: D016
+New parcel: D017
+New parcel: D018
+New parcel: D019
+New parcel: D020
+New parcel: D021
+New parcel: D022
+New parcel: D023
+New parcel: D024
+New parcel: D025
+New parcel: D026
+New parcel: D027
+New parcel: D028
+New parcel: D029
+New parcel: D030
+New parcel: D031
+New parcel: D032
+New parcel: D033
+New customer: Aaron Benson McLean
+New customer: Aaron Clayton McKenzie
+New customer: Aaron Coleman Woods
+New customer: Aaron Douglas King
+New customer: Aaron Fowler Brandon
+New customer: Aaron Frazier Li
+New customer: Aaron McLeod Moody
+New customer: Aaron Montgomery McLamb
+New customer: Aaron Peacock Dalton
+New customer: Aaron Peters Carpenter
+New customer: Aaron Porter Simmons
+New customer: Aaron Quinn Pugh
+New customer: Aaron Roy Lawrence
+New customer: Aaron Sherrill Kirkland
+New customer: Adam  Butler
+New customer: Adam  Werner
+New customer: Aaron Benson McLean
+New customer: Aaron Clayton McKenzie
+New customer: Aaron Coleman Woods
+New customer: Aaron Douglas King
+New customer: Aaron Fowler Brandon
+New customer: Aaron Frazier Li
+New customer: Aaron McLeod Moody
+New customer: Aaron Montgomery McLamb
+New customer: Aaron Peacock Dalton
+New customer: Aaron Peters Carpenter
+New customer: Aaron Porter Simmons
+New customer: Aaron Quinn Pugh
+New customer: Aaron Roy Lawrence
+New customer: Aaron Sherrill Kirkland
+New customer: Adam  Butler
+New customer: Adam  Werner
+New parcel: D001
+New parcel: D002
+New parcel: D003
+New parcel: D004
+New parcel: D005
+New parcel: D006
+New parcel: D007
+New parcel: D008
+New parcel: D009
+New parcel: D010
+New parcel: D011
+New parcel: D012
+New parcel: D013
+New parcel: D014
+New parcel: D015
+New parcel: D016
+New parcel: D017
+New parcel: D018
+New parcel: D019
+New parcel: D020
+New parcel: D021
+New parcel: D022
+New parcel: D023
+New parcel: D024
+New parcel: D025
+New parcel: D026
+New parcel: D027
+New parcel: D028
+New parcel: D029
+New parcel: D030
+New parcel: D031
+New parcel: D032
+New parcel: D033
+New customer: Aaron Benson McLean
+New customer: Aaron Clayton McKenzie
+New customer: Aaron Coleman Woods
+New customer: Aaron Douglas King
+New customer: Aaron Fowler Brandon
+New customer: Aaron Frazier Li
+New customer: Aaron McLeod Moody
+New customer: Aaron Montgomery McLamb
+New customer: Aaron Peacock Dalton
+New customer: Aaron Peters Carpenter
+New customer: Aaron Porter Simmons
+New customer: Aaron Quinn Pugh
+New customer: Aaron Roy Lawrence
+New customer: Aaron Sherrill Kirkland
+New customer: Adam  Butler
+New customer: Adam  Werner
+New customer: Aaron Benson McLean
+New customer: Aaron Clayton McKenzie
+New customer: Aaron Coleman Woods
+New customer: Aaron Douglas King
+New customer: Aaron Fowler Brandon
+New customer: Aaron Frazier Li
+New customer: Aaron McLeod Moody
+New customer: Aaron Montgomery McLamb
+New customer: Aaron Peacock Dalton
+New customer: Aaron Peters Carpenter
+New customer: Aaron Porter Simmons
+New customer: Aaron Quinn Pugh
+New customer: Aaron Roy Lawrence
+New customer: Aaron Sherrill Kirkland
+New customer: Adam  Butler
+New customer: Adam  Werner
+New parcel: D001
+New parcel: D002
+New parcel: D003
+New parcel: D004
+New parcel: D005
+New parcel: D006
+New parcel: D007
+New parcel: D008
+New parcel: D009
+New parcel: D010
+New parcel: D011
+New parcel: D012
+New parcel: D013
+New parcel: D014
+New parcel: D015
+New parcel: D016
+New parcel: D017
+New parcel: D018
+New parcel: D019
+New parcel: D020
+New parcel: D021
+New parcel: D022
+New parcel: D023
+New parcel: D024
+New parcel: D025
+New parcel: D026
+New parcel: D027
+New parcel: D028
+New parcel: D029
+New parcel: D030
+New parcel: D031
+New parcel: D032
+New parcel: D033
+New customer: Aaron Benson McLean
+New customer: Aaron Clayton McKenzie
+New customer: Aaron Coleman Woods
+New customer: Aaron Douglas King
+New customer: Aaron Fowler Brandon
+New customer: Aaron Frazier Li
+New customer: Aaron McLeod Moody
+New customer: Aaron Montgomery McLamb
+New customer: Aaron Peacock Dalton
+New customer: Aaron Peters Carpenter
+New customer: Aaron Porter Simmons
+New customer: Aaron Quinn Pugh
+New customer: Aaron Roy Lawrence
+New customer: Aaron Sherrill Kirkland
+New customer: Adam  Butler
+New customer: Adam  Werner
+New parcel: D001
+New parcel: D002
+New parcel: D003
+New parcel: D004
+New parcel: D005
+New parcel: D006
+New parcel: D007
+New parcel: D008
+New parcel: D009
+New parcel: D010
+New parcel: D011
+New parcel: D012
+New parcel: D013
+New parcel: D014
+New parcel: D015
+New parcel: D016
+New parcel: D017
+New parcel: D018
+New parcel: D019
+New parcel: D020
+New parcel: D021
+New parcel: D022
+New parcel: D023
+New parcel: D024
+New parcel: D025
+New parcel: D026
+New parcel: D027
+New parcel: D028
+New parcel: D029
+New parcel: D030
+New parcel: D031
+New parcel: D032
+New parcel: D033
+customerList.size:16
+New order clerk added
+New order clerk added
+New order clerk added
+Processed customer: Aaron Benson McLean
+Processed customer: Aaron Benson McLean
+Processed customer: Aaron Benson McLean
+Processed customer: Aaron Clayton McKenzie
+Processed customer: Aaron Clayton McKenzie
+Processed customer: Aaron Clayton McKenzie
+Processed customer: Aaron Coleman Woods
+Processed customer: Aaron Coleman Woods
+Processed customer: Aaron Coleman Woods
+Processed customer: Aaron Douglas King
+Processed customer: Aaron Douglas King
+Processed customer: Aaron Douglas King
+Processed customer: Aaron Fowler Brandon
+Processed customer: Aaron Fowler Brandon
+Processed customer: Aaron Fowler Brandon
+Processed customer: Aaron Frazier Li
+Processed customer: Aaron Frazier Li
+Processed customer: Aaron Frazier Li
+Processed customer: Aaron McLeod Moody
+Processed customer: Aaron McLeod Moody
+Processed customer: Aaron McLeod Moody
+Processed customer: Aaron Montgomery McLamb
+Processed customer: Aaron Montgomery McLamb
+Processed customer: Aaron Montgomery McLamb
+Processed customer: Aaron Peacock Dalton
+Processed customer: Aaron Peacock Dalton
+Processed customer: Aaron Peacock Dalton
+Processed customer: Aaron Peters Carpenter
+Processed customer: Aaron Peters Carpenter
+Processed customer: Aaron Peters Carpenter
+Processed customer: Aaron Porter Simmons
+Processed customer: Aaron Porter Simmons
+Processed customer: Aaron Porter Simmons
+Processed customer: Aaron Quinn Pugh
+Processed customer: Aaron Quinn Pugh
+Processed customer: Aaron Quinn Pugh
+Processed customer: Aaron Roy Lawrence
+Processed customer: Aaron Roy Lawrence
+Processed customer: Aaron Roy Lawrence
+Processed customer: Aaron Sherrill Kirkland
+Processed customer: Aaron Sherrill Kirkland
+Processed customer: Aaron Sherrill Kirkland
+Processed customer: Adam  Butler
+Processed customer: Adam  Butler
+Processed customer: Adam  Butler
+Processed customer: Adam  Werner
+New customer: Aaron Benson McLean
+New customer: Aaron Clayton McKenzie
+New customer: Aaron Coleman Woods
+New customer: Aaron Douglas King
+New customer: Aaron Fowler Brandon
+New customer: Aaron Frazier Li
+New customer: Aaron McLeod Moody
+New customer: Aaron Montgomery McLamb
+New customer: Aaron Peacock Dalton
+New customer: Aaron Peters Carpenter
+New customer: Aaron Porter Simmons
+New customer: Aaron Quinn Pugh
+New customer: Aaron Roy Lawrence
+New customer: Aaron Sherrill Kirkland
+New customer: Adam  Butler
+New customer: Adam  Werner
+New parcel: D001
+New parcel: D002
+New parcel: D003
+New parcel: D004
+New parcel: D005
+New parcel: D006
+New parcel: D007
+New parcel: D008
+New parcel: D009
+New parcel: D010
+New parcel: D011
+New parcel: D012
+New parcel: D013
+New parcel: D014
+New parcel: D015
+New parcel: D016
+New parcel: D017
+New parcel: D018
+New parcel: D019
+New parcel: D020
+New parcel: D021
+New parcel: D022
+New parcel: D023
+New parcel: D024
+New parcel: D025
+New parcel: D026
+New parcel: D027
+New parcel: D028
+New parcel: D029
+New parcel: D030
+New parcel: D031
+New parcel: D032
+New parcel: D033
+customerList.size:16
+New order clerk added
+New order clerk added
+New order clerk added
+Processed customer: Aaron Benson McLean
+Processed customer: Aaron Benson McLean
+Processed customer: Aaron Benson McLean
+Processed customer: Aaron Clayton McKenzie
+Processed customer: Aaron Clayton McKenzie
+Processed customer: Aaron Clayton McKenzie
+Processed customer: Aaron Coleman Woods
+Processed customer: Aaron Coleman Woods
+Processed customer: Aaron Coleman Woods
+Processed customer: Aaron Douglas King
+Processed customer: Aaron Douglas King
+Processed customer: Aaron Douglas King
+Processed customer: Aaron Fowler Brandon
+Processed customer: Aaron Fowler Brandon
+Processed customer: Aaron Fowler Brandon
+Processed customer: Aaron Frazier Li
+Processed customer: Aaron Frazier Li
+Processed customer: Aaron Frazier Li
+Processed customer: Aaron McLeod Moody
+Processed customer: Aaron McLeod Moody
+Processed customer: Aaron McLeod Moody
+Processed customer: Aaron Montgomery McLamb
+Processed customer: Aaron Montgomery McLamb
+Processed customer: Aaron Montgomery McLamb
+Processed customer: Aaron Peacock Dalton
+Processed customer: Aaron Peacock Dalton
+Processed customer: Aaron Peacock Dalton
+Processed customer: Aaron Peters Carpenter
+Processed customer: Aaron Peters Carpenter
+Processed customer: Aaron Peters Carpenter
+Processed customer: Aaron Porter Simmons
+Processed customer: Aaron Porter Simmons
+Processed customer: Aaron Porter Simmons
+Processed customer: Aaron Quinn Pugh
+Processed customer: Aaron Quinn Pugh
+Processed customer: Aaron Quinn Pugh
+Processed customer: Aaron Roy Lawrence
+Processed customer: Aaron Roy Lawrence
+Processed customer: Aaron Roy Lawrence
+Processed customer: Aaron Sherrill Kirkland
+Processed customer: Aaron Sherrill Kirkland
+Processed customer: Aaron Sherrill Kirkland
+Processed customer: Adam  Butler
+Processed customer: Adam  Butler
+Processed customer: Adam  Butler
+Processed customer: Adam  Werner
+Processed customer: Adam  Werner
+New customer: Aaron Benson McLean
+New customer: Aaron Clayton McKenzie
+New customer: Aaron Coleman Woods
+New customer: Aaron Douglas King
+New customer: Aaron Fowler Brandon
+New customer: Aaron Frazier Li
+New customer: Aaron McLeod Moody
+New customer: Aaron Montgomery McLamb
+New customer: Aaron Peacock Dalton
+New customer: Aaron Peters Carpenter
+New customer: Aaron Porter Simmons
+New customer: Aaron Quinn Pugh
+New customer: Aaron Roy Lawrence
+New customer: Aaron Sherrill Kirkland
+New customer: Adam  Butler
+New customer: Adam  Werner
+New parcel: D001
+New parcel: D002
+New parcel: D003
+New parcel: D004
+New parcel: D005
+New parcel: D006
+New parcel: D007
+New parcel: D008
+New parcel: D009
+New parcel: D010
+New parcel: D011
+New parcel: D012
+New parcel: D013
+New parcel: D014
+New parcel: D015
+New parcel: D016
+New parcel: D017
+New parcel: D018
+New parcel: D019
+New parcel: D020
+New parcel: D021
+New parcel: D022
+New parcel: D023
+New parcel: D024
+New parcel: D025
+New parcel: D026
+New parcel: D027
+New parcel: D028
+New parcel: D029
+New parcel: D030
+New parcel: D031
+New parcel: D032
+New parcel: D033
+customerList.size:16
+New order clerk added
+New order clerk added
+New order clerk added
+Processed customer: Aaron Benson McLean
+Processed customer: Aaron Benson McLean
+Processed customer: Aaron Benson McLean
+Processed customer: Aaron Clayton McKenzie
+Processed customer: Aaron Clayton McKenzie
+Processed customer: Aaron Clayton McKenzie
+Processed customer: Aaron Coleman Woods
+Processed customer: Aaron Coleman Woods
+Processed customer: Aaron Coleman Woods
+Processed customer: Aaron Douglas King
+Processed customer: Aaron Douglas King
+Processed customer: Aaron Douglas King
+Processed customer: Aaron Fowler Brandon
+Processed customer: Aaron Fowler Brandon
+Processed customer: Aaron Fowler Brandon
+Processed customer: Aaron Frazier Li
+Processed customer: Aaron Frazier Li
+Processed customer: Aaron Frazier Li
+Processed customer: Aaron McLeod Moody
+Processed customer: Aaron McLeod Moody
+Processed customer: Aaron McLeod Moody
+Processed customer: Aaron Montgomery McLamb
+Processed customer: Aaron Montgomery McLamb
+Processed customer: Aaron Montgomery McLamb
+Processed customer: Aaron Peacock Dalton
+Processed customer: Aaron Peacock Dalton
+Processed customer: Aaron Peacock Dalton
+Processed customer: Aaron Peters Carpenter
+Processed customer: Aaron Peters Carpenter
+Processed customer: Aaron Peters Carpenter
+Processed customer: Aaron Porter Simmons
+Processed customer: Aaron Porter Simmons
+Processed customer: Aaron Porter Simmons
+Processed customer: Aaron Quinn Pugh
+Processed customer: Aaron Quinn Pugh
+Processed customer: Aaron Quinn Pugh
+Processed customer: Aaron Roy Lawrence
+Processed customer: Aaron Roy Lawrence
+Processed customer: Aaron Roy Lawrence
+Processed customer: Aaron Sherrill Kirkland
+Processed customer: Aaron Sherrill Kirkland
+Processed customer: Aaron Sherrill Kirkland
+Processed customer: Adam  Butler
+Processed customer: Adam  Butler
+Processed customer: Adam  Butler
+Processed customer: Adam  Werner
+Processed customer: Adam  Werner
+Processed customer: Adam  Werner
+New customer: Aaron Benson McLean
+New customer: Aaron Clayton McKenzie
+New customer: Aaron Coleman Woods
+New customer: Aaron Douglas King
+New customer: Aaron Fowler Brandon
+New customer: Aaron Frazier Li
+New customer: Aaron McLeod Moody
+New customer: Aaron Montgomery McLamb
+New customer: Aaron Peacock Dalton
+New customer: Aaron Peters Carpenter
+New customer: Aaron Porter Simmons
+New customer: Aaron Quinn Pugh
+New customer: Aaron Roy Lawrence
+New customer: Aaron Sherrill Kirkland
+New customer: Adam  Butler
+New customer: Adam  Werner
+New customer: Aaron Benson McLean
+New customer: Aaron Clayton McKenzie
+New customer: Aaron Coleman Woods
+New customer: Aaron Douglas King
+New customer: Aaron Fowler Brandon
+New customer: Aaron Frazier Li
+New customer: Aaron McLeod Moody
+New customer: Aaron Montgomery McLamb
+New customer: Aaron Peacock Dalton
+New customer: Aaron Peters Carpenter
+New customer: Aaron Porter Simmons
+New customer: Aaron Quinn Pugh
+New customer: Aaron Roy Lawrence
+New customer: Aaron Sherrill Kirkland
+New customer: Adam  Butler
+New customer: Adam  Werner
+New parcel: D001
+New parcel: D002
+New parcel: D003
+New parcel: D004
+New parcel: D005
+New parcel: D006
+New parcel: D007
+New parcel: D008
+New parcel: D009
+New parcel: D010
+New parcel: D011
+New parcel: D012
+New parcel: D013
+New parcel: D014
+New parcel: D015
+New parcel: D016
+New parcel: D017
+New parcel: D018
+New parcel: D019
+New parcel: D020
+New parcel: D021
+New parcel: D022
+New parcel: D023
+New parcel: D024
+New parcel: D025
+New parcel: D026
+New parcel: D027
+New parcel: D028
+New parcel: D029
+New parcel: D030
+New parcel: D031
+New parcel: D032
+New parcel: D033
+New customer: Aaron Benson McLean
+New customer: Aaron Clayton McKenzie
+New customer: Aaron Coleman Woods
+New customer: Aaron Douglas King
+New customer: Aaron Fowler Brandon
+New customer: Aaron Frazier Li
+New customer: Aaron McLeod Moody
+New customer: Aaron Montgomery McLamb
+New customer: Aaron Peacock Dalton
+New customer: Aaron Peters Carpenter
+New customer: Aaron Porter Simmons
+New customer: Aaron Quinn Pugh
+New customer: Aaron Roy Lawrence
+New customer: Aaron Sherrill Kirkland
+New customer: Adam  Butler
+New customer: Adam  Werner
+New customer: Aaron Benson McLean
+New customer: Aaron Clayton McKenzie
+New customer: Aaron Coleman Woods
+New customer: Aaron Douglas King
+New customer: Aaron Fowler Brandon
+New customer: Aaron Frazier Li
+New customer: Aaron McLeod Moody
+New customer: Aaron Montgomery McLamb
+New customer: Aaron Peacock Dalton
+New customer: Aaron Peters Carpenter
+New customer: Aaron Porter Simmons
+New customer: Aaron Quinn Pugh
+New customer: Aaron Roy Lawrence
+New customer: Aaron Sherrill Kirkland
+New customer: Adam  Butler
+New customer: Adam  Werner
+New parcel: D001
+New parcel: D002
+New parcel: D003
+New parcel: D004
+New parcel: D005
+New parcel: D006
+New parcel: D007
+New parcel: D008
+New parcel: D009
+New parcel: D010
+New parcel: D011
+New parcel: D012
+New parcel: D013
+New parcel: D014
+New parcel: D015
+New parcel: D016
+New parcel: D017
+New parcel: D018
+New parcel: D019
+New parcel: D020
+New parcel: D021
+New parcel: D022
+New parcel: D023
+New parcel: D024
+New parcel: D025
+New parcel: D026
+New parcel: D027
+New parcel: D028
+New parcel: D029
+New parcel: D030
+New parcel: D031
+New parcel: D032
+New parcel: D033
+New customer: Aaron Benson McLean
+New customer: Aaron Clayton McKenzie
+New customer: Aaron Coleman Woods
+New customer: Aaron Douglas King
+New customer: Aaron Fowler Brandon
+New customer: Aaron Frazier Li
+New customer: Aaron McLeod Moody
+New customer: Aaron Montgomery McLamb
+New customer: Aaron Peacock Dalton
+New customer: Aaron Peters Carpenter
+New customer: Aaron Porter Simmons
+New customer: Aaron Quinn Pugh
+New customer: Aaron Roy Lawrence
+New customer: Aaron Sherrill Kirkland
+New customer: Adam  Butler
+New customer: Adam  Werner
+New customer: Aaron Benson McLean
+New customer: Aaron Clayton McKenzie
+New customer: Aaron Coleman Woods
+New customer: Aaron Douglas King
+New customer: Aaron Fowler Brandon
+New customer: Aaron Frazier Li
+New customer: Aaron McLeod Moody
+New customer: Aaron Montgomery McLamb
+New customer: Aaron Peacock Dalton
+New customer: Aaron Peters Carpenter
+New customer: Aaron Porter Simmons
+New customer: Aaron Quinn Pugh
+New customer: Aaron Roy Lawrence
+New customer: Aaron Sherrill Kirkland
+New customer: Adam  Butler
+New customer: Adam  Werner
+New parcel: D001
+New parcel: D002
+New parcel: D003
+New parcel: D004
+New parcel: D005
+New parcel: D006
+New parcel: D007
+New parcel: D008
+New parcel: D009
+New parcel: D010
+New parcel: D011
+New parcel: D012
+New parcel: D013
+New parcel: D014
+New parcel: D015
+New parcel: D016
+New parcel: D017
+New parcel: D018
+New parcel: D019
+New parcel: D020
+New parcel: D021
+New parcel: D022
+New parcel: D023
+New parcel: D024
+New parcel: D025
+New parcel: D026
+New parcel: D027
+New parcel: D028
+New parcel: D029
+New parcel: D030
+New parcel: D031
+New parcel: D032
+New parcel: D033
