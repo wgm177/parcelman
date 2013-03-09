@@ -36,7 +36,7 @@ private int workingSpeed = 2000;
 		processed = processed + ("\n");
 		
 		processReport = processed;
-		//notifyObservers();
+		notifyObservers();
 		return processed;
 	}
 
@@ -83,7 +83,7 @@ private int workingSpeed = 2000;
 				    } catch (InterruptedException e) {
 				        e.printStackTrace();
 				    }
-				//notifyObservers();
+				notifyObservers();
 				LogFile.addLog("Processed customer: " + c.getName());
 			}
 			this.processReport = "Finished";
