@@ -69,28 +69,26 @@ private int workingSpeed = 2000;
 					if((p.getParcelID() != "") && ((p.isReceived() == false) ))
 					{
 						System.out.println(processSuccessParcel(c, p));
-						//System.out.println(Thread.currentThread().getName()+" Running ");
-						//notifyObservers();
+						
 					}
 					else
 					{
 						System.out.println(processUnSuccessParcel(c, p));
-						//System.out.println(Thread.currentThread().getName()+" Running ");
-						//notifyObservers();
+						
 					}
 				}
 				
 				try {
-				     this.sleep(2000);
+				     this.sleep(this.workingSpeed);
 				    } catch (InterruptedException e) {
 				        e.printStackTrace();
 				    }
-				notifyObservers();
+				//notifyObservers();
 				LogFile.addLog("Processed customer: " + c.getName());
 			}
 			this.processReport = "Finished";
 			notifyObservers();
-			LogFile.saveLogList();
+			
 		
 	}
 

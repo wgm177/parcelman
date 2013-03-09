@@ -127,10 +127,11 @@ public class GUIMain extends JFrame implements ActionListener, Observer {
 	private JPanel managerPanel()
 	{
 		jpManager = new JPanel();
-		jpManager.setLayout(new GridLayout(3,0));
+		jpManager.setLayout(new GridLayout(0,3));
 		//btnOpenShop, btnCloseShop;
 		btnOpenShop = new JButton("OpenShop");
 		btnCloseShop = new JButton("CloseShop");
+		btnCloseShop.addActionListener(this);
 		jpManager.add(btnOpenShop);
 		jpManager.add(btnCloseShop);
 		
@@ -141,9 +142,10 @@ public class GUIMain extends JFrame implements ActionListener, Observer {
 	@Override
 	public void actionPerformed(ActionEvent ae) {
 		// TODO Auto-generated method stub
-		if (ae.getSource() == btnOpenShop)
+		if (ae.getSource() == btnCloseShop)
 		{
-			//c.processCustomer();
+			LogFile.saveLogList();
+			parcelList.writeParcelReport();
 			
 		}
 		

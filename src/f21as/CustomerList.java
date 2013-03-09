@@ -36,6 +36,7 @@ public class CustomerList {
 		if(c != null)
 		{
 			customerList.put(c.getSeqNo(), c);
+			LogFile.addLog("Add new customer: " + c.getName());
 			return true;
 		}
 		
@@ -103,7 +104,9 @@ public class CustomerList {
 				}
 				
 			}
+			LogFile.addLog("Generate Customer Report");
 			return row;
+			
 		}
 	public Set<Integer> getKeySet()
 	{
@@ -125,6 +128,7 @@ public class CustomerList {
 	public void deleteCustomer(Customer c) {
 		// TODO Auto-generated method stub
 		this.customerList.remove(c.getSeqNo());
+		LogFile.addLog("Delete customer: " + c.getName());
 	}
 
 }

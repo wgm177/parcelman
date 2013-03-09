@@ -2,6 +2,9 @@ package f21as;
 
 
 
+import java.io.BufferedWriter;
+import java.io.File;
+import java.io.FileWriter;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import java.util.Set;
@@ -19,6 +22,7 @@ public class ParcelList {
 	
 	/** parcelList is a hashmap that stores the parcels found in the depot */
 	private Map<String, Parcel> parcelList = new LinkedHashMap<String, Parcel>();
+	private File parcelRepFile = new File("parcelReport.txt");
 	private int totalCollected = 0;
 	private int totalWarehouse = 0;
 	private double totalFee = 0.0;
@@ -136,6 +140,28 @@ public class ParcelList {
 			return row;
 		}
 		
+	/**   writeParcelReport() writes the parcel collection results of the program in parcelReport.txt 
+	 * @throws Exception  if file cannot be read 
+	 */
+	public  void writeParcelReport()
+	{
+		BufferedWriter writer;
+		
+		try {
+			writer = new BufferedWriter(new FileWriter(this.parcelRepFile));
+			writer.write(this.parcelReport());
+			writer.newLine();
+			writer.close();
+			LogFile.addLog("Write parcel report");
+			
+		}
+		catch (Exception e)
+		{
+			LogFile.addLog("Error opening"	+ " the file " + this.parcelRepFile.getName());
+			System.exit(0);
+		}
+		
+	}
 	
 	public Set<String> getKeySet()
 	{

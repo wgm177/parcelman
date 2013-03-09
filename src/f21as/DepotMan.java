@@ -21,7 +21,7 @@ public class DepotMan {
 	private  CustomerList customerList = new CustomerList();
 	private static final File customerFile = new File("customers.txt");
 	private static final File parcelFile = new File("parcels.txt");
-	private File parcelRepFile = new File("parcelReport.txt");
+	
 	private OrderClerkList orderClerkList;
 	
 	
@@ -42,7 +42,7 @@ public class DepotMan {
 			{
 				Customer c = new Customer(fread.nextLine());
 				customerList.addCustomer(c);
-				LogFile.addLog("New customer: " + c.getName());
+				
 			}
 		}
 		catch(Exception e)
@@ -54,7 +54,7 @@ public class DepotMan {
 			finally
 			{
 				fread.close();
-				LogFile.saveLogList();
+				
 			}
 		return true;
 		
@@ -75,7 +75,7 @@ public class DepotMan {
 			{
 				Parcel p = new Parcel(fread.nextLine());
 				parcelList.addParcel(p);
-				LogFile.addLog("New parcel: " + p.getParcelID());
+				
 			}
 			
 		}
@@ -91,33 +91,11 @@ public class DepotMan {
 				fread.close();
 			}
 			
-		LogFile.saveLogList();
+		
 		return true;
 	}
 	
-	/**   writeParcelReport() writes the parcel collection results of the program in parcelReport.txt 
-	 * @throws Exception  if file cannot be read 
-	 */
-	public  void writeParcelReport()
-	{
-		BufferedWriter writer;
-		
-		try {
-			writer = new BufferedWriter(new FileWriter(this.parcelRepFile));
-			writer.write(this.parcelList.parcelReport());
-			writer.newLine();
-			writer.close();
-			LogFile.addLog("Write parcel report");
-			
-		}
-		catch (Exception e)
-		{
-			LogFile.addLog("Error opening"	+ " the file " + this.parcelRepFile.getName());
-			System.exit(0);
-		}
-		LogFile.saveLogList();
-	}
-	
+
 	
 	
 	/**   collectParcel() is the collection simulation method which takes one customer at a time
