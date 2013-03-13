@@ -20,7 +20,8 @@ public class DepotMan {
 	private  ParcelList parcelList = new ParcelList();
 	private  CustomerList customerList = new CustomerList();
 	private static final File customerFile = new File("customers.txt");
-	private static final File parcelFile = new File("parcels.txt");
+	
+
 	
 	private OrderClerkList orderClerkList;
 	
@@ -60,40 +61,7 @@ public class DepotMan {
 		
 	}
 	
-	/**   popParcelList() reads the parcel.txt file 
-	 * @throws Exception  if file cannot be read 
-	 * @return true if file reading was successful or false if any problems issued 
-	 */
-	public boolean popParcelList()
-	{
-		Scanner fread = null;
-				
-		try
-		{
-			fread = new Scanner(parcelFile);
-			while (fread.hasNextLine())
-			{
-				Parcel p = new Parcel(fread.nextLine());
-				parcelList.addParcel(p);
-				
-			}
-			
-		}
-		catch(Exception e)
-			{
-				System.out.println("Cannot read from parcel input file.");
-				LogFile.addLog("Cannot read in parcelFile: " + parcelFile.getName());
-				
-				return false;
-			}
-			finally
-			{
-				fread.close();
-			}
-			
-		
-		return true;
-	}
+	
 	
 
 	
@@ -112,7 +80,7 @@ public class DepotMan {
 		DepotMan dm = new DepotMan();
 		
 		System.out.println(dm.popCustomerList());
-		System.out.println(dm.popParcelList());
+		System.out.println(dm.parcelList.popParcelList());
 		dm.orderClerkList = new OrderClerkList(dm.customerList,dm.parcelList);
 		
 		//OrderClerk oc = new OrderClerk(dm.customerList, dm.parcelList);
@@ -128,6 +96,8 @@ public class DepotMan {
 		
 
 	}
+
+	
 
 	
 }

@@ -119,9 +119,14 @@ private int workingSpeed = 2000;
 			}
 	}
 
-	public void setWorkingSpeed(int workingSpeed) {
-		this.workingSpeed = workingSpeed;
+	public void increaseWorkingSpeed() {
+		this.workingSpeed += 100;
 	}
-
+	
+	public void decreaseWorkingSpeed() {
+		if(this.workingSpeed >= 100){
+			this.workingSpeed -= 100;
+		}
+	}
 	
 }

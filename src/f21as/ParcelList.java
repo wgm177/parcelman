@@ -7,6 +7,7 @@ import java.io.File;
 import java.io.FileWriter;
 import java.util.LinkedHashMap;
 import java.util.Map;
+import java.util.Scanner;
 import java.util.Set;
 
 /** ParcelList is a public class that handles a list of parcels in the depot. It uses a hashmap with 
@@ -26,6 +27,14 @@ public class ParcelList {
 	private int totalCollected = 0;
 	private int totalWarehouse = 0;
 	private double totalFee = 0.0;
+	private String parcelFileName = "parcels.txt";
+	private File parcelFile = new File(parcelFileName);
+	
+	
+	public void setParcelFileName(String parcelFileName) {
+		this.parcelFileName = parcelFileName;
+	}
+	
 	
 	/** addParcel(Parcel p) adds parcels read from the file to the hashmap
 	 * 
@@ -42,6 +51,41 @@ public class ParcelList {
 			
 		else
 			return false;
+	}
+	
+	/**   popParcelList() reads the parcel.txt file 
+	 * @throws Exception  if file cannot be read 
+	 * @return true if file reading was successful or false if any problems issued 
+	 */
+	public boolean popParcelList()
+	{
+		Scanner fread = null;
+				
+		try
+		{
+			fread = new Scanner(parcelFile);
+			while (fread.hasNextLine())
+			{
+				Parcel p = new Parcel(fread.nextLine());
+				addParcel(p);
+				
+			}
+			
+		}
+		catch(Exception e)
+			{
+				System.out.println("Cannot read from parcel input file.");
+				LogFile.addLog("Cannot read in parcelFile: " + parcelFile.getName());
+				
+				return false;
+			}
+			finally
+			{
+				fread.close();
+			}
+			
+		
+		return true;
 	}
 	
 	/**findByID(String id) finds a parcel by its ID

@@ -22,7 +22,7 @@ public class GUIMain extends JFrame implements ActionListener, Observer {
 	private static final int MAX_OREDERCLERKS = 3;
 	
 	JPanel jpCustQue, jpWareHouse, jpProcessOrder,  jpCounters ,jpManager, jp;
-	JButton btnOpenShop, btnCloseShop;
+	JButton btnOpenShop, btnCloseShop, btnAddParcels, btnSlow, btnFast;
 	JTextArea taCustQue, taWareHouse, taProcessOrder,  taManager;
 	JScrollPane spCustQue, spWareHouse, spProcessOrder, spProcessOrder1;
 	OrderClerkList orderClerkList;
@@ -130,6 +130,9 @@ public class GUIMain extends JFrame implements ActionListener, Observer {
 		jpManager.setLayout(new GridLayout(0,3));
 		//btnOpenShop, btnCloseShop;
 		btnOpenShop = new JButton("OpenShop");
+		btnAddParcels = new JButton("Accept Parcels");
+		jpManager.add(btnAddParcels);
+		btnAddParcels.addActionListener(this);
 		btnCloseShop = new JButton("CloseShop");
 		btnCloseShop.addActionListener(this);
 		jpManager.add(btnOpenShop);
@@ -146,8 +149,13 @@ public class GUIMain extends JFrame implements ActionListener, Observer {
 		{
 			LogFile.saveLogList();
 			parcelList.writeParcelReport();
-			
 		}
+		if (ae.getSource() == btnAddParcels)
+		{
+			parcelList.setParcelFileName("parcels_more.txt");
+			parcelList.popParcelList();
+		}
+		
 		
 	}
 

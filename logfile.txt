@@ -341,3 +341,138 @@ Processed customer: Adam  Werner
 Generate Customer Report
 Processed customer: Adam  Werner
 Generate Customer Report
+Add new customer: Aaron Benson McLean
+Add new customer: Aaron Clayton McKenzie
+Add new customer: Aaron Coleman Woods
+Add new customer: Aaron Douglas King
+Add new customer: Aaron Fowler Brandon
+Add new customer: Aaron Frazier Li
+Add new customer: Aaron McLeod Moody
+Add new customer: Aaron Montgomery McLamb
+Add new customer: Aaron Peacock Dalton
+Add new customer: Aaron Peters Carpenter
+Add new customer: Aaron Porter Simmons
+Add new customer: Aaron Quinn Pugh
+Add new customer: Aaron Roy Lawrence
+Add new customer: Aaron Sherrill Kirkland
+Add new customer: Adam  Butler
+Add new customer: Adam  Werner
+customerList.size:16
+New order clerk added
+New order clerk added
+New order clerk added
+Generate Customer Report
+Generate Customer Report
+Generate Customer Report
+Processed customer: Aaron Benson McLean
+Generate Customer Report
+Generate Customer Report
+Processed customer: Aaron Benson McLean
+Processed customer: Aaron Benson McLean
+Generate Customer Report
+Processed customer: Aaron Clayton McKenzie
+Generate Customer Report
+Generate Customer Report
+Processed customer: Aaron Clayton McKenzie
+Generate Customer Report
+Processed customer: Aaron Clayton McKenzie
+Generate Customer Report
+Processed customer: Aaron Coleman Woods
+Generate Customer Report
+Generate Customer Report
+Processed customer: Aaron Coleman Woods
+Generate Customer Report
+Processed customer: Aaron Coleman Woods
+Generate Customer Report
+Generate Customer Report
+Processed customer: Aaron Douglas King
+Generate Customer Report
+Generate Customer Report
+Processed customer: Aaron Douglas King
+Processed customer: Aaron Douglas King
+Generate Customer Report
+Generate Customer Report
+Processed customer: Aaron Fowler Brandon
+Generate Customer Report
+Processed customer: Aaron Fowler Brandon
+Generate Customer Report
+Processed customer: Aaron Fowler Brandon
+Generate Customer Report
+Processed customer: Aaron Frazier Li
+Generate Customer Report
+Generate Customer Report
+Processed customer: Aaron Frazier Li
+Generate Customer Report
+Processed customer: Aaron Frazier Li
+Generate Customer Report
+Processed customer: Aaron McLeod Moody
+Generate Customer Report
+Generate Customer Report
+Processed customer: Aaron McLeod Moody
+Generate Customer Report
+Processed customer: Aaron McLeod Moody
+Generate Customer Report
+Processed customer: Aaron Montgomery McLamb
+Generate Customer Report
+Generate Customer Report
+Generate Customer Report
+Processed customer: Aaron Montgomery McLamb
+Processed customer: Aaron Montgomery McLamb
+Generate Customer Report
+Processed customer: Aaron Peacock Dalton
+Generate Customer Report
+Generate Customer Report
+Processed customer: Aaron Peacock Dalton
+Generate Customer Report
+Processed customer: Aaron Peacock Dalton
+Generate Customer Report
+Processed customer: Aaron Peters Carpenter
+Generate Customer Report
+Generate Customer Report
+Processed customer: Aaron Peters Carpenter
+Generate Customer Report
+Processed customer: Aaron Peters Carpenter
+Generate Customer Report
+Processed customer: Aaron Porter Simmons
+Generate Customer Report
+Generate Customer Report
+Processed customer: Aaron Porter Simmons
+Generate Customer Report
+Processed customer: Aaron Porter Simmons
+Generate Customer Report
+Generate Customer Report
+Processed customer: Aaron Quinn Pugh
+Generate Customer Report
+Generate Customer Report
+Processed customer: Aaron Quinn Pugh
+Processed customer: Aaron Quinn Pugh
+Generate Customer Report
+Generate Customer Report
+Processed customer: Aaron Roy Lawrence
+Processed customer: Aaron Roy Lawrence
+Generate Customer Report
+Generate Customer Report
+Processed customer: Aaron Roy Lawrence
+Generate Customer Report
+Processed customer: Aaron Sherrill Kirkland
+Generate Customer Report
+Processed customer: Aaron Sherrill Kirkland
+Generate Customer Report
+Generate Customer Report
+Processed customer: Aaron Sherrill Kirkland
+Generate Customer Report
+Processed customer: Adam  Butler
+Generate Customer Report
+Generate Customer Report
+Processed customer: Adam  Butler
+Generate Customer Report
+Processed customer: Adam  Butler
+Generate Customer Report
+Processed customer: Adam  Werner
+Generate Customer Report
+Generate Customer Report
+Processed customer: Adam  Werner
+Generate Customer Report
+Generate Customer Report
+Processed customer: Adam  Werner
+Generate Customer Report

@@ -3,6 +3,8 @@ package f21as;
 import java.awt.Dimension;
 import java.awt.Font;
 import java.awt.GridLayout;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 
 import javax.swing.JButton;
 import javax.swing.JLabel;
@@ -10,7 +12,7 @@ import javax.swing.JPanel;
 import javax.swing.JScrollPane;
 import javax.swing.JTextArea;
 
-public class Counters extends JPanel{
+public class Counters extends JPanel implements ActionListener {
 	/**
 	 * 
 	 */
@@ -58,6 +60,19 @@ public class Counters extends JPanel{
 	public void upDateText()
 	{
 		this.taProcessOrder.setText(oc.getProcessReport());
+	}
+
+	@Override
+	public void actionPerformed(ActionEvent e) {
+		// TODO Auto-generated method stub
+		if(e.getSource() == btnFast)
+		{
+			oc.increaseWorkingSpeed();
+		}
+		if(e.getSource() == btnSlow)
+		{
+			oc.increaseWorkingSpeed();
+		}
 	}
 	
 	
