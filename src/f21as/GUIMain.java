@@ -34,8 +34,7 @@ public class GUIMain extends JFrame implements ActionListener, Observer {
 	
 	public GUIMain(String title, OrderClerkList orderClerkList)  {
 		super(title);
-		//this.oc = oc;
-		//this.oc1 = oc1;
+		
 		this.orderClerkList = orderClerkList;
 		this.customerList = orderClerkList.getCustomerList();
 		this.parcelList = orderClerkList.getParcelList();
@@ -142,6 +141,7 @@ public class GUIMain extends JFrame implements ActionListener, Observer {
 		return jpManager;
 	}
 
+	@SuppressWarnings("deprecation")
 	@Override
 	public void actionPerformed(ActionEvent ae) {
 		// TODO Auto-generated method stub
@@ -154,6 +154,20 @@ public class GUIMain extends JFrame implements ActionListener, Observer {
 		{
 			parcelList.setParcelFileName("parcels_more.txt");
 			parcelList.popParcelList();
+		}
+		
+		if (ae.getSource() == btnCloseShop)
+		{
+			for (OrderClerk oc: orderClerkList.getOrderClerkList())
+			{
+				
+				try {
+					oc.wait();
+				} catch (InterruptedException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}
+			}
 		}
 		
 		

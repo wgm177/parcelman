@@ -15,7 +15,7 @@ public class ParcelListTest {
 	DepotMan DepotMan=new DepotMan();
 	@Before
 	public void setUp() {
-		DepotMan.popParcelList();
+		//DepotMan.popParcelList();
 	}
 	@After
 
