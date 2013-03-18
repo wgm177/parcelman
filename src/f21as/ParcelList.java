@@ -28,7 +28,7 @@ public class ParcelList {
 	private int totalWarehouse = 0;
 	private double totalFee = 0.0;
 	private String parcelFileName = "parcels.txt";
-	private File parcelFile = new File(parcelFileName);
+	
 	
 	
 	public void setParcelFileName(String parcelFileName) {
@@ -59,6 +59,7 @@ public class ParcelList {
 	 */
 	public boolean popParcelList()
 	{
+		File parcelFile = new File(parcelFileName);
 		Scanner fread = null;
 				
 		try
