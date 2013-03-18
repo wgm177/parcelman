@@ -16,7 +16,7 @@ import javax.swing.*;
 
 public class GUIMain extends JFrame implements ActionListener, Observer {
 	
-	private static final int WIDTH = 900;		
+	private static final int WIDTH = 1000;		
 	private static final int HEIGHT = 600;
 	private static final int WHCOLUMNS = 10;
 	private static final int MAX_OREDERCLERKS = 3;
@@ -58,7 +58,7 @@ public class GUIMain extends JFrame implements ActionListener, Observer {
 		Container c = this.getContentPane();
 		jp = new JPanel();
 		c.add(jp);
-		jp.setLayout(new BorderLayout(10,10));
+		jp.setLayout(new BorderLayout(10,20));
 		jp.add(warehousePanel(), BorderLayout.NORTH);
 		jp.add(customerQuePanel(), BorderLayout.EAST);
 		jp.add(managerPanel(), BorderLayout.SOUTH);

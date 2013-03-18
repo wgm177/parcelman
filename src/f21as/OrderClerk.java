@@ -30,10 +30,10 @@ private int workingSpeed = 2000;
 		p.setCollectedBy(c.getName());
 		c.setProcessed(true);
 		
-		processed = processed + ("ParcelID: " + p.getParcelID() + "\ncollected." + "\n");
-		processed = processed + ("Charged: " + c.getName() + "\nAED " + String.format("%.2f",p.getCost()) + "\n");
+		processed = processed + ("Parcel: " + p.getParcelID() + "in process." + "\n");
+		processed = processed + ("Charged: \n" + c.getName() + "\nAED " + String.format("%.2f",p.getCost()) + "\n");
 		processed = processed + ("Next please!" + "\n");
-		processed = processed + ("\n");
+		//processed = processed + ("\n");
 		
 		processReport = processed;
 		notifyObservers();

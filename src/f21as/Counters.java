@@ -31,9 +31,9 @@ public class Counters extends JPanel implements ActionListener {
 		jpProcessOrder.setLayout(new GridLayout(3,2,5,5));
 		jpBtnPanel = new JPanel(new GridLayout(1,0));
 		btnFast = new JButton("+");
-		btnFast.setPreferredSize(new Dimension(10,10));
+		btnFast.setMaximumSize(new Dimension(5,5));
 		btnSlow = new JButton("-");
-		btnSlow.setPreferredSize(new Dimension(10,10));
+		btnSlow.setMaximumSize(new Dimension(5,5));
 		
 		jpProcessOrder.add(new JLabel("Counter " + i));
 		//jpProcessOrder.add(new JLabel(" "));
@@ -42,8 +42,8 @@ public class Counters extends JPanel implements ActionListener {
 		jpProcessOrder.add(jpBtnPanel);
 		
 		//Setup text area and scroll pane
-		taProcessOrder = new JTextArea(5, 5);
-		taProcessOrder.setFont(new Font (Font.MONOSPACED, Font.PLAIN,12));
+		taProcessOrder = new JTextArea(5, 6);
+		taProcessOrder.setFont(new Font (Font.MONOSPACED, Font.PLAIN,10));
 		taProcessOrder.setEditable(false);
 		taProcessOrder.setText(oc.getProcessReport());
 		//taCounters.add(taProcessOrder);
