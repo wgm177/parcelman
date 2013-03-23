@@ -107,7 +107,7 @@ public class GUIMain extends JFrame implements ActionListener, Observer {
 	private JPanel counterPanel()
 	{
 		jpCounters = new JPanel();
-		jpCounters.setLayout(new GridLayout(0,4));
+		jpCounters.setLayout(new GridLayout(0,3,10,10));
 		int i = 0;
 		//Setup text area and scroll pane
 		

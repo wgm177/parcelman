@@ -128,5 +128,8 @@ private int workingSpeed = 2000;
 			this.workingSpeed -= 100;
 		}
 	}
+	public int getWorkingSpeed(){
+		return this.workingSpeed;
+	}
 	
 }
