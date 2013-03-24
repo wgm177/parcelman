@@ -46,6 +46,9 @@ public class LogFile {
 		catch (IOException e){
 			System.out.println("Error in writing to logfile");
 		}
+		catch (Exception e){
+			System.out.println("log file error");
+		}
 		finally{
 			pw.close();
 		}

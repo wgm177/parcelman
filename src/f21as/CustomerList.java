@@ -25,6 +25,7 @@ public class CustomerList extends Thread{
 	private Map<Integer, Customer> customerList = new LinkedHashMap<Integer, Customer>();
 	private static final File customerFile = new File("customers.txt");
 	private List<Observer> registeredObservers = new LinkedList<Observer>();
+	private int joinSpeed = 500;
 	
 	
 	public Map<Integer, Customer> getCustomerList() {
@@ -47,7 +48,7 @@ public class CustomerList extends Thread{
 				Customer c = new Customer(fread.nextLine());
 				addCustomer(c);
 				try {
-				    sleep(500);
+				    sleep(joinSpeed);
 				} 
 				catch (InterruptedException e) {
 				        e.printStackTrace();
@@ -126,7 +127,7 @@ public class CustomerList extends Thread{
 		return c;
 	}
 	
-	public String customerQueReport(int columns)
+	public synchronized String customerQueReport(int columns)
 	{
 		Customer c = null;
 		//String report = "";
@@ -149,7 +150,7 @@ public class CustomerList extends Thread{
 				}
 				
 			}
-			LogFile.addLog("Generate Customer Report");
+			//LogFile.addLog("Generate Customer Report");
 			return row;
 			
 		}
@@ -174,6 +175,20 @@ public class CustomerList extends Thread{
 			}
 		}
 		return firstCustomer;
+	}
+
+	public int getJoinSpeed() {
+		return joinSpeed;
+	}
+
+	public void setJoinSpeed(int joinSpeed) {
+		this.joinSpeed = joinSpeed;
+		
+	}
+	
+	public synchronized void closeCustomers() {
+		customerList.clear();
+		LogFile.addLog("Customers exit");
 	}
 
 	

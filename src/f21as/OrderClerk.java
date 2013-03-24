@@ -9,7 +9,7 @@ private ParcelList parcelList;
 private String processReport = "Counter Closed";
 private List<Observer> registeredObservers = new LinkedList<Observer>();
 private  int workingSpeed = 4000;
-private boolean working = true;
+private boolean working = false;
 
 
 	public OrderClerk(CustomerList cl, ParcelList pl) {
@@ -37,7 +37,7 @@ private boolean working = true;
 		//processed = processed + ("\n");
 		
 		processReport = processed;
-		notifyObservers();
+		//notifyObservers();
 		return processed;
 	}
 
@@ -60,22 +60,22 @@ private boolean working = true;
 		Customer c = null;
 		Parcel p = null;
 		
-		while (working)
+		while (true)
 		{
-			
+			if(working){
 				c = customerList.nextAvailableCustomer();
-				if(c != null){
+				if(c != null)
+				{
 					c.setProcessed(true);
 					p = parcelList.findByID(c.getParcelID());
 						if((p.getParcelID() != "") && ((p.isReceived() == false) ))
 						{
 							System.out.println(processSuccessParcel(c, p));
-							
+							notifyObservers();
 						}
 						else
 						{
 							System.out.println(processUnSuccessParcel(c, p));
-							
 						}
 					
 					
@@ -86,7 +86,7 @@ private boolean working = true;
 					        e.printStackTrace();
 					}
 					
-					notifyObservers();
+					//notifyObservers();
 					LogFile.addLog("Processed customer: " + c.getName());
 				}
 				else
@@ -94,9 +94,15 @@ private boolean working = true;
 					this.processReport = "Waiting for customer";
 					//notifyObservers();
 				}
+			}// end if working
+			else
+			{
+				this.processReport = "Please use next counter";
 			}
-			this.processReport = "Finished";
 			notifyObservers();
+		}//end while
+			//this.processReport = "Finished";
+			//notifyObservers();
 			
 		
 	}

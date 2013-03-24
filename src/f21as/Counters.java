@@ -23,7 +23,7 @@ public class Counters extends JPanel implements ActionListener {
 	private OrderClerk oc;
 	private JPanel jpProcessOrder, jpBtnPanel, jpSign;
 	private JTextArea taProcessOrder;
-	private JButton btnFast, btnSlow;
+	private JButton btnFast, btnSlow, btnWorking;
 	private JLabel lblWorkingSpeed, lblCounter;
 	
 	public Counters(OrderClerk oc, int i)
@@ -38,13 +38,15 @@ public class Counters extends JPanel implements ActionListener {
 		jpSign.setBorder(BorderFactory.createLineBorder(Color.GRAY));
 		//jpSign.setBorder(new EmptyBorder(10, 10, 10, 10) );
 		jpProcessOrder.setLayout(new GridLayout(2,2,5,5));
-		jpBtnPanel = new JPanel(new GridLayout(1,0));
+		jpBtnPanel = new JPanel(new GridLayout(2,0));
 		jpBtnPanel.setBorder(new EmptyBorder(5,5,5,5));
 		btnFast = new JButton("Slower");
 		btnFast.setMaximumSize(new Dimension(5,5));
 		btnFast.addActionListener(this);
 		btnSlow = new JButton("Faster");
 		btnSlow.setMaximumSize(new Dimension(5,5));
+		btnWorking = new JButton("Open");
+		btnWorking.addActionListener(this);
 		btnSlow.addActionListener(this);
 		
 		lblCounter = new JLabel("Counter " + i);
@@ -55,6 +57,15 @@ public class Counters extends JPanel implements ActionListener {
 		jpSign.add(lblWorkingSpeed);
 		jpBtnPanel.add(btnFast);
 		jpBtnPanel.add(btnSlow);
+		jpBtnPanel.add(btnWorking);
+		if(oc.isWorking()){
+			this.btnWorking.setBackground(Color.GREEN);
+			this.btnWorking.setText("Open");
+		}
+		else{
+			this.btnWorking.setBackground(Color.RED);
+			this.btnWorking.setText("Closed");
+		}
 		jpSign.add(jpBtnPanel);
 		jpProcessOrder.add(jpSign);
 		
@@ -94,6 +105,21 @@ public class Counters extends JPanel implements ActionListener {
 			oc.decreaseWorkingSpeed();
 			
 			this.lblWorkingSpeed.setText(oc.getWorkingSpeed() + "");
+			
+		}
+		if(e.getSource() == btnWorking)
+		{
+			oc.setWorking(!oc.isWorking());
+			if(oc.isWorking()){
+				this.btnWorking.setBackground(Color.GREEN);
+				this.btnWorking.setText("Open");
+				LogFile.addLog("Open counter");
+			}
+			else{
+				this.btnWorking.setBackground(Color.RED);
+				this.btnWorking.setText("Closed");
+				LogFile.addLog("Close counter");
+			}
 		}
 	}
 	

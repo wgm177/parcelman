@@ -18,7 +18,7 @@ public class GUIMain extends JFrame implements ActionListener, Observer {
 	
 	private static final int WIDTH = 1000;		
 	private static final int HEIGHT = 600;
-	private static final int WHCOLUMNS = 10;
+	private static final int WHCOLUMNS = 18;
 	private static final int MAX_OREDERCLERKS = 3;
 	
 	JPanel jpCustQue, jpWareHouse, jpProcessOrder,  jpCounters ,jpManager, jp;
@@ -148,14 +148,19 @@ public class GUIMain extends JFrame implements ActionListener, Observer {
 		// Close shop button code
 		if (ae.getSource() == btnCloseShop)
 		{
-			LogFile.saveLogList();
-			parcelList.writeParcelReport();
+			customerList.setJoinSpeed(1);
+			customerList.closeCustomers();
 			for (OrderClerk oc: orderClerkList.getOrderClerkList())
-			{
-				
-				oc.interrupt();
-				oc = null;
-			}
+				{
+					oc.setWorking(false);
+				}
+			
+			parcelList.writeParcelReport();
+			LogFile.addLog("Close shop");
+			taCustQue.setText("No customers");
+			update();
+			LogFile.saveLogList();
+			
 		}
 		
 		//Add Parcel button code
@@ -163,6 +168,7 @@ public class GUIMain extends JFrame implements ActionListener, Observer {
 		{
 			parcelList.setParcelFileName("parcels_more.txt");
 			parcelList.popParcelList();
+			LogFile.addLog("Add new parcel assignment");
 		}
 		
 	}

@@ -17,9 +17,9 @@ import java.util.Scanner;
 */
 
 public class DepotMan {
-	private  ParcelList parcelList = new ParcelList();
+	//private  ParcelList parcelList = new ParcelList();
 	//private  CustomerList customerList = new CustomerList();
-	private OrderClerkList orderClerkList;
+	//private OrderClerkList orderClerkList;
 	
 	
 	/**   collectParcel() is the collection simulation method which takes one customer at a time
@@ -33,12 +33,13 @@ public class DepotMan {
 		
 	public static void main(String [] args)
 	{
-		DepotMan dm = new DepotMan();
-		
+		//DepotMan dm = new DepotMan();
+		OrderClerkList orderClerkList;
+		ParcelList parcelList = new ParcelList();
 		CustomerList customerList = new CustomerList();
-		System.out.println(dm.parcelList.popParcelList());
-		dm.orderClerkList = new OrderClerkList(customerList,dm.parcelList);
-		GUIMain gm = new GUIMain("ParcelMan v2.0", dm.orderClerkList);
+		System.out.println(parcelList.popParcelList());
+		orderClerkList = new OrderClerkList(customerList,parcelList);
+		GUIMain gm = new GUIMain("ParcelMan v2.0", orderClerkList);
 		
 		
 		

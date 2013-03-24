@@ -161,14 +161,14 @@ public class ParcelList {
 	
 	public String warehouseReport(int columns)
 	{
-		Parcel p = null;
+		
 		//String report = "";
 		String row = "";
 		int count = 0;
 		
-		for(String id: parcelList.keySet())
+		for(Parcel p: parcelList.values())
 		{
-			p = this.findByID(id);
+			
 			
 				if(! p.isReceived())
 				{
@@ -213,22 +213,5 @@ public class ParcelList {
 		return this.parcelList.keySet();
 	}
 	
-	/*public static void main(String[] args)
-	{
-		ParcelList pl = new ParcelList();
-		
-		System.out.println(pl.addParcel(new Parcel("P003,6,5,154,36,140")));
-		System.out.println(pl.addParcel(new Parcel("P007,26,45,104,3,4")));
-		System.out.println(pl.addParcel(new Parcel("P008,56,3,114,34,130")));
-		System.out.println(pl.addParcel(new Parcel("P009,56,3,114,34,130")));
-		System.out.println(pl.addParcel(new Parcel("P001,56,3,114,34,130")));
-		System.out.println(pl.addParcel(new Parcel("P002,56,3,114,34,130")));
-		System.out.println(pl.addParcel(new Parcel("P004,56,3,114,34,130")));
-		
-		System.out.println((pl.warehouseReport(3)));
-		
-		
-		
-	}*/
-
+	
 }
