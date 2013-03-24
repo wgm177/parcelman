@@ -10,13 +10,15 @@ import java.awt.GridLayout;
 import java.awt.HeadlessException;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.awt.event.WindowEvent;
+import java.awt.event.WindowListener;
 import java.util.ArrayList;
 
 import javax.swing.*;
 
 import com.sun.xml.internal.bind.v2.schemagen.xmlschema.Occurs;
 
-public class GUIMain extends JFrame implements ActionListener, Observer {
+public class GUIMain extends JFrame implements ActionListener, WindowListener, Observer {
 	
 	private static final int WIDTH = 1000;		
 	private static final int HEIGHT = 600;
@@ -66,7 +68,7 @@ public class GUIMain extends JFrame implements ActionListener, Observer {
 		jp.add(customerQuePanel(), BorderLayout.EAST);
 		jp.add(managerPanel(), BorderLayout.SOUTH);
 		jp.add(counterPanel(), BorderLayout.CENTER);
-		
+		this.addWindowListener(this);
 		this.validate();
 		
 	}
@@ -151,25 +153,25 @@ public class GUIMain extends JFrame implements ActionListener, Observer {
 		// Close shop button code
 		if (ae.getSource() == btnCloseShop)
 		{
-			customerList.setJoinSpeed(1);
-			customerList.closeCustomers();
+			
+			customerList.setClosedForDay(true);
 			for (OrderClerk oc: orderClerkList.getOrderClerkList())
 				{
 					oc.setClosedForDay(true);
 					
 				}
-			try {
-				wait(2000);
-			} catch (InterruptedException e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
-			}
+			
 			
 			LogFile.addLog("Close shop");
 			
 			parcelList.writeParcelReport();
 			update();
 			LogFile.saveLogList();
+			Container frame = btnCloseShop.getParent();
+            do 
+                frame = frame.getParent(); 
+            while (!(frame instanceof JFrame));                                      
+            ((JFrame) frame).dispose();
 			
 		}
 		
@@ -181,18 +183,7 @@ public class GUIMain extends JFrame implements ActionListener, Observer {
 			LogFile.addLog("Add new parcel assignment");
 		}
 		
-		if (ae.getSource() == btnOpenShop)
-		{
-	
-			customerList.popCustomerList();
-			for (OrderClerk oc: orderClerkList.getOrderClerkList())
-			{
-				oc.setClosedForDay(false);
-				oc.start();
-			}
-			update();
-			LogFile.addLog("Add customers");
-		}
+		
 		
 	}
 
@@ -213,6 +204,49 @@ public class GUIMain extends JFrame implements ActionListener, Observer {
 			c.upDateText();
 		}
 		
+		
+	}
+
+	@Override
+	public void windowActivated(WindowEvent e) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void windowClosed(WindowEvent e) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void windowClosing(WindowEvent e) {
+		// TODO Auto-generated method stub
+		this.dispose();
+		
+	}
+
+	@Override
+	public void windowDeactivated(WindowEvent e) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void windowDeiconified(WindowEvent e) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void windowIconified(WindowEvent e) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void windowOpened(WindowEvent e) {
+		// TODO Auto-generated method stub
 		
 	}
 

@@ -26,12 +26,21 @@ public class CustomerList extends Thread{
 	private static final File customerFile = new File("customers.txt");
 	private List<Observer> registeredObservers = new LinkedList<Observer>();
 	private int joinSpeed = 500;
+	private boolean closedForDay = false;
 	
 	
 	public Map<Integer, Customer> getCustomerList() {
 		return customerList;
 	}
 
+	public boolean isClosedForDay() {
+		return closedForDay;
+	}
+
+	public void setClosedForDay(boolean closedForDay) {
+		this.closedForDay = closedForDay;
+	}
+	
 	/**  popCustomerList() reads the customer.txt file 
 	 * @throws Exception  if file cannot be read  
 	 * @return true if file reading was successful or false if any problems issued 
@@ -43,7 +52,7 @@ public class CustomerList extends Thread{
 		try
 		{
 			fread = new Scanner(customerFile);
-			while (fread.hasNextLine())
+			while (fread.hasNextLine() && !closedForDay)
 			{
 				Customer c = new Customer(fread.nextLine());
 				addCustomer(c);
@@ -130,6 +139,8 @@ public class CustomerList extends Thread{
 	public synchronized String customerQueReport(int columns)
 	{
 		
+	
+
 		//String report = "";
 		String row = "";
 		int count = 0;
@@ -150,6 +161,7 @@ public class CustomerList extends Thread{
 				
 		}
 			//LogFile.addLog("Generate Customer Report");
+			notifyAll();
 			return row;
 	}
 	

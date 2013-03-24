@@ -111,7 +111,10 @@ private boolean closedForDay = false;
 	@Override
 	public void run() {
 		// TODO Auto-generated method stub
-		processCustomer();
+		while(!closedForDay) {
+			processCustomer();
+		}
+		
 	}
 
 	@Override
