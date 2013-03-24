@@ -1,21 +1,22 @@
 package f21as;
 
-import java.io.IOException;
 import java.util.LinkedList;
 import java.util.List;
 
-public class OrderClerk extends Thread implements Subject {
+public class OrderClerk extends Thread implements Subject, Observer {
 private CustomerList customerList;
 private ParcelList parcelList;
 private String processReport = "Counter Closed";
 private List<Observer> registeredObservers = new LinkedList<Observer>();
-private int workingSpeed = 2000;
-//private LogFile lf = LogFile.getInstance();
+private  int workingSpeed = 4000;
+private boolean working = true;
+
 
 	public OrderClerk(CustomerList cl, ParcelList pl) {
+		super();
 		this.customerList = cl;
 		this.parcelList = pl;
-		//processCustomer();
+		
 	}
 	
 	public String getProcessReport() {
@@ -30,7 +31,7 @@ private int workingSpeed = 2000;
 		p.setCollectedBy(c.getName());
 		c.setProcessed(true);
 		
-		processed = processed + ("Parcel: " + p.getParcelID() + "in process." + "\n");
+		processed = processed + ("Parcel: " + p.getParcelID() + " in process." + "\n");
 		processed = processed + ("Charged: \n" + c.getName() + "\nAED " + String.format("%.2f",p.getCost()) + "\n");
 		processed = processed + ("Next please!" + "\n");
 		//processed = processed + ("\n");
@@ -59,32 +60,40 @@ private int workingSpeed = 2000;
 		Customer c = null;
 		Parcel p = null;
 		
-		for (Integer n: customerList.getKeySet())
+		while (working)
 		{
 			
-				c = customerList.findBySeqNum(n);
-				if(!c.isProcessed())
-				{
+				c = customerList.nextAvailableCustomer();
+				if(c != null){
+					c.setProcessed(true);
 					p = parcelList.findByID(c.getParcelID());
-					if((p.getParcelID() != "") && ((p.isReceived() == false) ))
-					{
-						System.out.println(processSuccessParcel(c, p));
-						
+						if((p.getParcelID() != "") && ((p.isReceived() == false) ))
+						{
+							System.out.println(processSuccessParcel(c, p));
+							
+						}
+						else
+						{
+							System.out.println(processUnSuccessParcel(c, p));
+							
+						}
+					
+					
+					try {
+					    sleep(workingSpeed);
+					} 
+					catch (InterruptedException e) {
+					        e.printStackTrace();
 					}
-					else
-					{
-						System.out.println(processUnSuccessParcel(c, p));
-						
-					}
+					
+					notifyObservers();
+					LogFile.addLog("Processed customer: " + c.getName());
 				}
-				
-				try {
-				     this.sleep(this.workingSpeed);
-				    } catch (InterruptedException e) {
-				        e.printStackTrace();
-				    }
-				notifyObservers();
-				LogFile.addLog("Processed customer: " + c.getName());
+				else
+				{
+					this.processReport = "Waiting for customer";
+					//notifyObservers();
+				}
 			}
 			this.processReport = "Finished";
 			notifyObservers();
@@ -130,6 +139,20 @@ private int workingSpeed = 2000;
 	}
 	public int getWorkingSpeed(){
 		return this.workingSpeed;
+	}
+
+	public boolean isWorking() {
+		return working;
+	}
+
+	public void setWorking(boolean working) {
+		this.working = working;
+	}
+
+	@Override
+	public void update() {
+		// TODO Auto-generated method stub
+		
 	}
 	
 }

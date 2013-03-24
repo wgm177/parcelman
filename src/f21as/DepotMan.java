@@ -18,52 +18,8 @@ import java.util.Scanner;
 
 public class DepotMan {
 	private  ParcelList parcelList = new ParcelList();
-	private  CustomerList customerList = new CustomerList();
-	private static final File customerFile = new File("customers.txt");
-	
-
-	
+	//private  CustomerList customerList = new CustomerList();
 	private OrderClerkList orderClerkList;
-	
-	
-	
-	
-	/**  popCustomerList() reads the customer.txt file 
-	 * @throws Exception  if file cannot be read  
-	 * @return true if file reading was successful or false if any problems issued 
-	 */
-	public boolean popCustomerList()
-	{
-		Scanner fread = null;
-				
-		try
-		{
-			fread = new Scanner(customerFile);
-			while (fread.hasNextLine())
-			{
-				Customer c = new Customer(fread.nextLine());
-				customerList.addCustomer(c);
-				
-			}
-		}
-		catch(Exception e)
-			{
-				//System.out.println("Cannot read from customer input file");
-				LogFile.addLog("Cannot read from customer input file: " + customerFile.getName());
-				return false;
-			}
-			finally
-			{
-				fread.close();
-				
-			}
-		return true;
-		
-	}
-	
-	
-	
-
 	
 	
 	/**   collectParcel() is the collection simulation method which takes one customer at a time
@@ -79,19 +35,16 @@ public class DepotMan {
 	{
 		DepotMan dm = new DepotMan();
 		
-		System.out.println(dm.popCustomerList());
+		CustomerList customerList = new CustomerList();
 		System.out.println(dm.parcelList.popParcelList());
-		dm.orderClerkList = new OrderClerkList(dm.customerList,dm.parcelList);
-		
-		//OrderClerk oc = new OrderClerk(dm.customerList, dm.parcelList);
-		//Thread t1 = new Thread(oc);
-		//t1.start();
-		
-		//OrderClerk oc1 = new OrderClerk(dm.customerList, dm.parcelList);
-		//Thread t2 = new Thread(oc1);
-		//t2.start();
-		
+		dm.orderClerkList = new OrderClerkList(customerList,dm.parcelList);
 		GUIMain gm = new GUIMain("ParcelMan v2.0", dm.orderClerkList);
+		
+		
+		
+		customerList.start();
+		System.out.println(customerList.popCustomerList());
+		
 		
 		
 

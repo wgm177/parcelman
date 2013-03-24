@@ -2,8 +2,12 @@ package f21as;
 
 
 
+import java.io.File;
 import java.util.LinkedHashMap;
+import java.util.LinkedList;
+import java.util.List;
 import java.util.Map;
+import java.util.Scanner;
 import java.util.Set;
 
 /** CustomerList is a public class that handles a list of customers coming in the queue. It uses a hashmap with 
@@ -15,15 +19,55 @@ import java.util.Set;
 * @version 64
 * @since February, 2013
 */
-public class CustomerList {
+public class CustomerList extends Thread{
 	
 	/** customerList is a hashmap that stores the queue of users as they are processed */
 	private Map<Integer, Customer> customerList = new LinkedHashMap<Integer, Customer>();
+	private static final File customerFile = new File("customers.txt");
+	private List<Observer> registeredObservers = new LinkedList<Observer>();
+	
 	
 	public Map<Integer, Customer> getCustomerList() {
 		return customerList;
 	}
 
+	/**  popCustomerList() reads the customer.txt file 
+	 * @throws Exception  if file cannot be read  
+	 * @return true if file reading was successful or false if any problems issued 
+	 */
+	public  boolean popCustomerList()
+	{
+		Scanner fread = null;
+				
+		try
+		{
+			fread = new Scanner(customerFile);
+			while (fread.hasNextLine())
+			{
+				Customer c = new Customer(fread.nextLine());
+				addCustomer(c);
+				try {
+				    sleep(500);
+				} 
+				catch (InterruptedException e) {
+				        e.printStackTrace();
+				}
+			}
+		}
+		catch(Exception e)
+			{
+				//System.out.println("Cannot read from customer input file");
+				LogFile.addLog("Cannot read from customer input file: " + customerFile.getName());
+				return false;
+			}
+			finally
+			{
+				fread.close();
+				
+			}
+		return true;
+		
+	}
 	
 
 	/** addCustomer(Customer c) adds customers read from the file to the hashmap
@@ -32,10 +76,11 @@ public class CustomerList {
 	 * @return		true if customer is successfully added to the hashmap, false if not. 
 	 */
 	
-	public boolean addCustomer(Customer c){
+	public synchronized boolean addCustomer(Customer c){
 		if(c != null)
 		{
 			customerList.put(c.getSeqNo(), c);
+			
 			LogFile.addLog("Add new customer: " + c.getName());
 			return true;
 		}
@@ -49,7 +94,7 @@ public class CustomerList {
 	 * @param name		a parameter of type String which contains the name of the customer
 	 * @return			variable of type Customer 
 	 */
-	public Customer findByName(String name)
+	public synchronized Customer findByName(String name)
 	{
 		Customer c = new Customer();
 		if(!customerList.isEmpty())
@@ -67,7 +112,7 @@ public class CustomerList {
 	 * @param n			an integer that contains sequence number
 	 * @return			variable of type Customer 
 	 */
-	public Customer findBySeqNum(Integer n)
+	public synchronized Customer findBySeqNum(Integer n)
 	{
 		Customer c = new Customer();
 		if(!customerList.isEmpty())
@@ -108,27 +153,29 @@ public class CustomerList {
 			return row;
 			
 		}
-	public Set<Integer> getKeySet()
+	public synchronized Set<Integer> getKeySet()
 	{
 		return this.customerList.keySet();
 	}
 	
-	public static void main(String[] args)
-	{
-		CustomerList cl = new CustomerList();
-		
-		System.out.println(cl.addCustomer(new Customer("4,Jenny McDonald Cooper,P036")));
-		System.out.println(cl.addCustomer(new Customer("91,Thomas Saunders Reynolds,P024")));
-		System.out.println(cl.addCustomer(new Customer("999,Zachary Poe Hood")));
-		
-		
-		
-	}
-
-	public void deleteCustomer(Customer c) {
+	
+	public synchronized void deleteCustomer(Customer c) {
 		// TODO Auto-generated method stub
 		this.customerList.remove(c.getSeqNo());
 		LogFile.addLog("Delete customer: " + c.getName());
 	}
+
+	public synchronized Customer nextAvailableCustomer() {
+		Customer firstCustomer = null;
+		for (Customer c: customerList.values()){
+			if(!c.isProcessed()){
+				firstCustomer = c;
+				break;
+			}
+		}
+		return firstCustomer;
+	}
+
+	
 
 }

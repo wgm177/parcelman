@@ -52,6 +52,7 @@ public class GUIMain extends JFrame implements ActionListener, Observer {
 			oc.start();
 		}
 		
+		//customerList.registerObserver(this);
 		this.setSize(WIDTH, HEIGHT);
 		this.setVisible(true);
 		this.setDefaultCloseOperation(this.EXIT_ON_CLOSE);
@@ -144,32 +145,25 @@ public class GUIMain extends JFrame implements ActionListener, Observer {
 	@SuppressWarnings("deprecation")
 	@Override
 	public void actionPerformed(ActionEvent ae) {
-		// TODO Auto-generated method stub
+		// Close shop button code
 		if (ae.getSource() == btnCloseShop)
 		{
 			LogFile.saveLogList();
 			parcelList.writeParcelReport();
+			for (OrderClerk oc: orderClerkList.getOrderClerkList())
+			{
+				
+				oc.interrupt();
+				oc = null;
+			}
 		}
+		
+		//Add Parcel button code
 		if (ae.getSource() == btnAddParcels)
 		{
 			parcelList.setParcelFileName("parcels_more.txt");
 			parcelList.popParcelList();
 		}
-		
-		if (ae.getSource() == btnCloseShop)
-		{
-			for (OrderClerk oc: orderClerkList.getOrderClerkList())
-			{
-				
-				try {
-					oc.wait();
-				} catch (InterruptedException e) {
-					// TODO Auto-generated catch block
-					e.printStackTrace();
-				}
-			}
-		}
-		
 		
 	}
 
