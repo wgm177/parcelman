@@ -14,6 +14,8 @@ import java.util.ArrayList;
 
 import javax.swing.*;
 
+import com.sun.xml.internal.bind.v2.schemagen.xmlschema.Occurs;
+
 public class GUIMain extends JFrame implements ActionListener, Observer {
 	
 	private static final int WIDTH = 1000;		
@@ -130,6 +132,7 @@ public class GUIMain extends JFrame implements ActionListener, Observer {
 		jpManager.setLayout(new GridLayout(0,3));
 		//btnOpenShop, btnCloseShop;
 		btnOpenShop = new JButton("OpenShop");
+		btnOpenShop.addActionListener(this);
 		btnAddParcels = new JButton("Accept Parcels");
 		jpManager.add(btnAddParcels);
 		btnAddParcels.addActionListener(this);
@@ -152,12 +155,19 @@ public class GUIMain extends JFrame implements ActionListener, Observer {
 			customerList.closeCustomers();
 			for (OrderClerk oc: orderClerkList.getOrderClerkList())
 				{
-					oc.setWorking(false);
+					oc.setClosedForDay(true);
+					
 				}
+			try {
+				wait(2000);
+			} catch (InterruptedException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+			
+			LogFile.addLog("Close shop");
 			
 			parcelList.writeParcelReport();
-			LogFile.addLog("Close shop");
-			taCustQue.setText("No customers");
 			update();
 			LogFile.saveLogList();
 			
@@ -169,6 +179,19 @@ public class GUIMain extends JFrame implements ActionListener, Observer {
 			parcelList.setParcelFileName("parcels_more.txt");
 			parcelList.popParcelList();
 			LogFile.addLog("Add new parcel assignment");
+		}
+		
+		if (ae.getSource() == btnOpenShop)
+		{
+	
+			customerList.popCustomerList();
+			for (OrderClerk oc: orderClerkList.getOrderClerkList())
+			{
+				oc.setClosedForDay(false);
+				oc.start();
+			}
+			update();
+			LogFile.addLog("Add customers");
 		}
 		
 	}

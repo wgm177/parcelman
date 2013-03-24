@@ -3,13 +3,14 @@ package f21as;
 import java.util.LinkedList;
 import java.util.List;
 
-public class OrderClerk extends Thread implements Subject, Observer {
+public class OrderClerk extends Thread implements Subject {
 private CustomerList customerList;
 private ParcelList parcelList;
 private String processReport = "Counter Closed";
 private List<Observer> registeredObservers = new LinkedList<Observer>();
-private  int workingSpeed = 4000;
+private  int workingSpeed = 2000;
 private boolean working = false;
+private boolean closedForDay = false;
 
 
 	public OrderClerk(CustomerList cl, ParcelList pl) {
@@ -60,7 +61,7 @@ private boolean working = false;
 		Customer c = null;
 		Parcel p = null;
 		
-		while (true)
+		while (!closedForDay)
 		{
 			if(working){
 				c = customerList.nextAvailableCustomer();
@@ -101,8 +102,8 @@ private boolean working = false;
 			}
 			notifyObservers();
 		}//end while
-			//this.processReport = "Finished";
-			//notifyObservers();
+			this.processReport = "End of day";
+			notifyObservers();
 			
 		
 	}
@@ -155,10 +156,13 @@ private boolean working = false;
 		this.working = working;
 	}
 
-	@Override
-	public void update() {
-		// TODO Auto-generated method stub
-		
+	
+	public boolean isClosedForDay() {
+		return closedForDay;
+	}
+
+	public void setClosedForDay(boolean closedForDay) {
+		this.closedForDay = closedForDay;
 	}
 	
 }

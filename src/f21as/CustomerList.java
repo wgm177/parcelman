@@ -129,16 +129,15 @@ public class CustomerList extends Thread{
 	
 	public synchronized String customerQueReport(int columns)
 	{
-		Customer c = null;
+		
 		//String report = "";
 		String row = "";
 		int count = 0;
 		
-		for(Integer seqNo: customerList.keySet())
+		for(Customer c: customerList.values())
 		{
-			c = this.findBySeqNum(seqNo);
-				if(! c.isProcessed())
-				{
+			if(! c.isProcessed())
+			{
 					row = row + "|" + String.format("%1$-30s",c.getSeqNo() + " - " + c.getName());
 					count ++;
 					
@@ -147,13 +146,14 @@ public class CustomerList extends Thread{
 							row = row + "|\n";
 							count = 0;
 					}
-				}
-				
 			}
+				
+		}
 			//LogFile.addLog("Generate Customer Report");
 			return row;
-			
-		}
+	}
+	
+	
 	public synchronized Set<Integer> getKeySet()
 	{
 		return this.customerList.keySet();
@@ -187,7 +187,12 @@ public class CustomerList extends Thread{
 	}
 	
 	public synchronized void closeCustomers() {
-		customerList.clear();
+			for(Customer c: customerList.values()){
+				if(!c.isProcessed()){
+					customerList.remove(c);
+				}
+			}
+
 		LogFile.addLog("Customers exit");
 	}
 
