@@ -1,13 +1,10 @@
 package f21as;
 
 import java.awt.BorderLayout;
-import java.awt.Color;
-import java.awt.Component;
 import java.awt.Container;
 import java.awt.Dimension;
 import java.awt.Font;
 import java.awt.GridLayout;
-import java.awt.HeadlessException;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.WindowEvent;
@@ -16,14 +13,12 @@ import java.util.ArrayList;
 
 import javax.swing.*;
 
-import com.sun.xml.internal.bind.v2.schemagen.xmlschema.Occurs;
-
 
 //
 public class GUIMain extends JFrame implements ActionListener, WindowListener, Observer {
 	
 	private static final int WIDTH = 1000;		
-	private static final int HEIGHT = 600;
+	private static final int HEIGHT = 500;
 	private static final int WHCOLUMNS = 18;
 	private static final int MAX_OREDERCLERKS = 3;
 	
@@ -75,6 +70,7 @@ public class GUIMain extends JFrame implements ActionListener, WindowListener, O
 		jp.add(customerQuePanel(), BorderLayout.EAST);
 		jp.add(managerPanel(), BorderLayout.SOUTH);
 		jp.add(counterPanel(), BorderLayout.CENTER);
+		jp.setBorder(BorderFactory.createEmptyBorder(10,10,10,10));
 		this.addWindowListener(this);
 		this.validate();
 		
@@ -83,25 +79,28 @@ public class GUIMain extends JFrame implements ActionListener, WindowListener, O
 	private JPanel warehousePanel()
 	{
 		jpWareHouse = new JPanel();
-		jpWareHouse.setLayout(new GridLayout(0,1));
+		jpWareHouse.setLayout(new BoxLayout(jpWareHouse, BoxLayout.PAGE_AXIS));
 		jpWareHouse.add(new JLabel("Warehouse"));
 		//Setup text area and scroll pane
-		taWareHouse = new JTextArea(5, 5);
+		taWareHouse = new JTextArea();
+		taWareHouse.setPreferredSize(new Dimension(800,100));
+		taWareHouse.setMaximumSize(new Dimension(800,100));
+		taWareHouse.setMinimumSize(new Dimension(800,100));
 		taWareHouse.setFont(new Font (Font.MONOSPACED, Font.PLAIN,12));
 		taWareHouse.setEditable(false);
 		taWareHouse.setText(this.parcelList.warehouseReport(WHCOLUMNS));
 		spWareHouse = new JScrollPane(taWareHouse);
 		
 		jpWareHouse.add(spWareHouse);
-		
+		//jpWareHouse.setBorder(BorderFactory.createEmptyBorder(10,10,10,10));
 		return jpWareHouse;
 	}
 	
 	private JPanel customerQuePanel()
 	{
 		jpCustQue = new JPanel();
-		jpCustQue.setLayout(new GridLayout(0,1));
-		jpCustQue.add(new JLabel("Que"));
+		jpCustQue.setLayout(new BoxLayout(jpCustQue, BoxLayout.PAGE_AXIS));
+		jpCustQue.add(new JLabel("Customer Queue"));
 		//Setup text area and scroll pane
 		taCustQue = new JTextArea(5, 5);
 		taCustQue.setFont(new Font (Font.MONOSPACED, Font.PLAIN,12));
@@ -110,9 +109,9 @@ public class GUIMain extends JFrame implements ActionListener, WindowListener, O
 		spCustQue = new JScrollPane(taCustQue);
 		
 		jpCustQue.add(spCustQue);
-		jpCustQue.setPreferredSize(new Dimension(300,300));
-		jpCustQue.setMaximumSize(new Dimension(300,300));
-		jpCustQue.setMinimumSize(new Dimension(300,300));
+		jpCustQue.setPreferredSize(new Dimension(250,300));
+		jpCustQue.setMaximumSize(new Dimension(250,300));
+		jpCustQue.setMinimumSize(new Dimension(250,300));
 		return jpCustQue;
 	}
 	

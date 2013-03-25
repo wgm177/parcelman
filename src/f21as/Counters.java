@@ -1,5 +1,6 @@
 package f21as;
 
+import java.awt.BorderLayout;
 import java.awt.Color;
 import java.awt.Dimension;
 import java.awt.Font;
@@ -8,6 +9,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 import javax.swing.BorderFactory;
+import javax.swing.BoxLayout;
 import javax.swing.JButton;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
@@ -21,7 +23,7 @@ public class Counters extends JPanel implements ActionListener {
 	 */
 	private static final long serialVersionUID = 1L;
 	private OrderClerk oc;
-	private JPanel jpProcessOrder, jpBtnPanel, jpSign;
+	private JPanel jpProcessOrder, jpBtnPanel, jpSign, jpHeader;
 	private JTextArea taProcessOrder;
 	private JButton btnFast, btnSlow, btnWorking;
 	private JLabel lblWorkingSpeed, lblCounter;
@@ -32,41 +34,56 @@ public class Counters extends JPanel implements ActionListener {
 		this.oc = oc;
 		
 		jpProcessOrder = new JPanel();
-		jpSign = new JPanel();
-		jpSign.setLayout(new GridLayout(4,2));
+		jpProcessOrder.setLayout(new GridLayout(2,1,5,5));
 		
-		jpSign.setBorder(BorderFactory.createLineBorder(Color.GRAY));
-		//jpSign.setBorder(new EmptyBorder(10, 10, 10, 10) );
-		jpProcessOrder.setLayout(new GridLayout(2,2,5,5));
-		jpBtnPanel = new JPanel(new GridLayout(2,0));
-		jpBtnPanel.setBorder(new EmptyBorder(5,5,5,5));
-		btnFast = new JButton("Slower");
-		btnFast.setMaximumSize(new Dimension(5,5));
-		btnFast.addActionListener(this);
-		btnSlow = new JButton("Faster");
-		btnSlow.setMaximumSize(new Dimension(5,5));
-		btnWorking = new JButton("Open");
-		btnWorking.addActionListener(this);
-		btnSlow.addActionListener(this);
+			jpSign = new JPanel();
+			jpSign.setLayout(new BoxLayout(jpSign, BoxLayout.Y_AXIS));
+			jpSign.setBorder(BorderFactory.createLineBorder(Color.GRAY));
+			
+			jpHeader = new JPanel();
+			jpHeader.setLayout(new GridLayout(1,2));
+			jpHeader.setBorder(new EmptyBorder(5,5,5,5));
+				lblCounter = new JLabel("Counter " + i);
+				btnWorking = new JButton("Open");
+				btnWorking.addActionListener(this);
+			
+				if(oc.isWorking()){
+					this.btnWorking.setBackground(Color.GREEN);
+					this.btnWorking.setText("Open");
+					this.btnWorking.setPreferredSize(getMinimumSize());
+				}
+				else{
+					this.btnWorking.setBackground(Color.RED);
+					this.btnWorking.setText("Closed");
+					this.btnWorking.setPreferredSize(getMinimumSize());
+				}
+			jpHeader.add(lblCounter);
+			jpHeader.add(btnWorking);
+				jpSign.add(jpHeader);
+				
+					lblWorkingSpeed = new JLabel("Speed: " + oc.getWorkingSpeed());
+					lblWorkingSpeed.setBorder(new EmptyBorder(5,5,5,5));
+				
+				jpSign.add(lblWorkingSpeed);
+			//jpSign.add(lblCounter, BorderLayout.CENTER);
+			
+			
+			//jpSign.setBorder(new EmptyBorder(10, 10, 10, 10) );
 		
-		lblCounter = new JLabel("Counter " + i);
-		lblCounter.setBorder(new EmptyBorder(5,5,5,5));
-		jpSign.add(lblCounter);
-		lblWorkingSpeed = new JLabel("" +oc.getWorkingSpeed());
-		lblWorkingSpeed.setBorder(new EmptyBorder(5,5,5,5));
-		jpSign.add(lblWorkingSpeed);
-		jpBtnPanel.add(btnFast);
-		jpBtnPanel.add(btnSlow);
-		jpBtnPanel.add(btnWorking);
-		if(oc.isWorking()){
-			this.btnWorking.setBackground(Color.GREEN);
-			this.btnWorking.setText("Open");
-		}
-		else{
-			this.btnWorking.setBackground(Color.RED);
-			this.btnWorking.setText("Closed");
-		}
-		jpSign.add(jpBtnPanel);
+		
+				jpBtnPanel = new JPanel(new GridLayout(1,2));
+				jpBtnPanel.setBorder(new EmptyBorder(5,5,5,5));
+					btnFast = new JButton("Slower");
+					btnFast.setMaximumSize(new Dimension(5,5));
+					btnFast.addActionListener(this);
+				jpBtnPanel.add(btnFast);
+					
+					
+					btnSlow = new JButton("Faster");
+					btnSlow.setMaximumSize(new Dimension(5,5));
+					btnSlow.addActionListener(this);
+				jpBtnPanel.add(btnSlow);	
+			jpSign.add(jpBtnPanel);
 		jpProcessOrder.add(jpSign);
 		
 		//Setup text area and scroll pane
@@ -97,14 +114,14 @@ public class Counters extends JPanel implements ActionListener {
 		{
 			oc.increaseWorkingSpeed();
 			
-			this.lblWorkingSpeed.setText(oc.getWorkingSpeed() + "");
+			this.lblWorkingSpeed.setText("Speed: " + oc.getWorkingSpeed());
 			
 		}
 		if(e.getSource() == btnSlow)
 		{
 			oc.decreaseWorkingSpeed();
 			
-			this.lblWorkingSpeed.setText(oc.getWorkingSpeed() + "");
+			this.lblWorkingSpeed.setText("Speed: " + oc.getWorkingSpeed());
 			
 		}
 		if(e.getSource() == btnWorking)
