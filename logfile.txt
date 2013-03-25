@@ -117,3 +117,455 @@ Add new customer: Alex  Lutz
 Add new customer: Alex Abrams May
 Close shop
 Write parcel report
+customerList.size:0
+New order clerk added
+New order clerk added
+New order clerk added
+Add new customer: Aaron Benson McLean
+Add new customer: Aaron Clayton McKenzie
+Add new customer: Aaron Coleman Woods
+Open counter
+Add new customer: Aaron Douglas King
+Open counter
+Add new customer: Aaron Fowler Brandon
+Open counter
+Add new customer: Aaron Frazier Li
+Add new customer: Aaron McLeod Moody
+Processed customer: Aaron Benson McLean
+Add new customer: Aaron Montgomery McLamb
+Add new customer: Aaron Peacock Dalton
+Processed customer: Aaron Clayton McKenzie
+Add new customer: Aaron Peters Carpenter
+Add new customer: Aaron Porter Simmons
+Processed customer: Aaron Coleman Woods
+Add new customer: Aaron Quinn Pugh
+Add new customer: Aaron Roy Lawrence
+Processed customer: Aaron Douglas King
+Add new customer: Aaron Sherrill Kirkland
+Add new customer: Adam  Butler
+Processed customer: Aaron Fowler Brandon
+Add new customer: Adam  Werner
+Add new customer: Adam Ayers Washington
+Processed customer: Aaron Frazier Li
+Add new customer: Adam Campbell Brown
+Add new customer: Adam Ellington Carroll
+Processed customer: Aaron McLeod Moody
+Add new customer: Adam Floyd Woodard
+Add new customer: Adam Hodge Mayo
+Processed customer: Aaron Montgomery McLamb
+Add new customer: Adam Keith O'Connor
+Add new customer: Adam Kennedy Lu
+Processed customer: Aaron Peacock Dalton
+Close shop
+Write parcel report
+customerList.size:0
+New order clerk added
+New order clerk added
+New order clerk added
+Add new customer: Aaron Benson McLean
+Add new customer: Aaron Clayton McKenzie
+Add new customer: Aaron Coleman Woods
+Add new customer: Aaron Douglas King
+Open counter
+Add new customer: Aaron Fowler Brandon
+Add new customer: Aaron Frazier Li
+Open counter
+Add new customer: Aaron McLeod Moody
+Add new customer: Aaron Montgomery McLamb
+Open counter
+Add new customer: Aaron Peacock Dalton
+Add new customer: Aaron Peters Carpenter
+Processed customer: Aaron Benson McLean
+Add new customer: Aaron Porter Simmons
+Add new customer: Aaron Quinn Pugh
+Processed customer: Aaron Clayton McKenzie
+Add new customer: Aaron Roy Lawrence
+Add new customer: Aaron Sherrill Kirkland
+Processed customer: Aaron Coleman Woods
+Add new customer: Adam  Butler
+Add new customer: Adam  Werner
+Processed customer: Aaron Douglas King
+Add new customer: Adam Ayers Washington
+Add new customer: Adam Campbell Brown
+Processed customer: Aaron Fowler Brandon
+Add new customer: Adam Ellington Carroll
+Processed customer: Aaron Frazier Li
+Add new customer: Adam Floyd Woodard
+Add new customer: Adam Hodge Mayo
+Processed customer: Aaron Montgomery McLamb
+Processed customer: Aaron Peacock Dalton
+Add new customer: Adam Keith O'Connor
+Processed customer: Aaron McLeod Moody
+Processed customer: Aaron Peters Carpenter
+Processed customer: Aaron Quinn Pugh
+Processed customer: Aaron Roy Lawrence
+Processed customer: Aaron Sherrill Kirkland
+Processed customer: Adam  Butler
+Processed customer: Adam  Werner
+Processed customer: Adam Ayers Washington
+Processed customer: Adam Campbell Brown
+Processed customer: Adam Ellington Carroll
+Processed customer: Adam Floyd Woodard
+Processed customer: Adam Hodge Mayo
+Processed customer: Adam Keith O'Connor
+Add new customer: Adam Kennedy Lu
+Processed customer: Adam Kennedy Lu
+Add new customer: Adam Martin Mathews
+Processed customer: Adam Martin Mathews
+Add new customer: Adam Massey Camp
+Processed customer: Adam Massey Camp
+Add new customer: Adam Massey Hardy
+Processed customer: Adam Massey Hardy
+Processed customer: Aaron Porter Simmons
+Close shop
+Write parcel report
+customerList.size:0
+New order clerk added
+New order clerk added
+New order clerk added
+Add new customer: Aaron Benson McLean
+Add new customer: Aaron Clayton McKenzie
+Open counter
+Add new customer: Aaron Coleman Woods
+Add new customer: Aaron Douglas King
+Open counter
+Add new customer: Aaron Fowler Brandon
+Open counter
+Add new customer: Aaron Frazier Li
+Processed customer: Aaron Benson McLean
+Add new customer: Aaron McLeod Moody
+Add new customer: Aaron Montgomery McLamb
+Processed customer: Aaron Clayton McKenzie
+Add new customer: Aaron Peacock Dalton
+Processed customer: Aaron Coleman Woods
+Add new customer: Aaron Peters Carpenter
+Processed customer: Aaron Douglas King
+Add new customer: Aaron Porter Simmons
+Add new customer: Aaron Quinn Pugh
+Processed customer: Aaron Fowler Brandon
+Add new customer: Aaron Roy Lawrence
+Processed customer: Aaron Frazier Li
+Add new customer: Aaron Sherrill Kirkland
+Processed customer: Aaron McLeod Moody
+Add new customer: Adam  Butler
+Add new customer: Adam  Werner
+Processed customer: Aaron Montgomery McLamb
+Add new customer: Adam Ayers Washington
+Processed customer: Aaron Peacock Dalton
+Add new customer: Adam Campbell Brown
+Processed customer: Aaron Peters Carpenter
+Add new customer: Adam Ellington Carroll
+Add new customer: Adam Floyd Woodard
+Processed customer: Aaron Porter Simmons
+Add new customer: Adam Hodge Mayo
+Processed customer: Aaron Roy Lawrence
+Processed customer: Aaron Quinn Pugh
+Add new customer: Adam Keith O'Connor
+Add new customer: Adam Kennedy Lu
+Processed customer: Adam  Butler
+Add new customer: Adam Martin Mathews
+Processed customer: Aaron Sherrill Kirkland
+Add new customer: Adam Massey Camp
+Processed customer: Adam  Werner
+Add new customer: Adam Massey Hardy
+Processed customer: Adam Ayers Washington
+Add new customer: Adam Morton McKenzie
+Add new customer: Adam O'Brien Rodgers
+Processed customer: Adam Campbell Brown
+Add new customer: Adam Pope Bynum
+Processed customer: Adam Floyd Woodard
+Processed customer: Adam Ellington Carroll
+Add new customer: Adam Price Link
+Add new customer: Adam Simon Atkinson
+Add new customer: Alan Barr O'Neal
+Processed customer: Adam Hodge Mayo
+Processed customer: Adam Keith O'Connor
+Add new customer: Alan Barton Levin
+Processed customer: Adam Kennedy Lu
+Add new customer: Alan Boyle Reilly
+Add new customer: Alan Case Erickson
+Processed customer: Adam Massey Camp
+Add new customer: Alan Elmore Meadows
+Processed customer: Adam Martin Mathews
+Add new customer: Alan Flowers Sutton
+Processed customer: Adam Massey Hardy
+Processed customer: Adam Morton McKenzie
+Add new customer: Alan Francis West
+Add new customer: Alan Galloway Boyle
+Add new customer: Alan Goodman Howell
+Processed customer: Adam O'Brien Rodgers
+Processed customer: Adam Price Link
+Add new customer: Alan Hart Brandt
+Processed customer: Adam Pope Bynum
+Add new customer: Alan Ivey Webb
+Add new customer: Alan Kahn Beatty
+Processed customer: Alan Barr O'Neal
+Add new customer: Alan Larson Pollard
+Processed customer: Adam Simon Atkinson
+Add new customer: Alan Lu Shah
+Processed customer: Alan Barton Levin
+Processed customer: Alan Boyle Reilly
+Add new customer: Alan Lyons Humphrey
+Add new customer: Alan Melton McConnell
+Add new customer: Albert  Dillon
+Processed customer: Alan Case Erickson
+Processed customer: Alan Flowers Sutton
+Add new customer: Albert  Wiley
+Processed customer: Alan Elmore Meadows
+Add new customer: Albert Boyette Brock
+Processed customer: Alan Galloway Boyle
+Add new customer: Albert Brown Cooke
+Add new customer: Albert Donovan Dorsey
+Processed customer: Alan Francis West
+Processed customer: Alan Hart Brandt
+Add new customer: Albert Dyer Pridgen
+Processed customer: Alan Goodman Howell
+Add new customer: Albert Erickson Jain
+Add new customer: Albert Garcia Jenkins
+Processed customer: Alan Kahn Beatty
+Add new customer: Albert Hartman Brandon
+Processed customer: Alan Ivey Webb
+Add new customer: Albert Hernandez Stuart
+Processed customer: Alan Lu Shah
+Processed customer: Alan Larson Pollard
+Add new customer: Albert Marcus Stanton
+Close shop
+Write parcel report
+customerList.size:0
+New order clerk added
+New order clerk added
+New order clerk added
+Add new customer: Aaron Benson McLean
+Add new customer: Aaron Clayton McKenzie
+Add new customer: Aaron Coleman Woods
+Add new customer: Aaron Douglas King
+Open counter
+Add new customer: Aaron Fowler Brandon
+Open counter
+Add new customer: Aaron Frazier Li
+Add new customer: Aaron McLeod Moody
+Open counter
+Add new customer: Aaron Montgomery McLamb
+Processed customer: Aaron Benson McLean
+Add new customer: Aaron Peacock Dalton
+Processed customer: Aaron Clayton McKenzie
+Add new customer: Aaron Peters Carpenter
+Add new customer: Aaron Porter Simmons
+Processed customer: Aaron Coleman Woods
+Add new customer: Aaron Quinn Pugh
+Processed customer: Aaron Douglas King
+Add new customer: Aaron Roy Lawrence
+Processed customer: Aaron Fowler Brandon
+Add new customer: Aaron Sherrill Kirkland
+Add new customer: Adam  Butler
+Processed customer: Aaron Frazier Li
+Add new customer: Adam  Werner
+Processed customer: Aaron McLeod Moody
+Add new customer: Adam Ayers Washington
+Processed customer: Aaron Montgomery McLamb
+Add new customer: Adam Campbell Brown
+Add new customer: Adam Ellington Carroll
+Processed customer: Aaron Peacock Dalton
+Add new customer: Adam Floyd Woodard
+Processed customer: Aaron Peters Carpenter
+Add new customer: Adam Hodge Mayo
+Processed customer: Aaron Porter Simmons
+Add new customer: Adam Keith O'Connor
+Add new customer: Adam Kennedy Lu
+Processed customer: Aaron Quinn Pugh
+Add new customer: Adam Martin Mathews
+Processed customer: Aaron Roy Lawrence
+Add new customer: Adam Massey Camp
+Processed customer: Aaron Sherrill Kirkland
+Add new customer: Adam Massey Hardy
+Add new customer: Adam Morton McKenzie
+Processed customer: Adam  Butler
+Add new customer: Adam O'Brien Rodgers
+Processed customer: Adam  Werner
+Add new customer: Adam Pope Bynum
+Processed customer: Adam Ayers Washington
+Add new customer: Adam Price Link
+Add new customer: Adam Simon Atkinson
+Processed customer: Adam Campbell Brown
+Add new customer: Alan Barr O'Neal
+Processed customer: Adam Ellington Carroll
+Add new customer: Alan Barton Levin
+Processed customer: Adam Floyd Woodard
+Add new customer: Alan Boyle Reilly
+Add new customer: Alan Case Erickson
+Processed customer: Adam Hodge Mayo
+Add new customer: Alan Elmore Meadows
+Processed customer: Adam Keith O'Connor
+Add new customer: Alan Flowers Sutton
+Processed customer: Adam Kennedy Lu
+Add new customer: Alan Francis West
+Add new customer: Alan Galloway Boyle
+Processed customer: Adam Martin Mathews
+Add new customer: Alan Goodman Howell
+Processed customer: Adam Massey Camp
+Add new customer: Alan Hart Brandt
+Processed customer: Adam Massey Hardy
+Add new customer: Alan Ivey Webb
+Add new customer: Alan Kahn Beatty
+Processed customer: Adam Morton McKenzie
+Add new customer: Alan Larson Pollard
+Processed customer: Adam O'Brien Rodgers
+Add new customer: Alan Lu Shah
+Processed customer: Adam Pope Bynum
+Add new customer: Alan Lyons Humphrey
+Add new customer: Alan Melton McConnell
+Processed customer: Adam Price Link
+Add new customer: Albert  Dillon
+Processed customer: Adam Simon Atkinson
+Add new customer: Albert  Wiley
+Processed customer: Alan Barr O'Neal
+Add new customer: Albert Boyette Brock
+Add new customer: Albert Brown Cooke
+Processed customer: Alan Barton Levin
+Add new customer: Albert Donovan Dorsey
+Processed customer: Alan Boyle Reilly
+Add new customer: Albert Dyer Pridgen
+Processed customer: Alan Case Erickson
+Add new customer: Albert Erickson Jain
+Add new customer: Albert Garcia Jenkins
+Processed customer: Alan Elmore Meadows
+Add new customer: Albert Hartman Brandon
+Processed customer: Alan Flowers Sutton
+Add new customer: Albert Hernandez Stuart
+Processed customer: Alan Francis West
+Add new customer: Albert Marcus Stanton
+Add new customer: Albert McGuire Horne
+Processed customer: Alan Galloway Boyle
+Add new customer: Albert Montgomery Higgins
+Processed customer: Alan Goodman Howell
+Add new customer: Albert Poe Ellis
+Processed customer: Alan Hart Brandt
+Add new customer: Albert Quinn Reilly
+Add new customer: Albert Reilly Spears
+Processed customer: Alan Ivey Webb
+Add new customer: Alex  Bray
+Processed customer: Alan Kahn Beatty
+Add new customer: Alex  Craven
+Processed customer: Alan Larson Pollard
+Add new customer: Alex  Hernandez
+Add new customer: Alex  Lutz
+Processed customer: Alan Lu Shah
+Add new customer: Alex Abrams May
+Processed customer: Alan Lyons Humphrey
+Add new customer: Alex Atkins Henry
+Processed customer: Alan Melton McConnell
+Add new customer: Alex Bender Yang
+Add new customer: Alex Burnette Buckley
+Processed customer: Albert  Dillon
+Add new customer: Alex Coble Vick
+Processed customer: Albert  Wiley
+Add new customer: Alex Cochran Blake
+Processed customer: Albert Boyette Brock
+Add new customer: Alex Cooper Dean
+Add new customer: Alex Dolan Ball
+Processed customer: Albert Brown Cooke
+Add new customer: Alex Forbes Jacobson
+Processed customer: Albert Donovan Dorsey
+Add new customer: Alex Frederick Mangum
+Processed customer: Albert Dyer Pridgen
+Add new customer: Alex Gates Grady
+Add new customer: Alex Greenberg Richards
+Processed customer: Albert Erickson Jain
+Add new customer: Alex Grimes Swain
+Processed customer: Albert Garcia Jenkins
+Add new customer: Alex Harding Shields
+Processed customer: Albert Hartman Brandon
+Add new customer: Alex Ho Barnett
+Add new customer: Alex Hoover Cole
+Processed customer: Albert Hernandez Stuart
+Add new customer: Alex House Koch
+Processed customer: Albert Marcus Stanton
+Add new customer: Alex Hudson Leach
+Processed customer: Albert McGuire Horne
+Add new customer: Alex McPherson McLeod
+Add new customer: Alex O'Connor Parrott
+Processed customer: Albert Montgomery Higgins
+Add new customer: Alex Price Mayo
+Processed customer: Albert Poe Ellis
+Add new customer: Alex Roberts Beard
+Processed customer: Albert Quinn Reilly
+Add new customer: Alexander  Pickett
+Add new customer: Alexander  Williams
+Processed customer: Albert Reilly Spears
+Add new customer: Alexander Atkinson Gray
+Processed customer: Alex  Bray
+Add new customer: Alexander Bridges Lucas
+Processed customer: Alex  Craven
+Add new customer: Alexander Carlton Kramer
+Add new customer: Alexander Chan Watson
+Processed customer: Alex  Hernandez
+Add new customer: Alexander Chu Forbes
+Processed customer: Alex  Lutz
+Add new customer: Alexander Crane Carver
+Processed customer: Alex Abrams May
+Add new customer: Alexander Craven McLean
+Add new customer: Alexander Dickerson Page
+Processed customer: Alex Atkins Henry
+Add new customer: Alexander Dickinson Hull
+Processed customer: Alex Bender Yang
+Add new customer: Alexander Feldman Desai
+Processed customer: Alex Burnette Buckley
+Add new customer: Alexander Hicks Blake
+Add new customer: Alexander Ho Howe
+Processed customer: Alex Coble Vick
+Add new customer: Alexander Keller Hensley
+Processed customer: Alex Cochran Blake
+Add new customer: Alexander McClure McGuire
+Processed customer: Alex Cooper Dean
+Add new customer: Alexander Neal Britt
+Add new customer: Alexander Sanchez Franklin
+Processed customer: Alex Dolan Ball
+Add new customer: Alexander Sparks Dickinson
+Processed customer: Alex Forbes Jacobson
+Add new customer: Alexandra  Barnett
+Processed customer: Alex Frederick Mangum
+Add new customer: Alexandra  Decker
+Add new customer: Alexandra Braun Gentry
+Processed customer: Alex Gates Grady
+Add new customer: Alexandra Buchanan Chase
+Processed customer: Alex Greenberg Richards
+Add new customer: Alexandra Burgess Warren
+Processed customer: Alex Grimes Swain
+Add new customer: Alexandra Burnette Hudson
+Add new customer: Alexandra Capps Lane
+Processed customer: Alex Harding Shields
+Add new customer: Alexandra Case Pennington
+Processed customer: Alex Ho Barnett
+Add new customer: Alexandra Cherry Marsh
+Processed customer: Alex Hoover Cole
+Add new customer: Alexandra Clark Weiss
+Add new customer: Alexandra Craven Johnson
+Processed customer: Alex House Koch
+Add new customer: Alexandra Dalton Cole
+Processed customer: Alex Hudson Leach
+Add new customer: Alexandra Gibbs Thomson
+Processed customer: Alex McPherson McLeod
+Add new customer: Alexandra Hughes Hansen
+Add new customer: Alexandra Kessler Kuhn
+Processed customer: Alex O'Connor Parrott
+Add new customer: Alexandra King Helms
+Processed customer: Alex Price Mayo
+Add new customer: Alexandra Levine Lassiter
+Processed customer: Alex Roberts Beard
+Add new customer: Alexandra Livingston Adams
+Add new customer: Alexandra Nelson Small
+Processed customer: Alexander  Pickett
+Add new customer: Alexandra Sanchez Cox
+Processed customer: Alexander  Williams
+Add new customer: Alexandra Sharp Henderson
+Processed customer: Alexander Atkinson Gray
+Add new customer: Alexandra Silverman Church
+Add new customer: Alexandra Simpson Snyder
+Processed customer: Alexander Bridges Lucas
+Add new customer: Alfred  Davenport
+Processed customer: Alexander Carlton Kramer
+Add new customer: Alfred Blalock Koch
+Processed customer: Alexander Chan Watson
+Add new customer: Alfred Blanton Haynes
+Close shop
+Write parcel report

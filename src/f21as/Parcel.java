@@ -33,7 +33,7 @@ public class Parcel {
 		this.width = 0;
 		this.height = 0;
         this.length=0;
-		this.cost = calculateFee();
+		//this.cost = calculateFee();
 		this.collectedBy = "";
 		this.received = false;		
 	}
@@ -96,7 +96,8 @@ public class Parcel {
 				s = s + "|" + String.format("%1$-" + 5 + "s",this.width);
 				s = s + "|" + String.format("%1$-" + 5 + "s",this.height);
                 s = s + "|" + String.format("%1$-" + 5 + "s",this.length);
-				s = s + "|" + String.format("%1$" + 8 + "s", String.format("%.2f",this.calculateFee()));
+				s = s + "|" + String.format("%1$" + 8 + "s", String.format("%.2f",this.cost));
+				//s = s + "|" + String.format("%1$" + 8 + "s", this.cost);
 				s = s + "|" + String.format("%1$-" + 15 + "s",this.collectedBy);
 				
 		return s;
