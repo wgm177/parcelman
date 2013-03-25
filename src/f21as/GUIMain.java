@@ -62,6 +62,11 @@ public class GUIMain extends JFrame implements ActionListener, WindowListener, O
 		this.setSize(WIDTH, HEIGHT);
 		this.setVisible(true);
 		this.setDefaultCloseOperation(this.EXIT_ON_CLOSE);
+		try {
+		    UIManager.setLookAndFeel( UIManager.getCrossPlatformLookAndFeelClassName() );
+		 } catch (Exception e) {
+		            e.printStackTrace();
+		 }
 		Container c = this.getContentPane();
 		jp = new JPanel();
 		c.add(jp);

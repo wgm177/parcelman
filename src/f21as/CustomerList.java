@@ -25,7 +25,7 @@ public class CustomerList extends Thread{
 	private Map<Integer, Customer> customerList = new LinkedHashMap<Integer, Customer>();
 	private static final File customerFile = new File("customers.txt");
 	private List<Observer> registeredObservers = new LinkedList<Observer>();
-	private int joinSpeed = 100;
+	private int joinSpeed = 500;
 	private boolean closedForDay = false;
 	
 	

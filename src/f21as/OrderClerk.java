@@ -62,7 +62,7 @@ private boolean closedForDay = false;
 		Customer c = null;
 		Parcel p = null;
 		
-			if(working && customerList.nextAvailableCustomer() != null){
+			if(working){
 				
 					c = customerList.nextAvailableCustomer();
 				
@@ -86,7 +86,6 @@ private boolean closedForDay = false;
 					else
 					{
 						this.processReport = "Waiting for customer";
-						
 					}
 				
 			}// end if working
