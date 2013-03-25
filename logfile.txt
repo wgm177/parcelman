@@ -5509,3 +5509,1096 @@ Close counter
 Add new parcel assignment
 Close shop
 Write parcel report
+customerList.size:0
+New order clerk added
+New order clerk added
+New order clerk added
+Add new customer: Aaron Benson McLean
+Add new customer: Aaron Benson McLean
+Add new customer: Aaron Clayton McKenzie
+Add new customer: Aaron Clayton McKenzie
+Add new customer: Aaron Coleman Woods
+Add new customer: Aaron Coleman Woods
+Add new customer: Aaron Douglas King
+Add new customer: Aaron Douglas King
+Add new customer: Aaron Fowler Brandon
+Add new customer: Aaron Fowler Brandon
+Processed customer: Aaron Benson McLean
+Add new customer: Aaron Frazier Li
+Add new customer: Aaron Frazier Li
+Processed customer: Aaron Clayton McKenzie
+Add new customer: Aaron McLeod Moody
+Add new customer: Aaron McLeod Moody
+Processed customer: Aaron Coleman Woods
+Add new customer: Aaron Montgomery McLamb
+Add new customer: Aaron Montgomery McLamb
+Add new customer: Aaron Peacock Dalton
+Add new customer: Aaron Peacock Dalton
+Processed customer: Aaron Douglas King
+Add new customer: Aaron Peters Carpenter
+Add new customer: Aaron Peters Carpenter
+Processed customer: Aaron Fowler Brandon
+Add new customer: Aaron Porter Simmons
+Add new customer: Aaron Porter Simmons
+Processed customer: Aaron Frazier Li
+Add new customer: Aaron Quinn Pugh
+Add new customer: Aaron Quinn Pugh
+Add new customer: Aaron Roy Lawrence
+Add new customer: Aaron Roy Lawrence
+Processed customer: Aaron McLeod Moody
+Add new customer: Aaron Sherrill Kirkland
+Add new customer: Aaron Sherrill Kirkland
+Processed customer: Aaron Montgomery McLamb
+Add new customer: Adam  Butler
+Add new customer: Adam  Butler
+Processed customer: Aaron Peacock Dalton
+Add new customer: Adam  Werner
+Add new customer: Adam  Werner
+Add new customer: Adam Ayers Washington
+Add new customer: Adam Ayers Washington
+Processed customer: Aaron Peters Carpenter
+Add new customer: Adam Campbell Brown
+Add new customer: Adam Campbell Brown
+Processed customer: Aaron Porter Simmons
+Add new customer: Adam Ellington Carroll
+Add new customer: Adam Ellington Carroll
+Processed customer: Aaron Quinn Pugh
+Add new customer: Adam Floyd Woodard
+Add new customer: Adam Floyd Woodard
+Add new customer: Adam Hodge Mayo
+Add new customer: Adam Hodge Mayo
+Add new customer: Adam Keith O'Connor
+Add new customer: Adam Keith O'Connor
+Processed customer: Aaron Roy Lawrence
+Add new customer: Adam Kennedy Lu
+Add new customer: Adam Kennedy Lu
+Processed customer: Aaron Sherrill Kirkland
+Add new customer: Adam Martin Mathews
+Add new customer: Adam Martin Mathews
+Processed customer: Adam  Butler
+Add new customer: Adam Massey Camp
+Add new customer: Adam Massey Camp
+Add new customer: Adam Massey Hardy
+Add new customer: Adam Massey Hardy
+Processed customer: Adam  Werner
+Add new customer: Adam Morton McKenzie
+Add new customer: Adam Morton McKenzie
+Processed customer: Adam Ayers Washington
+Add new customer: Adam O'Brien Rodgers
+Add new customer: Adam O'Brien Rodgers
+Processed customer: Adam Campbell Brown
+Add new customer: Adam Pope Bynum
+Add new customer: Adam Pope Bynum
+Add new customer: Adam Price Link
+Add new customer: Adam Price Link
+Processed customer: Adam Ellington Carroll
+Add new customer: Adam Simon Atkinson
+Add new customer: Adam Simon Atkinson
+Processed customer: Adam Floyd Woodard
+Add new customer: Alan Barr O'Neal
+Add new customer: Alan Barr O'Neal
+Processed customer: Adam Hodge Mayo
+Add new customer: Alan Barton Levin
+Add new customer: Alan Barton Levin
+Add new customer: Alan Boyle Reilly
+Add new customer: Alan Boyle Reilly
+Processed customer: Adam Keith O'Connor
+Add new customer: Alan Case Erickson
+Add new customer: Alan Case Erickson
+Processed customer: Adam Kennedy Lu
+Add new customer: Alan Elmore Meadows
+Add new customer: Alan Elmore Meadows
+Processed customer: Adam Martin Mathews
+Add new customer: Alan Flowers Sutton
+Add new customer: Alan Flowers Sutton
+Add new customer: Alan Francis West
+Add new customer: Alan Francis West
+Processed customer: Adam Massey Camp
+Add new customer: Alan Galloway Boyle
+Add new customer: Alan Galloway Boyle
+Processed customer: Adam Massey Hardy
+Add new customer: Alan Goodman Howell
+Add new customer: Alan Goodman Howell
+Add new customer: Alan Hart Brandt
+Add new customer: Alan Hart Brandt
+Processed customer: Adam Morton McKenzie
+Add new customer: Alan Ivey Webb
+Add new customer: Alan Ivey Webb
+Add new customer: Alan Kahn Beatty
+Add new customer: Alan Kahn Beatty
+Processed customer: Adam O'Brien Rodgers
+Add new customer: Alan Larson Pollard
+Add new customer: Alan Larson Pollard
+Processed customer: Adam Pope Bynum
+Add new customer: Alan Lu Shah
+Add new customer: Alan Lu Shah
+Processed customer: Adam Price Link
+Add new customer: Alan Lyons Humphrey
+Add new customer: Alan Lyons Humphrey
+Add new customer: Alan Melton McConnell
+Add new customer: Alan Melton McConnell
+Processed customer: Adam Simon Atkinson
+Add new customer: Albert  Dillon
+Add new customer: Albert  Dillon
+Processed customer: Alan Barr O'Neal
+Add new customer: Albert  Wiley
+Add new customer: Albert  Wiley
+Processed customer: Alan Barton Levin
+Add new customer: Albert Boyette Brock
+Add new customer: Albert Boyette Brock
+Add new customer: Albert Brown Cooke
+Add new customer: Albert Brown Cooke
+Processed customer: Alan Boyle Reilly
+Add new customer: Albert Donovan Dorsey
+Add new customer: Albert Donovan Dorsey
+Processed customer: Alan Case Erickson
+Add new customer: Albert Dyer Pridgen
+Add new customer: Albert Dyer Pridgen
+Processed customer: Alan Elmore Meadows
+Add new customer: Albert Erickson Jain
+Add new customer: Albert Erickson Jain
+Add new customer: Albert Garcia Jenkins
+Add new customer: Albert Garcia Jenkins
+Processed customer: Alan Flowers Sutton
+Add new customer: Albert Hartman Brandon
+Add new customer: Albert Hartman Brandon
+Processed customer: Alan Francis West
+Add new customer: Albert Hernandez Stuart
+Add new customer: Albert Hernandez Stuart
+Processed customer: Alan Galloway Boyle
+Add new customer: Albert Marcus Stanton
+Add new customer: Albert Marcus Stanton
+Add new customer: Albert McGuire Horne
+Add new customer: Albert McGuire Horne
+Add new customer: Albert Montgomery Higgins
+Add new customer: Albert Montgomery Higgins
+Processed customer: Alan Goodman Howell
+Processed customer: Alan Hart Brandt
+Add new customer: Albert Poe Ellis
+Add new customer: Albert Poe Ellis
+Add new customer: Albert Quinn Reilly
+Add new customer: Albert Quinn Reilly
+Processed customer: Alan Ivey Webb
+Add new customer: Albert Reilly Spears
+Add new customer: Albert Reilly Spears
+Add new customer: Alex  Bray
+Add new customer: Alex  Bray
+Processed customer: Alan Kahn Beatty
+Add new customer: Alex  Craven
+Add new customer: Alex  Craven
+Processed customer: Alan Larson Pollard
+Add new customer: Alex  Hernandez
+Add new customer: Alex  Hernandez
+Processed customer: Alan Lu Shah
+Add new customer: Alex  Lutz
+Add new customer: Alex  Lutz
+Add new customer: Alex Abrams May
+Add new customer: Alex Abrams May
+Processed customer: Alan Lyons Humphrey
+Add new customer: Alex Atkins Henry
+Add new customer: Alex Atkins Henry
+Processed customer: Alan Melton McConnell
+Add new customer: Alex Bender Yang
+Add new customer: Alex Bender Yang
+Processed customer: Albert  Dillon
+Add new customer: Alex Burnette Buckley
+Add new customer: Alex Burnette Buckley
+Add new customer: Alex Coble Vick
+Add new customer: Alex Coble Vick
+Processed customer: Albert  Wiley
+Add new customer: Alex Cochran Blake
+Add new customer: Alex Cochran Blake
+Processed customer: Albert Boyette Brock
+Add new customer: Alex Cooper Dean
+Add new customer: Alex Cooper Dean
+Processed customer: Albert Brown Cooke
+Add new customer: Alex Dolan Ball
+Add new customer: Alex Dolan Ball
+Add new customer: Alex Forbes Jacobson
+Add new customer: Alex Forbes Jacobson
+Processed customer: Albert Donovan Dorsey
+Add new customer: Alex Frederick Mangum
+Add new customer: Alex Frederick Mangum
+Processed customer: Albert Dyer Pridgen
+Add new customer: Alex Gates Grady
+Add new customer: Alex Gates Grady
+Processed customer: Albert Erickson Jain
+Add new customer: Alex Greenberg Richards
+Add new customer: Alex Greenberg Richards
+Add new customer: Alex Grimes Swain
+Add new customer: Alex Grimes Swain
+Add new customer: Alex Harding Shields
+Add new customer: Alex Harding Shields
+Processed customer: Albert Garcia Jenkins
+Processed customer: Albert Hartman Brandon
+Add new customer: Alex Ho Barnett
+Add new customer: Alex Ho Barnett
+Add new customer: Alex Hoover Cole
+Add new customer: Alex Hoover Cole
+Processed customer: Albert Hernandez Stuart
+Add new customer: Alex House Koch
+Add new customer: Alex House Koch
+Add new customer: Alex Hudson Leach
+Add new customer: Alex Hudson Leach
+Processed customer: Albert Marcus Stanton
+Add new customer: Alex McPherson McLeod
+Add new customer: Alex McPherson McLeod
+Processed customer: Albert McGuire Horne
+Add new customer: Alex O'Connor Parrott
+Add new customer: Alex O'Connor Parrott
+Processed customer: Albert Montgomery Higgins
+Add new customer: Alex Price Mayo
+Add new customer: Alex Price Mayo
+Add new customer: Alex Roberts Beard
+Add new customer: Alex Roberts Beard
+Processed customer: Albert Poe Ellis
+Add new customer: Alexander  Pickett
+Add new customer: Alexander  Pickett
+Processed customer: Albert Quinn Reilly
+Add new customer: Alexander  Williams
+Add new customer: Alexander  Williams
+Processed customer: Albert Reilly Spears
+Add new customer: Alexander Atkinson Gray
+Add new customer: Alexander Atkinson Gray
+Add new customer: Alexander Bridges Lucas
+Add new customer: Alexander Bridges Lucas
+Processed customer: Alex  Bray
+Add new customer: Alexander Carlton Kramer
+Add new customer: Alexander Carlton Kramer
+Processed customer: Alex  Craven
+Add new customer: Alexander Chan Watson
+Add new customer: Alexander Chan Watson
+Processed customer: Alex  Hernandez
+Add new customer: Alexander Chu Forbes
+Add new customer: Alexander Chu Forbes
+Add new customer: Alexander Crane Carver
+Add new customer: Alexander Crane Carver
+Processed customer: Alex  Lutz
+Add new customer: Alexander Craven McLean
+Add new customer: Alexander Craven McLean
+Processed customer: Alex Abrams May
+Add new customer: Alexander Dickerson Page
+Add new customer: Alexander Dickerson Page
+Add new customer: Alexander Dickinson Hull
+Add new customer: Alexander Dickinson Hull
+Processed customer: Alex Atkins Henry
+Add new customer: Alexander Feldman Desai
+Add new customer: Alexander Feldman Desai
+Add new customer: Alexander Hicks Blake
+Add new customer: Alexander Hicks Blake
+Processed customer: Alex Bender Yang
+Add new customer: Alexander Ho Howe
+Add new customer: Alexander Ho Howe
+Processed customer: Alex Burnette Buckley
+Add new customer: Alexander Keller Hensley
+Add new customer: Alexander Keller Hensley
+Processed customer: Alex Coble Vick
+Add new customer: Alexander McClure McGuire
+Add new customer: Alexander McClure McGuire
+Add new customer: Alexander Neal Britt
+Add new customer: Alexander Neal Britt
+Processed customer: Alex Cochran Blake
+Add new customer: Alexander Sanchez Franklin
+Add new customer: Alexander Sanchez Franklin
+Processed customer: Alex Cooper Dean
+Add new customer: Alexander Sparks Dickinson
+Add new customer: Alexander Sparks Dickinson
+Processed customer: Alex Dolan Ball
+Add new customer: Alexandra  Barnett
+Add new customer: Alexandra  Barnett
+Add new customer: Alexandra  Decker
+Add new customer: Alexandra  Decker
+Processed customer: Alex Forbes Jacobson
+Add new customer: Alexandra Braun Gentry
+Add new customer: Alexandra Braun Gentry
+Processed customer: Alex Frederick Mangum
+Add new customer: Alexandra Buchanan Chase
+Add new customer: Alexandra Buchanan Chase
+Processed customer: Alex Gates Grady
+Add new customer: Alexandra Burgess Warren
+Add new customer: Alexandra Burgess Warren
+Add new customer: Alexandra Burnette Hudson
+Add new customer: Alexandra Burnette Hudson
+Processed customer: Alex Greenberg Richards
+Add new customer: Alexandra Capps Lane
+Add new customer: Alexandra Capps Lane
+Processed customer: Alex Grimes Swain
+Add new customer: Alexandra Case Pennington
+Add new customer: Alexandra Case Pennington
+Processed customer: Alex Harding Shields
+Add new customer: Alexandra Cherry Marsh
+Add new customer: Alexandra Cherry Marsh
+Add new customer: Alexandra Clark Weiss
+Add new customer: Alexandra Clark Weiss
+Processed customer: Alex Ho Barnett
+Add new customer: Alexandra Craven Johnson
+Add new customer: Alexandra Craven Johnson
+Processed customer: Alex Hoover Cole
+Add new customer: Alexandra Dalton Cole
+Add new customer: Alexandra Dalton Cole
+Add new customer: Alexandra Gibbs Thomson
+Add new customer: Alexandra Gibbs Thomson
+Processed customer: Alex House Koch
+Add new customer: Alexandra Hughes Hansen
+Add new customer: Alexandra Hughes Hansen
+Add new customer: Alexandra Kessler Kuhn
+Add new customer: Alexandra Kessler Kuhn
+Processed customer: Alex Hudson Leach
+Add new customer: Alexandra King Helms
+Add new customer: Alexandra King Helms
+Processed customer: Alex McPherson McLeod
+Add new customer: Alexandra Levine Lassiter
+Add new customer: Alexandra Levine Lassiter
+Processed customer: Alex O'Connor Parrott
+Add new customer: Alexandra Livingston Adams
+Add new customer: Alexandra Livingston Adams
+Add new customer: Alexandra Nelson Small
+Add new customer: Alexandra Nelson Small
+Processed customer: Alex Price Mayo
+Add new customer: Alexandra Sanchez Cox
+Add new customer: Alexandra Sanchez Cox
+Processed customer: Alex Roberts Beard
+Add new customer: Alexandra Sharp Henderson
+Add new customer: Alexandra Sharp Henderson
+Processed customer: Alexander  Pickett
+Add new customer: Alexandra Silverman Church
+Add new customer: Alexandra Silverman Church
+Add new customer: Alexandra Simpson Snyder
+Add new customer: Alexandra Simpson Snyder
+Processed customer: Alexander  Williams
+Add new customer: Alfred  Davenport
+Add new customer: Alfred  Davenport
+Processed customer: Alexander Atkinson Gray
+Add new customer: Alfred Blalock Koch
+Add new customer: Alfred Blalock Koch
+Close shop
+Write parcel report
+customerList.size:0
+New order clerk added
+New order clerk added
+New order clerk added
+Add new customer: Benson McLean
+Add new customer: Benson McLean
+Add new customer: Clayton McKenzie
+Add new customer: Clayton McKenzie
+Add new customer: Coleman Woods
+Add new customer: Coleman Woods
+Add new customer: Douglas King
+Add new customer: Douglas King
+Add new customer: Fowler Brandon
+Add new customer: Fowler Brandon
+Processed customer: Benson McLean
+Add new customer: Frazier Li
+Add new customer: Frazier Li
+Processed customer: Clayton McKenzie
+Add new customer: McLeod Moody
+Add new customer: McLeod Moody
+Processed customer: Coleman Woods
+Add new customer: Montgomery McLamb
+Add new customer: Montgomery McLamb
+Add new customer: Peacock Dalton
+Add new customer: Peacock Dalton
+Processed customer: Douglas King
+Add new customer: Peters Carpenter
+Add new customer: Peters Carpenter
+Processed customer: Fowler Brandon
+Add new customer: Porter Simmons
+Add new customer: Porter Simmons
+Processed customer: Frazier Li
+Add new customer: Quinn Pugh
+Add new customer: Quinn Pugh
+Add new customer: Roy Lawrence
+Add new customer: Roy Lawrence
+Processed customer: McLeod Moody
+Add new customer: Sherrill Kirkland
+Add new customer: Sherrill Kirkland
+Processed customer: Montgomery McLamb
+Add new customer: Butler
+Add new customer: Butler
+Processed customer: Peacock Dalton
+Add new customer: Werner
+Add new customer: Werner
+Add new customer: Ayers Washington
+Add new customer: Ayers Washington
+Processed customer: Peters Carpenter
+Add new customer: Campbell Brown
+Add new customer: Campbell Brown
+Processed customer: Porter Simmons
+Add new customer: Ellington Carroll
+Add new customer: Ellington Carroll
+Processed customer: Quinn Pugh
+Add new customer: Floyd Woodard
+Add new customer: Floyd Woodard
+Add new customer: Hodge Mayo
+Add new customer: Hodge Mayo
+Processed customer: Butler
+Add new customer: Keith O'Connor
+Add new customer: Keith O'Connor
+Processed customer: Roy Lawrence
+Add new customer: Kennedy Lu
+Add new customer: Kennedy Lu
+Processed customer: Sherrill Kirkland
+Processed customer: Werner
+Add new customer: Martin Mathews
+Add new customer: Martin Mathews
+Add new customer: Massey Camp
+Add new customer: Massey Camp
+Processed customer: Ellington Carroll
+Add new customer: Massey Hardy
+Add new customer: Massey Hardy
+Processed customer: Ayers Washington
+Close counter
+Add new customer: Morton McKenzie
+Add new customer: Morton McKenzie
+Processed customer: Campbell Brown
+Processed customer: Floyd Woodard
+Add new customer: O'Brien Rodgers
+Add new customer: O'Brien Rodgers
+Add new customer: Pope Bynum
+Add new customer: Pope Bynum
+Add new customer: Price Link
+Add new customer: Price Link
+Processed customer: Hodge Mayo
+Add new customer: Simon Atkinson
+Add new customer: Simon Atkinson
+Processed customer: Keith O'Connor
+Add new customer: Barr O'Neal
+Add new customer: Barr O'Neal
+Add new customer: Barton Levin
+Add new customer: Barton Levin
+Add new customer: Boyle Reilly
+Add new customer: Boyle Reilly
+Processed customer: Kennedy Lu
+Add new customer: Case Erickson
+Add new customer: Case Erickson
+Processed customer: Martin Mathews
+Add new customer: Elmore Meadows
+Add new customer: Elmore Meadows
+Add new customer: Flowers Sutton
+Add new customer: Flowers Sutton
+Close counter
+Add new customer: Francis West
+Add new customer: Francis West
+Processed customer: Massey Camp
+Add new customer: Galloway Boyle
+Add new customer: Galloway Boyle
+Processed customer: Massey Hardy
+Add new customer: Goodman Howell
+Add new customer: Goodman Howell
+Add new customer: Hart Brandt
+Add new customer: Hart Brandt
+Add new customer: Ivey Webb
+Add new customer: Ivey Webb
+Add new customer: Kahn Beatty
+Add new customer: Kahn Beatty
+Close counter
+Add new customer: Larson Pollard
+Add new customer: Larson Pollard
+Processed customer: Morton McKenzie
+Add new customer: Lu Shah
+Add new customer: Lu Shah
+Add new customer: Lyons Humphrey
+Add new customer: Lyons Humphrey
+Add new customer: Melton McConnell
+Add new customer: Melton McConnell
+Add new customer: Dillon
+Add new customer: Dillon
+Add new customer: Wiley
+Add new customer: Wiley
+Add new customer: Boyette Brock
+Add new customer: Boyette Brock
+Add new customer: Brown Cooke
+Add new customer: Brown Cooke
+Add new customer: Donovan Dorsey
+Add new customer: Donovan Dorsey
+Add new customer: Dyer Pridgen
+Add new customer: Dyer Pridgen
+Add new customer: Erickson Jain
+Add new customer: Erickson Jain
+Add new customer: Garcia Jenkins
+Add new customer: Garcia Jenkins
+Add new customer: Hartman Brandon
+Add new customer: Hartman Brandon
+Add new customer: Hernandez Stuart
+Add new customer: Hernandez Stuart
+Add new customer: Marcus Stanton
+Add new customer: Marcus Stanton
+Add new customer: McGuire Horne
+Add new customer: McGuire Horne
+Add new customer: Montgomery Higgins
+Add new customer: Montgomery Higgins
+Add new customer: Poe Ellis
+Add new customer: Poe Ellis
+Add new customer: Quinn Reilly
+Add new customer: Quinn Reilly
+Add new customer: Reilly Spears
+Add new customer: Reilly Spears
+Add new customer: Bray
+Add new customer: Bray
+Add new customer: Craven
+Add new customer: Craven
+Add new customer: Hernandez
+Add new customer: Hernandez
+Open counter
+Add new customer: Lutz
+Add new customer: Lutz
+Processed customer: O'Brien Rodgers
+Processed customer: Pope Bynum
+Add new customer: Abrams May
+Add new customer: Abrams May
+Processed customer: Price Link
+Processed customer: Simon Atkinson
+Processed customer: Barr O'Neal
+Add new customer: Atkins Henry
+Add new customer: Atkins Henry
+Processed customer: Barton Levin
+Processed customer: Boyle Reilly
+Add new customer: Bender Yang
+Add new customer: Bender Yang
+Processed customer: Case Erickson
+Processed customer: Elmore Meadows
+Processed customer: Flowers Sutton
+Add new customer: Burnette Buckley
+Add new customer: Burnette Buckley
+Processed customer: Francis West
+Processed customer: Galloway Boyle
+Add new customer: Coble Vick
+Add new customer: Coble Vick
+Processed customer: Goodman Howell
+Processed customer: Hart Brandt
+Add new customer: Cochran Blake
+Add new customer: Cochran Blake
+Processed customer: Ivey Webb
+Processed customer: Kahn Beatty
+Processed customer: Larson Pollard
+Add new customer: Cooper Dean
+Add new customer: Cooper Dean
+Processed customer: Lu Shah
+Processed customer: Lyons Humphrey
+Add new customer: Dolan Ball
+Add new customer: Dolan Ball
+Processed customer: Melton McConnell
+Processed customer: Dillon
+Processed customer: Wiley
+Add new customer: Forbes Jacobson
+Add new customer: Forbes Jacobson
+Processed customer: Boyette Brock
+Processed customer: Brown Cooke
+Add new customer: Frederick Mangum
+Add new customer: Frederick Mangum
+Processed customer: Donovan Dorsey
+Processed customer: Dyer Pridgen
+Processed customer: Erickson Jain
+Open counter
+Add new customer: Gates Grady
+Add new customer: Gates Grady
+Processed customer: Hartman Brandon
+Processed customer: Hernandez Stuart
+Add new customer: Greenberg Richards
+Add new customer: Greenberg Richards
+Processed customer: Marcus Stanton
+Processed customer: Garcia Jenkins
+Processed customer: McGuire Horne
+Processed customer: Poe Ellis
+Add new customer: Grimes Swain
+Add new customer: Grimes Swain
+Processed customer: Quinn Reilly
+Processed customer: Reilly Spears
+Processed customer: Montgomery Higgins
+Add new customer: Harding Shields
+Add new customer: Harding Shields
+Processed customer: Bray
+Processed customer: Hernandez
+Processed customer: Lutz
+Add new customer: Ho Barnett
+Add new customer: Ho Barnett
+Processed customer: Craven
+Processed customer: Abrams May
+Processed customer: Atkins Henry
+Processed customer: Bender Yang
+Add new customer: Hoover Cole
+Add new customer: Hoover Cole
+Processed customer: Burnette Buckley
+Processed customer: Coble Vick
+Processed customer: Cochran Blake
+Processed customer: Dolan Ball
+Processed customer: Cooper Dean
+Processed customer: Forbes Jacobson
+Processed customer: Gates Grady
+Processed customer: Frederick Mangum
+Add new customer: House Koch
+Add new customer: House Koch
+Processed customer: Greenberg Richards
+Processed customer: Harding Shields
+Processed customer: Grimes Swain
+Processed customer: Ho Barnett
+Processed customer: House Koch
+Processed customer: Hoover Cole
+Add new customer: Hudson Leach
+Add new customer: Hudson Leach
+Processed customer: Hudson Leach
+Processed customer: Hudson Leach
+Add new customer: McPherson McLeod
+Add new customer: McPherson McLeod
+Processed customer: McPherson McLeod
+Add new customer: O'Connor Parrott
+Add new customer: O'Connor Parrott
+Processed customer: O'Connor Parrott
+Add new customer: Price Mayo
+Add new customer: Price Mayo
+Processed customer: Price Mayo
+Add new customer: Roberts Beard
+Add new customer: Roberts Beard
+Processed customer: Roberts Beard
+Add new customer: Pickett
+Add new customer: Pickett
+Processed customer: Pickett
+Add new customer: Williams
+Add new customer: Williams
+Processed customer: Williams
+Add new customer: Atkinson Gray
+Add new customer: Atkinson Gray
+Processed customer: Atkinson Gray
+Add new customer: Bridges Lucas
+Add new customer: Bridges Lucas
+Processed customer: Bridges Lucas
+Processed customer: Bridges Lucas
+Add new customer: Carlton Kramer
+Add new customer: Carlton Kramer
+Processed customer: Carlton Kramer
+Add new customer: Chan Watson
+Add new customer: Chan Watson
+Processed customer: Chan Watson
+Add new customer: Chu Forbes
+Add new customer: Chu Forbes
+Processed customer: Chu Forbes
+Add new customer: Crane Carver
+Add new customer: Crane Carver
+Processed customer: Crane Carver
+Add new customer: Craven McLean
+Add new customer: Craven McLean
+Processed customer: Craven McLean
+Add new customer: Dickerson Page
+Add new customer: Dickerson Page
+Processed customer: Dickerson Page
+Add new customer: Dickinson Hull
+Add new customer: Dickinson Hull
+Processed customer: Dickinson Hull
+Add new customer: Feldman Desai
+Add new customer: Feldman Desai
+Processed customer: Feldman Desai
+Add new customer: Hicks Blake
+Add new customer: Hicks Blake
+Processed customer: Hicks Blake
+Add new customer: Ho Howe
+Add new customer: Ho Howe
+Processed customer: Ho Howe
+Add new customer: Keller Hensley
+Add new customer: Keller Hensley
+Processed customer: Keller Hensley
+Add new customer: McClure McGuire
+Add new customer: McClure McGuire
+Processed customer: McClure McGuire
+Add new customer: Neal Britt
+Add new customer: Neal Britt
+Processed customer: Neal Britt
+Add new customer: Sanchez Franklin
+Add new customer: Sanchez Franklin
+Processed customer: Sanchez Franklin
+Add new customer: Sparks Dickinson
+Add new customer: Sparks Dickinson
+Processed customer: Sparks Dickinson
+Add new customer: Barnett
+Add new customer: Barnett
+Processed customer: Barnett
+Add new customer: Decker
+Add new customer: Decker
+Processed customer: Decker
+Add new customer: Braun Gentry
+Add new customer: Braun Gentry
+Processed customer: Braun Gentry
+Add new customer: Buchanan Chase
+Add new customer: Buchanan Chase
+Processed customer: Buchanan Chase
+Add new customer: Burgess Warren
+Add new customer: Burgess Warren
+Processed customer: Burgess Warren
+Add new customer: Burnette Hudson
+Add new customer: Burnette Hudson
+Processed customer: Burnette Hudson
+Add new customer: Capps Lane
+Add new customer: Capps Lane
+Processed customer: Capps Lane
+Add new customer: Case Pennington
+Add new customer: Case Pennington
+Processed customer: Case Pennington
+Add new customer: Cherry Marsh
+Add new customer: Cherry Marsh
+Processed customer: Cherry Marsh
+Add new customer: Clark Weiss
+Add new customer: Clark Weiss
+Processed customer: Clark Weiss
+Add new customer: Craven Johnson
+Add new customer: Craven Johnson
+Processed customer: Craven Johnson
+Add new customer: Dalton Cole
+Add new customer: Dalton Cole
+Processed customer: Dalton Cole
+Add new customer: Gibbs Thomson
+Add new customer: Gibbs Thomson
+Processed customer: Gibbs Thomson
+Add new customer: Hughes Hansen
+Add new customer: Hughes Hansen
+Processed customer: Hughes Hansen
+Add new customer: Kessler Kuhn
+Add new customer: Kessler Kuhn
+Processed customer: Kessler Kuhn
+Add new customer: King Helms
+Add new customer: King Helms
+Processed customer: King Helms
+Add new customer: Levine Lassiter
+Add new customer: Levine Lassiter
+Processed customer: Levine Lassiter
+Processed customer: Levine Lassiter
+Add new customer: Livingston Adams
+Add new customer: Livingston Adams
+Processed customer: Livingston Adams
+Add new customer: Nelson Small
+Add new customer: Nelson Small
+Processed customer: Nelson Small
+Add new customer: Sanchez Cox
+Add new customer: Sanchez Cox
+Processed customer: Sanchez Cox
+Add new customer: Sharp Henderson
+Add new customer: Sharp Henderson
+Processed customer: Sharp Henderson
+Add new customer: Silverman Church
+Add new customer: Silverman Church
+Processed customer: Silverman Church
+Add new customer: Simpson Snyder
+Add new customer: Simpson Snyder
+Processed customer: Simpson Snyder
+Add new customer: Davenport
+Add new customer: Davenport
+Processed customer: Davenport
+Add new customer: Blalock Koch
+Add new customer: Blalock Koch
+Processed customer: Blalock Koch
+Add new customer: Blanton Haynes
+Processed customer: Blanton Haynes
+Add new customer: Blanton Haynes
+Processed customer: Blanton Haynes
+Add new customer: Bowling McKenzie
+Add new customer: Bowling McKenzie
+Processed customer: Bowling McKenzie
+Add new customer: Carver Chen
+Add new customer: Carver Chen
+Processed customer: Carver Chen
+Processed customer: Carver Chen
+Add new customer: Carver Schultz
+Add new customer: Carver Schultz
+Processed customer: Carver Schultz
+Add new customer: Foley Clements
+Add new customer: Foley Clements
+Processed customer: Foley Clements
+Add new customer: Forrest Griffith
+Add new customer: Forrest Griffith
+Processed customer: Forrest Griffith
+Add new customer: Hines Nixon
+Add new customer: Hines Nixon
+Processed customer: Hines Nixon
+Add new customer: Horner Gray
+Add new customer: Horner Gray
+Processed customer: Horner Gray
+Add new customer: McKnight Duke
+Add new customer: McKnight Duke
+Processed customer: McKnight Duke
+Add new customer: McLean Randall
+Add new customer: McLean Randall
+Processed customer: McLean Randall
+Add new customer: Melvin Kuhn
+Add new customer: Melvin Kuhn
+Processed customer: Melvin Kuhn
+Add new customer: Monroe Fletcher
+Add new customer: Monroe Fletcher
+Processed customer: Monroe Fletcher
+Add new customer: Patrick Burton
+Add new customer: Patrick Burton
+Processed customer: Patrick Burton
+Add new customer: Peacock Kahn
+Add new customer: Peacock Kahn
+Processed customer: Peacock Kahn
+Add new customer: Reed Reddy
+Add new customer: Reed Reddy
+Processed customer: Reed Reddy
+Add new customer: Short Steele
+Add new customer: Short Steele
+Processed customer: Short Steele
+Add new customer: Britt
+Add new customer: Britt
+Processed customer: Britt
+Add new customer: Norton
+Add new customer: Norton
+Processed customer: Norton
+Add new customer: Allen Blanchard
+Add new customer: Allen Blanchard
+Processed customer: Allen Blanchard
+Add new customer: Anderson Hall
+Add new customer: Anderson Hall
+Processed customer: Anderson Hall
+Add new customer: Ayers Nance
+Add new customer: Ayers Nance
+Processed customer: Ayers Nance
+Add new customer: Barry Eaton
+Add new customer: Barry Eaton
+Processed customer: Barry Eaton
+Add new customer: Bradshaw Crowder
+Add new customer: Bradshaw Crowder
+Processed customer: Bradshaw Crowder
+Add new customer: Bridges Garrett
+Add new customer: Bridges Garrett
+Processed customer: Bridges Garrett
+Add new customer: Britt Dickinson
+Add new customer: Britt Dickinson
+Processed customer: Britt Dickinson
+Add new customer: Burnett Herman
+Add new customer: Burnett Herman
+Processed customer: Burnett Herman
+Add new customer: Byrne Jordan
+Add new customer: Byrne Jordan
+Processed customer: Byrne Jordan
+Add new customer: Day Faulkner
+Processed customer: Day Faulkner
+Add new customer: Day Faulkner
+Processed customer: Day Faulkner
+Add new customer: Drake Davis
+Add new customer: Drake Davis
+Processed customer: Drake Davis
+Add new customer: Elliott Dyer
+Add new customer: Elliott Dyer
+Processed customer: Elliott Dyer
+Add new customer: Feldman Shah
+Add new customer: Feldman Shah
+Processed customer: Feldman Shah
+Add new customer: Ferguson Merritt
+Add new customer: Ferguson Merritt
+Processed customer: Ferguson Merritt
+Add new customer: Graves O'Connell
+Add new customer: Graves O'Connell
+Processed customer: Graves O'Connell
+Add new customer: Hale Jacobson
+Add new customer: Hale Jacobson
+Processed customer: Hale Jacobson
+Add new customer: Henderson Reddy
+Add new customer: Henderson Reddy
+Processed customer: Henderson Reddy
+Add new customer: Hodges Blum
+Add new customer: Hodges Blum
+Processed customer: Hodges Blum
+Add new customer: Hoffman Robbins
+Add new customer: Hoffman Robbins
+Processed customer: Hoffman Robbins
+Add new customer: Holden Bland
+Add new customer: Holden Bland
+Processed customer: Holden Bland
+Add new customer: Humphrey Hill
+Add new customer: Humphrey Hill
+Processed customer: Humphrey Hill
+Add new customer: May Beck
+Add new customer: May Beck
+Processed customer: May Beck
+Add new customer: Pearson Buck
+Add new customer: Pearson Buck
+Processed customer: Pearson Buck
+Add new customer: Rosenthal Steele
+Add new customer: Rosenthal Steele
+Processed customer: Rosenthal Steele
+Add new customer: Brantley
+Add new customer: Brantley
+Processed customer: Brantley
+Add new customer: House
+Add new customer: House
+Processed customer: House
+Add new customer: Ingram
+Add new customer: Ingram
+Processed customer: Ingram
+Add new customer: Baxter Rao
+Add new customer: Baxter Rao
+Processed customer: Baxter Rao
+Add new customer: Dalton Stark
+Add new customer: Dalton Stark
+Processed customer: Dalton Stark
+Add new customer: Griffin Conner
+Add new customer: Griffin Conner
+Processed customer: Griffin Conner
+Add new customer: Kahn Hanna
+Add new customer: Kahn Hanna
+Processed customer: Kahn Hanna
+Add new customer: Lyons Higgins
+Add new customer: Lyons Higgins
+Processed customer: Lyons Higgins
+Add new customer: Lyons Justice
+Add new customer: Lyons Justice
+Processed customer: Lyons Justice
+Add new customer: Martin McKenzie
+Add new customer: Martin McKenzie
+Processed customer: Martin McKenzie
+Add new customer: Merritt Turner
+Add new customer: Merritt Turner
+Processed customer: Merritt Turner
+Add new customer: Parrish Berg
+Add new customer: Parrish Berg
+Processed customer: Parrish Berg
+Add new customer: Shannon Dunlap
+Add new customer: Shannon Dunlap
+Processed customer: Shannon Dunlap
+Add new customer: Sharp Henderson
+Add new customer: Sharp Henderson
+Processed customer: Sharp Henderson
+Add new customer: Simpson Beasley
+Add new customer: Simpson Beasley
+Processed customer: Simpson Beasley
+Add new customer: Singh Coble
+Add new customer: Singh Coble
+Processed customer: Singh Coble
+Add new customer: Barr
+Add new customer: Barr
+Processed customer: Barr
+Add new customer: Greenberg
+Add new customer: Greenberg
+Processed customer: Greenberg
+Add new customer: McNeill
+Add new customer: McNeill
+Processed customer: McNeill
+Add new customer: Newell
+Add new customer: Newell
+Processed customer: Newell
+Add new customer: Womble
+Add new customer: Womble
+Processed customer: Womble
+Add new customer: Aldridge Scarborough
+Add new customer: Aldridge Scarborough
+Processed customer: Aldridge Scarborough
+Add new customer: Archer MacDonald
+Add new customer: Archer MacDonald
+Processed customer: Archer MacDonald
+Add new customer: Bullard Patton
+Add new customer: Bullard Patton
+Processed customer: Bullard Patton
+Add new customer: Burch Heath
+Add new customer: Burch Heath
+Processed customer: Burch Heath
+Add new customer: Burgess Murphy
+Add new customer: Burgess Murphy
+Processed customer: Burgess Murphy
+Add new customer: Crawford Wilkinson
+Add new customer: Crawford Wilkinson
+Processed customer: Crawford Wilkinson
+Add new customer: Currin Blair
+Add new customer: Currin Blair
+Processed customer: Currin Blair
+Add new customer: Hendricks Burton
+Add new customer: Hendricks Burton
+Processed customer: Hendricks Burton
+Add new customer: Hughes Leach
+Add new customer: Hughes Leach
+Processed customer: Hughes Leach
+Add new customer: Moon Perkins
+Add new customer: Moon Perkins
+Processed customer: Moon Perkins
+Add new customer: Morse Benton
+Add new customer: Morse Benton
+Processed customer: Morse Benton
+Add new customer: Nixon Scott
+Add new customer: Nixon Scott
+Processed customer: Nixon Scott
+Add new customer: Roy Rollins
+Add new customer: Roy Rollins
+Processed customer: Roy Rollins
+Add new customer: Adler Marsh
+Add new customer: Adler Marsh
+Processed customer: Adler Marsh
+Add new customer: Bender Nguyen
+Add new customer: Bender Nguyen
+Processed customer: Bender Nguyen
+Add new customer: Cochran Norton
+Add new customer: Cochran Norton
+Processed customer: Cochran Norton
+Add new customer: Floyd Glenn
+Add new customer: Floyd Glenn
+Processed customer: Floyd Glenn
+Add new customer: Freeman Bond
+Add new customer: Freeman Bond
+Processed customer: Freeman Bond
+Add new customer: Frost Melvin
+Add new customer: Frost Melvin
+Processed customer: Frost Melvin
+Add new customer: Long Deal
+Add new customer: Long Deal
+Processed customer: Long Deal
+Add new customer: McCormick Wilder
+Add new customer: McCormick Wilder
+Processed customer: McCormick Wilder
+Add new customer: Preston Daniel
+Add new customer: Preston Daniel
+Processed customer: Preston Daniel
+Add new customer: Ramsey Vaughan
+Add new customer: Ramsey Vaughan
+Processed customer: Ramsey Vaughan
+Add new customer: Christian
+Add new customer: Christian
+Processed customer: Christian
+Add new customer: Mayer
+Add new customer: Mayer
+Processed customer: Mayer
+Add new customer: Bailey Craven
+Add new customer: Bailey Craven
+Processed customer: Bailey Craven
+Add new customer: Bell Sanchez
+Add new customer: Bell Sanchez
+Processed customer: Bell Sanchez
+Add new customer: Berman Weiss
+Add new customer: Berman Weiss
+Processed customer: Berman Weiss
+Add new customer: Blanchard Hansen
+Add new customer: Blanchard Hansen
+Processed customer: Blanchard Hansen
+Add new customer: Boyle Williams
+Add new customer: Boyle Williams
+Processed customer: Boyle Williams
+Add new customer: Bridges Randall
+Add new customer: Bridges Randall
+Processed customer: Bridges Randall
+Add new customer: Cline Goldstein
+Add new customer: Cline Goldstein
+Processed customer: Cline Goldstein
+Add new customer: Crabtree Teague
+Add new customer: Crabtree Teague
+Processed customer: Crabtree Teague
+Add new customer: Decker Hobbs
+Add new customer: Decker Hobbs
+Processed customer: Decker Hobbs
+Add new customer: Fernandez Floyd
+Add new customer: Fernandez Floyd
+Processed customer: Fernandez Floyd
+Add new customer: Grimes Sun
+Add new customer: Grimes Sun
+Processed customer: Grimes Sun
+Add new customer: Hale Ross
+Add new customer: Hale Ross
+Processed customer: Hale Ross
+Add new customer: Hardison Faircloth
+Add new customer: Hardison Faircloth
+Processed customer: Hardison Faircloth
+Add new customer: Humphrey Massey
+Add new customer: Humphrey Massey
+Processed customer: Humphrey Massey
+Add new customer: Leach Peterson
+Add new customer: Leach Peterson
+Processed customer: Leach Peterson
+Add new customer: McNeill Norton
+Add new customer: McNeill Norton
+Processed customer: McNeill Norton
+Add new parcel assignment
+Close shop
+Write parcel report

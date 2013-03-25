@@ -88,8 +88,9 @@ public class Counters extends JPanel implements ActionListener {
 		
 		//Setup text area and scroll pane
 		taProcessOrder = new JTextArea(5, 6);
-		taProcessOrder.setFont(new Font (Font.MONOSPACED, Font.PLAIN,10));
+		taProcessOrder.setFont(new Font (Font.MONOSPACED, Font.PLAIN,12));
 		taProcessOrder.setEditable(false);
+		taProcessOrder.setLineWrap(true);
 		taProcessOrder.setText(oc.getProcessReport());
 		//taCounters.add(taProcessOrder);
 		JScrollPane spProcessOrder = new JScrollPane(taProcessOrder);
