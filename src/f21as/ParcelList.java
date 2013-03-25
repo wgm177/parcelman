@@ -71,6 +71,7 @@ public class ParcelList {
 				addParcel(p);
 				
 			}
+			LogFile.addLog("Read in parcel file: " + parcelFile.getName());
 			
 		}
 		catch(Exception e)
@@ -155,7 +156,7 @@ public class ParcelList {
 		stats = stats + "Total fee collected: ";
 		stats = stats + String.format("%.2f", totalFee);
 		//stats = stats +  totalFee;
-		
+		LogFile.addLog("Generate Parcel Report");
 		return collected + unCollected + stats;
 	}
 	
