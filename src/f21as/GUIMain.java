@@ -18,6 +18,8 @@ import javax.swing.*;
 
 import com.sun.xml.internal.bind.v2.schemagen.xmlschema.Occurs;
 
+
+//
 public class GUIMain extends JFrame implements ActionListener, WindowListener, Observer {
 	
 	private static final int WIDTH = 1000;		
