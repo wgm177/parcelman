@@ -131,16 +131,17 @@ public class GUIMain extends JFrame implements ActionListener, WindowListener, O
 	private JPanel managerPanel()
 	{
 		jpManager = new JPanel();
-		jpManager.setLayout(new GridLayout(0,3));
+		jpManager.setLayout(new GridLayout(0,4));
 		//btnOpenShop, btnCloseShop;
-		btnOpenShop = new JButton("OpenShop");
-		btnOpenShop.addActionListener(this);
+		jpManager.add(new JLabel(""));
+		jpManager.add(new JLabel(""));
+		
 		btnAddParcels = new JButton("Accept Parcels");
 		jpManager.add(btnAddParcels);
 		btnAddParcels.addActionListener(this);
 		btnCloseShop = new JButton("CloseShop");
 		btnCloseShop.addActionListener(this);
-		jpManager.add(btnOpenShop);
+		
 		jpManager.add(btnCloseShop);
 		
 		
