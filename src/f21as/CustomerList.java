@@ -25,7 +25,7 @@ public class CustomerList extends Thread{
 	private Map<Integer, Customer> customerList = new LinkedHashMap<Integer, Customer>();
 	private static final File customerFile = new File("customers.txt");
 	private List<Observer> registeredObservers = new LinkedList<Observer>();
-	private int joinSpeed = 500;
+	private int joinSpeed = 100;
 	private boolean closedForDay = false;
 	
 	
@@ -138,10 +138,6 @@ public class CustomerList extends Thread{
 	
 	public synchronized String customerQueReport(int columns)
 	{
-		
-	
-
-		//String report = "";
 		String row = "";
 		int count = 0;
 		
@@ -208,6 +204,11 @@ public class CustomerList extends Thread{
 		LogFile.addLog("Customers exit");
 	}
 
+	@Override
+	public void run() {
+		
+			popCustomerList();
+	}
 	
 
 }

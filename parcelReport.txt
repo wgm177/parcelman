@@ -41,67 +41,67 @@ D037   |19   |14   |18   |8    |15   |  181.44|Alan Flowers Sutton
 D038   |3    |13   |8    |6    |1    |  143.91|Alan Francis West
 D039   |20   |9    |9    |14   |1    |  117.45|Alan Galloway Boyle
 D040   |2    |14   |12   |7    |17   |  160.02|Alan Goodman Howell
-D041   |19   |13   |10   |5    |7    |  168.48|Alan Hart Brandt
-D042   |20   |20   |9    |1    |2    |  225.00|Alan Ivey Webb 
-D043   |2    |11   |12   |2    |19   |  125.73|Alan Kahn Beatty
-D044   |7    |2    |13   |13   |16   |   23.76|Alan Larson Pollard
-D045   |2    |15   |19   |18   |1    |  171.45|Alan Lu Shah   
-D046   |2    |12   |11   |1    |2    |  120.96|Alan Lyons Humphrey
-D047   |11   |12   |17   |17   |14   |  146.88|Alan Melton McConnell
-D048   |2    |10   |16   |4    |20   |  114.30|Albert  Dillon 
-D049   |7    |9    |19   |14   |7    |  106.92|Albert  Wiley  
-D050   |7    |18   |10   |4    |3    |  213.84|Albert Boyette Brock
-D051   |2    |3    |8    |17   |6    |   34.29|Albert Brown Cooke
-D052   |13   |17   |7    |3    |4    |  211.14|Albert Donovan Dorsey
-D053   |20   |20   |16   |19   |3    |  261.00|Albert Dyer Pridgen
-D054   |9    |2    |3    |17   |20   |   24.12|Albert Erickson Jain
-D055   |11   |15   |6    |1    |7    |  176.85|Albert Garcia Jenkins
-D056   |3    |18   |4    |7    |4    |  207.36|Albert Hartman Brandon
-D057   |1    |15   |1    |17   |14   |  170.10|Albert Hernandez Stuart
-D058   |12   |19   |20   |12   |19   |  234.27|Albert Marcus Stanton
-D059   |2    |3    |14   |3    |13   |   34.29|Albert McGuire Horne
-D060   |3    |19   |6    |13   |16   |  218.88|Albert Montgomery Higgins
-D061   |5    |11   |3    |2    |19   |  128.70|Albert Poe Ellis
-D062   |19   |11   |20   |3    |20   |  142.56|Albert Quinn Reilly
-D063   |1    |10   |8    |3    |17   |  113.40|Albert Reilly Spears
-D064   |14   |3    |6    |3    |3    |   37.53|Alex  Bray     
-D065   |12   |11   |9    |5    |8    |  135.63|Alex  Craven   
-D066   |1    |1    |8    |12   |6    |   11.34|Alex  Hernandez
-D067   |7    |19   |17   |17   |1    |  225.72|Alex  Lutz     
-D068   |20   |4    |11   |10   |12   |   52.20|Alex Abrams May
-D069   |5    |10   |9    |16   |2    |  117.00|Alex Atkins Henry
-D070   |11   |7    |17   |20   |3    |   85.68|Alex Bender Yang
-D071   |11   |19   |6    |2    |9    |  232.56|Alex Burnette Buckley
-D072   |20   |5    |17   |13   |18   |   65.25|Alex Coble Vick
-D073   |3    |19   |9    |19   |20   |  218.88|Alex Cochran Blake
-D074   |8    |5    |11   |12   |12   |   59.85|Alex Cooper Dean
-D075   |6    |4    |2    |20   |15   |   47.16|Alex Dolan Ball
-D076   |14   |14   |20   |7    |17   |  175.14|Alex Forbes Jacobson
-D077   |18   |18   |13   |14   |7    |  231.66|Alex Frederick Mangum
-D078   |9    |5    |2    |5    |4    |   58.05|Alex Gates Grady
-D079   |9    |12   |13   |6    |18   |  144.72|Alex Greenberg Richards
-D080   |19   |1    |18   |13   |4    |   12.96|Alex Grimes Swain
-D081   |7    |8    |19   |16   |14   |   95.04|Alex Harding Shields
-D082   |2    |19   |11   |3    |19   |  217.17|Alex Ho Barnett
-D083   |15   |5    |17   |4    |20   |   63.00|Alex Hoover Cole
-D084   |11   |15   |6    |10   |10   |  183.60|Alex House Koch
-D085   |15   |14   |7    |17   |14   |  176.40|Alex Hudson Leach
-D086   |20   |10   |8    |4    |20   |  130.50|Alex McPherson McLeod
-D087   |4    |11   |13   |12   |13   |  127.71|Alex O'Connor Parrott
-D088   |14   |8    |13   |17   |8    |  100.08|Alex Price Mayo
-D089   |17   |12   |2    |19   |2    |  153.36|Alex Roberts Beard
-D090   |14   |8    |4    |8    |19   |  100.08|Alexander  Pickett
-D091   |2    |2    |3    |20   |5    |   22.86|Alexander  Williams
-D092   |1    |19   |8    |3    |9    |  215.46|Alexander Atkinson Gray
-D093   |12   |20   |17   |16   |13   |  246.60|Alexander Bridges Lucas
-D094   |17   |2    |16   |16   |6    |   25.56|Alexander Carlton Kramer
-D095   |19   |2    |9    |19   |9    |   25.92|Alexander Chan Watson
-D096   |2    |13   |7    |2    |20   |  148.59|Alexander Chu Forbes
-D097   |3    |6    |6    |12   |10   |   69.12|Alexander Crane Carver
-D098   |7    |6    |2    |6    |16   |   71.28|Alexander Craven McLean
 
  Parcels in warehouse: 
 ID     |DIW  |W(kg)|W(m) |H(m) |L(m) |     AED|Collected By   
+D041   |19   |13   |10   |5    |7    |    0.00|               
+D042   |20   |20   |9    |1    |2    |    0.00|               
+D043   |2    |11   |12   |2    |19   |    0.00|               
+D044   |7    |2    |13   |13   |16   |    0.00|               
+D045   |2    |15   |19   |18   |1    |    0.00|               
+D046   |2    |12   |11   |1    |2    |    0.00|               
+D047   |11   |12   |17   |17   |14   |    0.00|               
+D048   |2    |10   |16   |4    |20   |    0.00|               
+D049   |7    |9    |19   |14   |7    |    0.00|               
+D050   |7    |18   |10   |4    |3    |    0.00|               
+D051   |2    |3    |8    |17   |6    |    0.00|               
+D052   |13   |17   |7    |3    |4    |    0.00|               
+D053   |20   |20   |16   |19   |3    |    0.00|               
+D054   |9    |2    |3    |17   |20   |    0.00|               
+D055   |11   |15   |6    |1    |7    |    0.00|               
+D056   |3    |18   |4    |7    |4    |    0.00|               
+D057   |1    |15   |1    |17   |14   |    0.00|               
+D058   |12   |19   |20   |12   |19   |    0.00|               
+D059   |2    |3    |14   |3    |13   |    0.00|               
+D060   |3    |19   |6    |13   |16   |    0.00|               
+D061   |5    |11   |3    |2    |19   |    0.00|               
+D062   |19   |11   |20   |3    |20   |    0.00|               
+D063   |1    |10   |8    |3    |17   |    0.00|               
+D064   |14   |3    |6    |3    |3    |    0.00|               
+D065   |12   |11   |9    |5    |8    |    0.00|               
+D066   |1    |1    |8    |12   |6    |    0.00|               
+D067   |7    |19   |17   |17   |1    |    0.00|               
+D068   |20   |4    |11   |10   |12   |    0.00|               
+D069   |5    |10   |9    |16   |2    |    0.00|               
+D070   |11   |7    |17   |20   |3    |    0.00|               
+D071   |11   |19   |6    |2    |9    |    0.00|               
+D072   |20   |5    |17   |13   |18   |    0.00|               
+D073   |3    |19   |9    |19   |20   |    0.00|               
+D074   |8    |5    |11   |12   |12   |    0.00|               
+D075   |6    |4    |2    |20   |15   |    0.00|               
+D076   |14   |14   |20   |7    |17   |    0.00|               
+D077   |18   |18   |13   |14   |7    |    0.00|               
+D078   |9    |5    |2    |5    |4    |    0.00|               
+D079   |9    |12   |13   |6    |18   |    0.00|               
+D080   |19   |1    |18   |13   |4    |    0.00|               
+D081   |7    |8    |19   |16   |14   |    0.00|               
+D082   |2    |19   |11   |3    |19   |    0.00|               
+D083   |15   |5    |17   |4    |20   |    0.00|               
+D084   |11   |15   |6    |10   |10   |    0.00|               
+D085   |15   |14   |7    |17   |14   |    0.00|               
+D086   |20   |10   |8    |4    |20   |    0.00|               
+D087   |4    |11   |13   |12   |13   |    0.00|               
+D088   |14   |8    |13   |17   |8    |    0.00|               
+D089   |17   |12   |2    |19   |2    |    0.00|               
+D090   |14   |8    |4    |8    |19   |    0.00|               
+D091   |2    |2    |3    |20   |5    |    0.00|               
+D092   |1    |19   |8    |3    |9    |    0.00|               
+D093   |12   |20   |17   |16   |13   |    0.00|               
+D094   |17   |2    |16   |16   |6    |    0.00|               
+D095   |19   |2    |9    |19   |9    |    0.00|               
+D096   |2    |13   |7    |2    |20   |    0.00|               
+D097   |3    |6    |6    |12   |10   |    0.00|               
+D098   |7    |6    |2    |6    |16   |    0.00|               
 D099   |4    |4    |18   |13   |7    |    0.00|               
 D100   |20   |18   |13   |15   |13   |    0.00|               
 D101   |9    |10   |12   |15   |20   |    0.00|               
@@ -246,6 +246,6 @@ D239   |9    |6    |15   |19   |11   |    0.00|
 D240   |6    |1    |11   |11   |4    |    0.00|               
 
 Summary:
-Total parcels collected: 98
-Total parcels in warehouse: 142
-Total fee collected: 12033.00
+Total parcels collected: 40
+Total parcels in warehouse: 200
+Total fee collected: 4575.06

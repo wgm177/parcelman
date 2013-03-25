@@ -9,7 +9,7 @@ private ParcelList parcelList;
 private String processReport = "Counter Closed";
 private List<Observer> registeredObservers = new LinkedList<Observer>();
 private  int workingSpeed = 2000;
-private boolean working = false;
+private boolean working = true;
 private boolean closedForDay = false;
 
 
@@ -20,7 +20,8 @@ private boolean closedForDay = false;
 		
 	}
 	
-	public String getProcessReport() {
+	public  String getProcessReport() {
+		
 		return processReport;
 	}
 
@@ -61,58 +62,52 @@ private boolean closedForDay = false;
 		Customer c = null;
 		Parcel p = null;
 		
-		while (!closedForDay)
-		{
-			if(working){
-				c = customerList.nextAvailableCustomer();
-				if(c != null)
-				{
-					c.setProcessed(true);
-					p = parcelList.findByID(c.getParcelID());
-						if((p.getParcelID() != "") && ((p.isReceived() == false) ))
-						{
-							System.out.println(processSuccessParcel(c, p));
-							notifyObservers();
-						}
-						else
-						{
-							System.out.println(processUnSuccessParcel(c, p));
-						}
-					
-					
-					try {
-					    sleep(workingSpeed);
-					} 
-					catch (InterruptedException e) {
-					        e.printStackTrace();
+			if(working && customerList.nextAvailableCustomer() != null){
+				
+					c = customerList.nextAvailableCustomer();
+				
+					if(c != null)
+					{
+						c.setProcessed(true);
+						p = parcelList.findByID(c.getParcelID());
+							if((p.getParcelID() != "") && ((p.isReceived() == false) ))
+							{
+								processSuccessParcel(c, p);
+							}
+							try {
+								    sleep(workingSpeed);
+								} 
+							catch (InterruptedException e){
+									System.out.println("Sleep error");
+									e.printStackTrace();
+								}
+						LogFile.addLog("Processed customer: " + c.getName());
 					}
-					
-					//notifyObservers();
-					LogFile.addLog("Processed customer: " + c.getName());
-				}
-				else
-				{
-					this.processReport = "Waiting for customer";
-					//notifyObservers();
-				}
+					else
+					{
+						this.processReport = "Waiting for customer";
+						
+					}
+				
 			}// end if working
 			else
 			{
 				this.processReport = "Please use next counter";
 			}
-			notifyObservers();
-		}//end while
-			this.processReport = "End of day";
-			notifyObservers();
 			
 		
 	}
 
 	@Override
 	public void run() {
-		// TODO Auto-generated method stub
 		while(!closedForDay) {
 			processCustomer();
+				try {
+					sleep(100);
+				} catch (InterruptedException e) {
+					e.printStackTrace();
+				}
+			notifyObservers();
 		}
 		
 	}
@@ -130,7 +125,7 @@ private boolean closedForDay = false;
 	}
 
 	@Override
-	public void notifyObservers() {
+	public synchronized void notifyObservers() {
 		// TODO Auto-generated method stub
 		for( Observer obs : registeredObservers)
 			{

@@ -38,14 +38,14 @@ public class DepotMan {
 		ParcelList parcelList = new ParcelList();
 		CustomerList customerList = new CustomerList();
 		
-		System.out.println(parcelList.popParcelList());
+		parcelList.popParcelList();
 		orderClerkList = new OrderClerkList(customerList,parcelList);
 		GUIMain gm = new GUIMain("ParcelMan v2.0", orderClerkList);
 		
 		
 		
 		customerList.start();
-		System.out.println(customerList.popCustomerList());
+		customerList.popCustomerList();
 		
 		
 		
