@@ -310,10 +310,6 @@ public class Parcel {
 			this.length = 0;
 		}
 	}
-	private int getLength()
-	{
-		return this.length;
-	}
 	public double getCost() 
 	{
 		return cost;

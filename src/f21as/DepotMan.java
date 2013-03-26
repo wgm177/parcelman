@@ -1,11 +1,5 @@
 package f21as;
 
-import java.io.BufferedWriter;
-import java.io.File;
-import java.io.FileWriter;
-import java.io.IOException;
-import java.util.Scanner;
-
 /** DepotMan class runs the parcel man program. It reads the lists and initiates the parcel 
  * collection simulation then writes the output report.  
 *
@@ -40,7 +34,7 @@ public class DepotMan {
 		
 		parcelList.popParcelList();
 		orderClerkList = new OrderClerkList(customerList,parcelList);
-		GUIMain gm = new GUIMain("ParcelMan v2.0", orderClerkList);
+		new GUIMain("ParcelMan v2.0", orderClerkList);
 		
 		
 		

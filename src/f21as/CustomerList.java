@@ -4,8 +4,6 @@ package f21as;
 
 import java.io.File;
 import java.util.LinkedHashMap;
-import java.util.LinkedList;
-import java.util.List;
 import java.util.Map;
 import java.util.Scanner;
 import java.util.Set;
@@ -24,7 +22,7 @@ public class CustomerList extends Thread{
 	/** customerList is a hashmap that stores the queue of users as they are processed */
 	private Map<Integer, Customer> customerList = new LinkedHashMap<Integer, Customer>();
 	private static final File customerFile = new File("customers.txt");
-	private List<Observer> registeredObservers = new LinkedList<Observer>();
+	//private List<Observer> registeredObservers = new LinkedList<Observer>();
 	private int joinSpeed = 500;
 	private boolean closedForDay = false;
 	

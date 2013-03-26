@@ -17,6 +17,10 @@ import javax.swing.*;
 //
 public class GUIMain extends JFrame implements ActionListener, WindowListener, Observer {
 	
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	private static final int WIDTH = 1000;		
 	private static final int HEIGHT = 500;
 	private static final int WHCOLUMNS = 18;
@@ -33,6 +37,7 @@ public class GUIMain extends JFrame implements ActionListener, WindowListener, O
 	//ArrayList<JTextArea> taCounters = new ArrayList<JTextArea>(0); 
 	
 	
+	@SuppressWarnings("static-access")
 	public GUIMain(String title, OrderClerkList orderClerkList)  {
 		super(title);
 		
@@ -154,7 +159,7 @@ public class GUIMain extends JFrame implements ActionListener, WindowListener, O
 		return jpManager;
 	}
 
-	@SuppressWarnings("deprecation")
+	
 	@Override
 	public void actionPerformed(ActionEvent ae) {
 		// Close shop button code
