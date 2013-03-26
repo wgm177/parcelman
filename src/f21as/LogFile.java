@@ -10,24 +10,21 @@ public class LogFile {
 	private static LogFile instance = null;
 	private static ArrayList<String> logList = new ArrayList<String>();
 	private static String fileName = "logfile.txt";
-	protected LogFile(){
-		
 	
+	protected LogFile(){
+
 	}
 	
 	public static LogFile getInstance(){
 		if(instance == null){
 			instance = new LogFile();
-			
 		}
 		return instance;
 	}
 	
 	public static void addLog(String log) 
 	{
-		
 		logList.add(log);
-		
 	}
 	
 	public static void saveLogList()

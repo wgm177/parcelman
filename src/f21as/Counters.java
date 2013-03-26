@@ -110,21 +110,18 @@ public class Counters extends JPanel implements ActionListener {
 
 	@Override
 	public void actionPerformed(ActionEvent e) {
-		// TODO Auto-generated method stub
+		
 		if(e.getSource() == btnFast)
 		{
 			oc.increaseWorkingSpeed();
-			
 			this.lblWorkingSpeed.setText("Speed: " + oc.getWorkingSpeed());
-			
 		}
 		if(e.getSource() == btnSlow)
 		{
 			oc.decreaseWorkingSpeed();
-			
 			this.lblWorkingSpeed.setText("Speed: " + oc.getWorkingSpeed());
-			
 		}
+		
 		if(e.getSource() == btnWorking)
 		{
 			oc.setWorking(!oc.isWorking());

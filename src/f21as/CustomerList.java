@@ -91,7 +91,7 @@ public class CustomerList extends Thread{
 		{
 			customerList.put(c.getSeqNo(), c);
 			
-			//LogFile.addLog("Add new customer: " + c.getName());
+			LogFile.addLog("Add new customer: " + c.getName());
 			return true;
 		}
 		

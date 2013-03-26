@@ -131,7 +131,6 @@ public class OrderClerk extends Thread implements Subject {
 			}
 			notifyObservers();
 		}
-
 	}
 
 	@Override

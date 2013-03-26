@@ -198,10 +198,9 @@ public class GUIMain extends JFrame implements ActionListener, WindowListener, O
 
 	@Override
 	public void update() {
-		// TODO Auto-generated method stub
 		try{
-		taWareHouse.setText(this.parcelList.warehouseReport(WHCOLUMNS));
-		taCustQue.setText(this.customerList.customerQueReport(1));
+			taWareHouse.setText(this.parcelList.warehouseReport(WHCOLUMNS));
+			taCustQue.setText(this.customerList.customerQueReport(1));
 		}catch(NullPointerException e){
 			System.out.println("Null pointer to:" + e.getMessage());
 		}
@@ -210,8 +209,6 @@ public class GUIMain extends JFrame implements ActionListener, WindowListener, O
 		{
 			c.upDateText();
 		}
-		
-		
 	}
 
 	@Override
