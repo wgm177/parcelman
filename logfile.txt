@@ -3,91 +3,19 @@ customerList.size:0
 New order clerk added
 New order clerk added
 New order clerk added
-Add new customer: Benson McLean
-Add new customer: Benson McLean
-Add new customer: Clayton McKenzie
-Add new customer: Clayton McKenzie
-Add new customer: Coleman Woods
-Add new customer: Coleman Woods
-Add new customer: Douglas King
-Add new customer: Douglas King
-Add new customer: Fowler Brandon
-Add new customer: Fowler Brandon
 Processed customer: Benson McLean
-Add new customer: Frazier Li
-Add new customer: Frazier Li
 Processed customer: Clayton McKenzie
-Add new customer: McLeod Moody
-Add new customer: McLeod Moody
 Processed customer: Coleman Woods
-Add new customer: Montgomery McLamb
-Add new customer: Montgomery McLamb
-Add new customer: Peacock Dalton
-Add new customer: Peacock Dalton
 Processed customer: Douglas King
-Add new customer: Peters Carpenter
-Add new customer: Peters Carpenter
 Processed customer: Fowler Brandon
-Add new customer: Porter Simmons
-Add new customer: Porter Simmons
-Close counter
 Processed customer: Frazier Li
-Add new customer: Quinn Pugh
-Add new customer: Quinn Pugh
-Add new customer: Roy Lawrence
-Add new customer: Roy Lawrence
-Close counter
 Processed customer: McLeod Moody
-Add new customer: Sherrill Kirkland
-Add new customer: Sherrill Kirkland
 Processed customer: Montgomery McLamb
-Add new customer: Butler
-Add new customer: Butler
 Processed customer: Peacock Dalton
-Close counter
-Add new customer: Werner
-Add new customer: Werner
-Add new customer: Ayers Washington
-Add new customer: Ayers Washington
-Add new customer: Campbell Brown
-Add new customer: Campbell Brown
-Add new customer: Ellington Carroll
-Add new customer: Ellington Carroll
-Open counter
-Add new customer: Floyd Woodard
-Add new customer: Floyd Woodard
-Open counter
-Add new customer: Hodge Mayo
-Add new customer: Hodge Mayo
-Add new customer: Keith O'Connor
-Add new customer: Keith O'Connor
-Open counter
-Add new customer: Kennedy Lu
-Add new customer: Kennedy Lu
 Processed customer: Peters Carpenter
-Add new customer: Martin Mathews
-Add new customer: Martin Mathews
 Processed customer: Porter Simmons
-Add new customer: Massey Camp
-Add new customer: Massey Camp
-Read in parcel file: parcels_more.txt
-Add new parcel assignment
-Add new customer: Massey Hardy
-Add new customer: Massey Hardy
 Processed customer: Quinn Pugh
-Add new customer: Morton McKenzie
-Add new customer: Morton McKenzie
 Processed customer: Roy Lawrence
-Add new customer: O'Brien Rodgers
-Add new customer: O'Brien Rodgers
-Add new customer: Pope Bynum
-Add new customer: Pope Bynum
-Processed customer: Sherrill Kirkland
-Add new customer: Price Link
-Add new customer: Price Link
-Add new customer: Simon Atkinson
-Add new customer: Simon Atkinson
-Processed customer: Butler
 Close shop
 Generate Parcel Report
 Write parcel report

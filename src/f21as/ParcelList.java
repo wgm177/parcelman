@@ -76,7 +76,7 @@ public class ParcelList {
 		}
 		catch(Exception e)
 			{
-				System.out.println("Cannot read from parcel input file.");
+				//System.out.println("Cannot read from parcel input file.");
 				LogFile.addLog("Cannot read in parcelFile: " + parcelFile.getName());
 				
 				return false;
